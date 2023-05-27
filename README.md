@@ -166,7 +166,7 @@ Problem with HDD
 ================
 Most routers run with USB 2.0 with maximum support 500 mAh current, except WR1043ND ( 1.000 mAh). You nearly have no problem with USB Flashdisk 2.0 and maybe have a problem with USB 3.1 flahdisk.
 
-When you buy (also obsolute) HDD, please aware with technical data writen in the HDD. You will find trouble if choose cheap HDD that need 1 A (ussualy above 250GB) and just plug into USB 2.0 on your router. If you insist to use HDD above 250GB, you need USB hub that capable to support independent power to support your hardisk.
+When you buy (also obsolute) HDD, please aware with technical data writen in the HDD. You will find trouble if choose cheap HDD that need 1 A (ussualy above 250GB) and just plug into USB 2.0 on your router except for WR1043ND. If you insist to use HDD above 250GB, you need USB hub that capable to support independent power to your hardisk. Please consider using WR1043ND if you are using hardisk to avoid new cost.
 
 Problem with Calibre Desktop App
 ================================
