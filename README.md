@@ -43,9 +43,8 @@ Text above assume you mount your USB Flashdisk or USB HDD as drive `E:` on Windo
 
 You have:
 ```
-├── Calibre
-├── install
-└── www
+├── install (patch installer)
+└── www 
     ├── assets
     │   ├── css
     │   ├── fonts
@@ -57,6 +56,7 @@ You have:
     │   │   └── typeahead
     │   └── templates
     ├── cgi-bin
+    ├── komugai (your files is here)
     ├── copyright.txt
     ├── index.html
     └── ugai.cgi
@@ -108,13 +108,21 @@ cp /mnt/usb/install/ipk/uhttpd.conf /etc/config/uhttpd
 /etc/init.d/uhttpd enable
 ```
 
-4. Open your web browser in the same network and open 
+4. Rename `config.json` to `.config.json` adding dot. 
+
+5. If you want your new digital library run in secured (production) mode, also rename `secured` to `.secured`.  
+
+6. Open your web browser in the same network and open 
 
 ```
  http://192.168.1.1 
 ```
 
-If you need to change the IP address from default `192.168.1.1` (ie you want it accessible for LAN) run this command in your terminal/PowerShell:
+## customized
+
+### changing IP Address
+If you need to change the IP address from default `192.168.1.1`, especially you want `ugai` become a part of existing LAN, you need to change ip address and `config.json` file.
+Run this command in your terminal/PowerShell:
 
 ```
 vi /etc/config/network
@@ -126,12 +134,28 @@ If your network run with `10.12.11.xxx` segment and `10.12.11.200` still availab
 ``
 option ipaddr '10.12.11.200'
 ``
-Save new addres by type `:wq` 
-Reboot your router:
+Save new addres by type `:wq`
 
+### .config.json
+Open `config.json`
 ```
-reboot
+vi /mnt/usb/www/.config.json
 ```
+press `i` and change your server address from:
+```
+{
+    "server": "http://192.168.1.1",
+    "name": "komugai"
+}
+```
+to
+```
+{
+    "server": "http://10.12.11.200",
+    "name": "komugai"
+}
+```
+Save it by typing `:wq`
 
 Open your browser and type new address 
 
@@ -147,7 +171,7 @@ than step above is enough. You can change, add, delete content using [Calibre De
 
 After make sure that `ugai` works as should be, next move is to adapt UI to your need. You can change almost all aspect layout and effects in the HTML, CSS, and Javascript. You can make changes directly from USB/HDD. Please follow steps bellow:
 
-## Changing UI and Calibre Collections
+## Changing UI and Collections
 
 1. Turn off your router
 2. Unplug USB/HDD from router and plug into your computer/laptop.
