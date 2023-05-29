@@ -95,8 +95,21 @@ function displayVideo(cover, berkas) {
   );
 }
 
+function checkFileExists(url, callback) {
+  $.ajax({
+    url: url,
+    type: 'HEAD',
+    success: function() {
+      callback(true);
+    },
+    error: function() {
+      callback(false);
+    }
+  });
+}
+
 function getDetail(id, dbName) {
-  $.getJSON(appServerName + "?api=&id=" + id, function (data) {
+  $.getJSON(appServerName + "?api&db="+dbName+"&id=" + id, function (data) {
     showDetail(data, dbName);
   }).fail(function () {
     $("#contentMainArticle").html(
@@ -108,6 +121,8 @@ function getDetail(id, dbName) {
 function showDetail(data, dbName) {
   $("#contentMainArticle").empty();
   $("#contentMainSearchResults").empty();
+  var isCoverExists=false;
+  var isFileExists=false;
   var id = data.id;
   //use UUID if running in securedMode
   if(securedMode) id=data.uuid;
@@ -115,15 +130,33 @@ function showDetail(data, dbName) {
   var txtHTML = '<div class="col-12 mb-4">';
   txtHTML += '  <article class="card article-card">';
   txtHTML += '    <div class="card-image">';
-  if (data.ext === "mp4") txtHTML += displayVideo(data.cover, data.file);
-  else if (data.ext === "mp3") txtHTML += displayAudio(data.cover, data.file);
-  else
+
+  //check cover
+  checkFileExists(data.cover, function(exists) { 
+    if(!exists)
+      data.cover='assets/images/na.png';
+  });
+
+  checkFileExists(data.file, function(exists) { 
+    if(!exists)
+    {
+      data.file=null;
+      data.ext='txt';
+    }
+  });
+
+  if (data.ext === "mp4") 
+    txtHTML += displayVideo(data.cover, data.file);
+  else if (data.ext === "mp3") 
+    txtHTML += displayAudio(data.cover, data.file);
+  else 
     txtHTML +=
       '      <img loading="lazy" decoding="async" src="' +
       data.cover +
       '" alt="' +
       data.title +
       '" class="w-100 media align-items-center">';
+
   txtHTML += '      <ul class="post-meta mb-2 mt-4">';
   txtHTML += "        <li>";
   txtHTML +=
@@ -149,7 +182,8 @@ function showDetail(data, dbName) {
   txtHTML += '    <div class="card-body px-0 pb-1">';
   txtHTML += '      <h2 class="h1">' + data.title + "</h2>";
   txtHTML += '      <h2 class="h4">' + data.author ;
-  if( data.ext!=='md' || data.ext==='txt' ) {
+  //do not show md, and txt
+  if( data.ext != 'md' && data.ext != 'txt' ) {
     txtHTML += ' - <span><a href="' + data.file  + '" download>download ['+data.ext+']</a></span></h2>';
   }                                              
   txtHTML += '      <p class="card-text">' + data.comment + "</p>";
@@ -159,7 +193,7 @@ function showDetail(data, dbName) {
 
   $("#contentMainArticle").html(txtHTML);
   $("#contentBreadcrumb").empty();
-  $("#contentBreadcrumb").html('<h4 class="section-title text-uppercase">'+ dbName + " > " + data.ext + " > " + data.author + " > " + data.title + '</h4>');
+  $("#contentBreadcrumb").html('<h4 class="section-title text-uppercase">'+ dbName + " : " + data.author + " :: " + data.title + '</h4>');
 
   $("title").text(dbName + "/" + data.title);
 
@@ -176,10 +210,10 @@ function showRecomendedBooks(category, id) {
   if (category === "tags") {
     title = "recomended collection";
   } else {
-    title = "## also by same " + category;
+    title = '<h2 class="text-upper">also by same ' + category + '</h2>';
   }
 
-  $.getJSON(appServerName + "?api=&rec=" + category + "&id=" + id)
+  $.getJSON(appServerName + "?api=&db="+dbName+"&rec=" + category + "&id=" + id)
     .done(function (data) {
       var totalItems = data.length; // Menghitung total item dalam respons JSON
       if (totalItems !== 0) {
@@ -212,13 +246,19 @@ function showRecomendedList(data, divArea, title) {
     var title = item.title;
     var cover = item.cover;
 
+    //check cover
+    checkFileExists(data.cover, function(exists) { 
+    if(!exists)
+      data.cover='assets/images/na.png';
+    });
+
     var listItem =
       '<a class="media align-items-center" href="' +
       appServerName +
       "?title=" +
       title +
       "&id=" +
-      id +
+      id + "&dbname=" + dbName +
       '">';
     listItem +=
       '<img loading="lazy" decoding="async" src="' +
@@ -263,7 +303,7 @@ function showAlsoByList(data, divArea, title) {
       "?title=" +
       title +
       "&id=" +
-      id +
+      id + "&dbname=" + dbName +
       '">' +
       '   <div class="card-image">' +
       '     <div class="post-info">' +
@@ -283,7 +323,7 @@ function showAlsoByList(data, divArea, title) {
     html += mainBodyList;
   });
   html = title + '<div class="row">' + html + "</div>";
-  $(divArea).html(html);
+  $(divArea).html(html+'<hr/>');
 }
 
 function searchResults(data) {
@@ -335,14 +375,14 @@ function searchResults(data) {
 function search(col, keyword, dbname) {
   $("#contentBreadcrumb").empty();
   $("#contentBreadcrumb").html(dbname + " > search by > " + col + " > " + keyword);
-  $.getJSON(appServerName + "?api&" + col + "=" + keyword, function (data) {
+  $.getJSON(appServerName + "?api&db="+dbName+"&" + col + "=" + keyword, function (data) {
     searchResults(data);
   });
 }
 
 function showCollections(type, dbName) {
   $("#contentBreadcrumb").html(dbName + " > " + type);
-  $.getJSON(appServerName + "?api=&home=" + type, function (data) {
+  $.getJSON(appServerName + "?api&db="+dbName+"&home=" + type, function (data) {
     searchResults(data);
   });
 }
@@ -356,10 +396,17 @@ function showAbout()
   //content About
   //replace text below to suit your need
   var image ='assets/images/logo-white.png';
-  var title ='ugai.cgi';
-  var comment ='ugai.cgi (pronounce EN: <em>oo-guy</em>) is a native web app designed to share Calibre e-Books on a obsolute yet cheap router running Linux OpenWRT 12.09.';
-  var link='https://perpustakaan.nirkabel.net/tampilkan/tagar/ugaicgi';
   
+  var title ='ugai';
+  var comment ='ugai.cgi (pronounce EN: <em>oo guy</em>) is a native web app for multimedia collection on a obsolute yet cheap router running Linux OpenWRT 12.09.';
+  var link='https://perpustakaan.nirkabel.net/tampilkan/tagar/ugaicgi';
+
+    //check cover
+    checkFileExists(image, function(exists) { 
+      if(!exists)
+        image='assets/images/na.png';
+      });
+
   html += ' \
   <img loading="lazy" decoding="async" src="'+image+'" alt="'+title+'" class="w-100 author-thumb-sm d-block" /> \
   <h2 class="widget-title my-3">'+title+'</h2> \
