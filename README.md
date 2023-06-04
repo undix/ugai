@@ -12,17 +12,13 @@ This firmware bellow has been customized to automatically detect and read USB de
 List of router:
 
 * [TP-Link MR3020 V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin)  
-
 * [TP-Link MR3040 V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr3040-v1-squashfs-factory.bin)  
 * [TP-Link MR3040 V2](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr3040-v2-squashfs-factory.bin)  
-
 * [TP-Link WR1043nd V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-wr1043nd-v1-squashfs-factory.bin)  
 * [TP-Link WR1043nd V2](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-wr1043nd-v2-squashfs-factory.bin)  
-
 * [TP-Link WR703n V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-wr703n-v1-squashfs-factory.bin)  
 * [TP-Link WR842n V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-wr842n-v1-squashfs-factory.bin)  
-
-* [TP-Link MR10u V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr10u-v1-squashfs-factory.bin)  * 
+* [TP-Link MR10u V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr10u-v1-squashfs-factory.bin) 
 * [TP-Link MR11u V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr11u-v1-squashfs-factory.bin)  
 * [TP-Link MR11u V2](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr11u-v2-squashfs-factory.bin)  
 * [TP-Link MR13u V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr13u-v1-squashfs-factory.bin)  
@@ -100,8 +96,8 @@ uci commit
 3. Install `uhttpd` and `libthread`:
 
 ```
-opkg install /mnt/usb/install/ipk/libpthread.ipk
-opkg install /mnt/usb/install/ipk/uhttpd.ipk
+opkg install /mnt/usb/install/libpthread.ipk
+opkg install /mnt/usb/install/uhttpd.ipk
 cp /mnt/usb/install/ipk/uhttpd.conf /etc/config/uhttpd
 /etc/init.d/uhttpd start
 /etc/init.d/uhttpd enable
