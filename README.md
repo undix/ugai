@@ -102,9 +102,9 @@ cp /mnt/usb/install/ipk/uhttpd.conf /etc/config/uhttpd
 /etc/init.d/uhttpd enable
 ```
 
-4. Move/copy `config.json` to `www` directory. Rename `config.json` to `.config.json` (adding dot in front of file name). 
+4. Move/copy `config.json` and `secured` file into `www` directory. Rename `config.json` to `.config.json` (adding dot in front of file name). 
 
-5. If you want your new digital library run in secured (production) mode, also rename `secured` to `.secured`.  
+5. If you want your new digital library run in secured (production) mode, also rename `secured` to `.secured` (adding dot in front of file name).  
 
 6. Open your web browser in the same network and open 
 
