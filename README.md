@@ -22,7 +22,6 @@ List of router:
 * [TP-Link MR11u V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr11u-v1-squashfs-factory.bin)  
 * [TP-Link MR11u V2](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr11u-v2-squashfs-factory.bin)  
 * [TP-Link MR13u V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr13u-v1-squashfs-factory.bin)  
-
 * [GL Inet V1](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-gl-inet-v1-squashfs-factory.bin)
 
 The following text is intended for all routers already using OpenWRT version 12.09 (Attitude Adjustment) and already capable to read USB/HDD storage. 
@@ -103,7 +102,7 @@ cp /mnt/usb/install/ipk/uhttpd.conf /etc/config/uhttpd
 /etc/init.d/uhttpd enable
 ```
 
-4. Rename `config.json` to `.config.json` adding dot. 
+4. Move/copy `config.json` to `www` directory. Rename `config.json` to `.config.json` (adding dot in front of file name). 
 
 5. If you want your new digital library run in secured (production) mode, also rename `secured` to `.secured`.  
 
