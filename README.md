@@ -96,8 +96,37 @@ tags=about&db=komugai, About
 
 ```
 
-Each time the router boots, it will read and translate this text into HTML format. This structure is easier for lay users to understand than HTML tag-based coding systems.
+Each time the router boots, it will read and translate this text into HTML format. This structure is easier for lay users to understand than HTML tag-based coding systems. Let's compare with actual HTML after translation below:
 
+```
+<ul class="navbar-nav mx-auto mt-3 mt-lg-0">
+  <li class="nav-item"> <a class="nav-link" href="?db=komugai">Komugai</a></li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PHeT Lab</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="?tags=biologi&db=komugai">Bio</a>
+      <a class="dropdown-item" href="?series=laboratorium biologi&db=komugai">Biologi</a>
+      <a class="dropdown-item" href="?tags=laboratorium&db=komugai">All</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Collections</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="?db=ebooks&tags=buku pelajaran sma">Pelajaran SMA</a>
+      <a class="dropdown-item" href="?db=tutorial">Tutorials</a>
+      <a class="dropdown-item" href="?db=ebooks">Ebooks</a>
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shortcuts</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="?ugai&db=komugai">Ugai</a>
+      <a class="dropdown-item" href="?tags=natural selection&db=komugai">Evolution</a>
+    </div>
+  </li>
+  <li class="nav-item"> <a class="nav-link" href="?tags=about&db=komugai">About</a></li>
+</ul>
+```
 ### Install
 
 
