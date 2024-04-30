@@ -1,0 +1,13 @@
+db=komugai, Komugai
+# PHeT Lab
+## tags=biologi&db=komugai, Bio
+## series=laboratorium biologi&db=komugai, Biologi
+## tags=laboratorium&db=komugai, All
+# Collections
+## db=ebooks&tags=buku pelajaran sma, Pelajaran SMA
+## db=tutorial, Tutorials
+## db=ebooks, Ebooks
+# Shortcuts
+## ugai&db=komugai, Ugai
+## tags=natural selection&db=komugai, Evolution
+tags=about&db=komugai, About
