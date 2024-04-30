@@ -66,7 +66,7 @@ Users can modify the configuration file named `config.txt` using a text editor l
 current_ip_address='192.168.1.1'        # OpenWRT default
 my_ip_address='192.168.1.1'             # your new ip address, default 192.168.1.1
 my_time_zone='WIB-7'                    # change to your actual timezone, default UTC+9
-my_server_domain='perpustakaan.lan'     # domain and hostname
+my_server_domain='komugai.lan'          # domain and hostname
 my_ssid="'Komugai'"                     # SSID change as you pleased
 my_ssid_passwd="none"                   # SSID password, default none means passwordless
 my_partition='/dev/sda1'                # your partition, do not change unless necessary
