@@ -1,6 +1,7 @@
 # ugai
 A Calibre e-Books server run as native application on OpenWRT 12.09.
-`ugai` (pronounce: ooh guy) is a native web app designed to share Calibre e-Books on a used router running Linux OpenWRT 12.09. With `ugai`, anyone can create a portable wireless server digital library and share multimedia collections in less than 1 minutes, at a cost of less than $10, consuming less than 5 watts of power without requiring a strong IT background. 
+`ugai` (pronounce: ooh guy) is a native web app designed to share Calibre e-Books on a used router running Linux OpenWRT 12.09. With `ugai`, anyone can create a portable wireless server digital library and share multimedia collections in less than 1 minutes, at a cost of less than $10, consuming less than 5 watts of power without requiring a strong IT background. [![Check this video to understand how easy and fast the instalation process.](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Nama Video")
+
 
 How to
 ======
