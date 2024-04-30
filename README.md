@@ -228,7 +228,7 @@ Its purpose is to extend assistance to communities in remote parts of Indonesia 
 
 `Proyek Perpustakaan Nirkabel` serves as a personal initiative and holds no affiliation with any communities, social media groups, companies, NGOs, or government. All the expenses related to development and deployment are solely covered by a personal hobby budget. 
 
-[![Nama Video](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "A Digital Wireless Library On TP-LINK MR3420 V1")
+[![Nama Video](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Check this video for instalation demo.")
 
 
 More info about [Perpustakaan Nirkabel](https://perpustakaan.nirkabel.net/tampilkan/tagar/perpustakaannirkabel)
