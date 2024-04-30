@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">66</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">0b8c3acd-386f-4fb7-8baa-be67a8e0a51e</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Paniai Papua</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2020-11-30T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p&gt;
+SKB (Sanggar Kegiatan Belajar - Learning Activity Center) Enarotali is situated on the Enarotali mission land. This SKB focuses primarily on literacy education for all age groups, ranging from early childhood to adults up to the age of 40. 
+&lt;/p&gt;&lt;p&gt;
+SKB Enarotali has a history of 75 years, just as old as Indonesia's independence. However, this institution has experienced fluctuations in its activities. In the past year, the Enarotali SKB was revitalized to cater to areas with a 20% illiteracy rate. 
+&lt;/p&gt;&lt;p&gt;
+
+Upon receiving this confirmation, SKB Enarotali began teaching approximately one hundred students from diverse backgrounds. Eventually, the Wireless Library project found a location that perfectly aligned with its purpose.
+&lt;/p&gt;&lt;p&gt;
+
+
+[location](https://www.google.com/maps/@-3.9311285,136.3700966,19z)
+&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+        <dc:publisher>perpustakaannirkabel,wirelesslibrarry</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:subject>papua</dc:subject>
+        <dc:subject>meepago</dc:subject>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>indonesia</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="About Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="1" name="calibre:series_index"/>
+        <meta content="2020-12-04T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Paniai Papua" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

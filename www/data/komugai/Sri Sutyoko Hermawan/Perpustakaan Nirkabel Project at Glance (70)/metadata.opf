@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">70</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">6bad9804-51c2-48c0-b539-d26212bc0ff8</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Glance</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2018-08-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;The Wireless Library (Perpustakaan Nirkabel) is a personal endeavor designed to enrich leisure time and enhance professional capabilities through the exploration of wireless digital technology. This initiative bridges the gap between digital literacy and education in underserved regions, utilizing a range of electronic components and operating systems. The establishment of a digital wireless library is particularly critical in remote areas where access to traditional educational resources is often limited, making digital solutions both urgent and vital.
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;
+As a personal passion project, it is developed independently without the involvement of any groups, non-governmental organizations, commercial entities, or government bodies. While not driven by the grandiose objectives typically associated with social ventures, its contributions to enhancing education through digital literacy in economically disadvantaged areas are profound and significant. Any perceptions of the project's nobility or impact are purely incidental.
+&lt;/p&gt;&lt;h2&gt;Working Model&lt;/h2&gt;&lt;p&gt;
+The experimental devices produced are specifically donated to communities in Indonesia that lack adequate educational resources, particularly books. This strategic focus not only addresses the immediate need for educational materials but also fosters greater digital literacy, thereby empowering these communities. &lt;/p&gt;&lt;p&gt;Each generation of devices is developed based on technological advances and feedback from the communities that received previous iterations. This cyclical process ensures continual improvement and relevance of the technology provided, particularly in remote and isolated regions where such advancements can significantly alter educational outcomes.
+&lt;/p&gt;&lt;p&gt;
+While the field implementation may collaborate with individuals, private institutions, or local governments, the choice of recipient communities remains at the discretion of the project. These communities are entitled to use the donated devices freely, without any obligations, thereby enhancing their educational landscape through improved access to digital resources.
+&lt;/p&gt;&lt;p&gt;
+The project primarily utilizes obsolete hardware to minimize costs, while striving to maximize the potential of software and electronic components. This often involves repurposing and modifying devices to extend their usability in challenging environments, such as remote areas where such technology is not only useful but essential for educational development.
+&lt;/p&gt;&lt;p&gt;
+For instance, if an outdated computer or router with a factory-installed commercial operating system is acquired, the entire pre-installed system will be removed. Devices are adapted through modifications like resoldering circuit boards to suit remote operational needs better, thus enhancing their functionality and accessibility in regions with limited resources.&lt;/p&gt;&lt;h2&gt;Funding&lt;/h2&gt;&lt;p&gt;
+Funding for hardware procurement comes from personal resources dedicated to this hobby; therefore, no financial reports are published for these activities. However, the project welcomes donations of hardware such as routers, old laptops, computers, antennas, smartphones, or tablets, provided they come with no conditions attached. &lt;/p&gt;&lt;p&gt;Once revitalized, these devices are dispatched to chosen locations, known only to the donors of the equipment, further contributing to the educational empowerment of underserved communities through enhanced digital access.&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+        <dc:publisher>Proyek Perpustakaan Nirkabel</dc:publisher>
+        <dc:language>eng</dc:language>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>indonesia</dc:subject>
+        <dc:subject>about</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="About Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="1" name="calibre:series_index"/>
+        <meta content="2018-08-28T17:23:35+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Glance" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

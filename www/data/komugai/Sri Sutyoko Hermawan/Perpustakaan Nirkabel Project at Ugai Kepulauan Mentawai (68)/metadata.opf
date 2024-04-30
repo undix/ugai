@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">68</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">78112c2d-1ec5-4038-a6eb-d9c58b6b7188</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Ugai Kepulauan Mentawai</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2018-10-31T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;p&gt;
+TBM (Taman Bacaan Masyarakat - community reading house) Pinatoro Uma is located in Ugai Hamlet, Madobak Village, South Siberut District, Mentawai Islands Regency, West Sumatra. This library is initiated and maintained by the Ugai hamlet community. The Wireless Library project at this location consists of a transmitter and a laptop.
+&lt;/p&gt;&lt;p&gt;
+The transmitter used is the Komodo version, which serves as both a wireless library and an amateur climatology station. In addition to providing educational materials, this transmitter records daily temperature and humidity changes in the hamlet. These recordings reflect environmental changes in the middle of Siberut Island. Initially installed in November 2018, the Ugai Hamlet relied on solar panels for electricity.
+&lt;/p&gt;&lt;p&gt;
+In April 2019, the hamlet received electricity from the local government's biomass power plant. With the assurance of a permanent power supply, the Ugai Hamlet also received a laptop unit. Visitors to the Perpustakaan Nirkabel come from various backgrounds. Local residents, as well as residents from other hamlets or villages, can approach and access the library.
+&lt;/p&gt;&lt;p&gt;
+Teachers, health paramedics, midwives, government officials, and others can access information to support their daily work without incurring internet data fees.
+&lt;/p&gt;&lt;p&gt;
+Ugai Hamlet is part of the administrative area of Madobak Village, South Siberut District, Mentawai Islands Regency, in West Sumatra Province. This hamlet is adjacent to Butui Village.
+
+&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+        <dc:publisher>perpustakaannirkabel,wirelesslibrarry</dc:publisher>
+        <dc:language>ind</dc:language>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>indonesia</dc:subject>
+        <dc:subject>ugai</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="About Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="1" name="calibre:series_index"/>
+        <meta content="2018-11-14T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Ugai Kepulauan Mentawai" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
