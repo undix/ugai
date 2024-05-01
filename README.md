@@ -24,17 +24,16 @@ Getting Started
 ### Firmware
 Download the OpenWRT 12.09 firmware that includes USB/HDD media reader integration in the kernel to simplify installation. Choose the firmware appropriate for your router. Incorrect installation at this stage can permanently damage your router (`bricked`). Below are the recommended routers based on real-world experience, cost-effectiveness, and ease of use.
 
-* [TP-Link MR3420 V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-mr3420-v1-squashfs-factory.bin)  
-This is the most economical tool for managing up to 128GB on USB flash drives and up to 250GB on hard drives. It cost total only 18 US dollar with 320GB brand new SATA hardisk.
+* [TP-Link MR3420 V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-mr3420-v1-squashfs-factory.bin)
+This is the most economical tool for managing up to 128GB on USB flash drives and up to 250GB on hard drives. It cost total only 18 US dollar with 320GB brand new SATA hardisk. If you using reused SATA hardisk, this cost will be cheaper.
 
-* [TP-Link WR1043nd V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-wr1043nd-v1-squashfs-factory.bin)  
+* [TP-Link WR1043nd V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-wr1043nd-v1-squashfs-factory.bin) | [TP-Link WR1043nd V1 EXT4](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-wr1043nd-v1-squashfs-factory.bin)   
 This device is suitable for heavy usage with data needs up to 1TB.
 
-* [TP-Link MR3020 V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin)  
-Ideal for creating a mobile wireless server powered by a power bank or a static wireless server running on solar panels.
+* [TP-Link MR3020 V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin) | [TP-Link MR3020 V1 EXT4](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin)     
+Ideal for creating a mobile wireless server powered by a power bank or a static wireless server running on solar panels with small battery pack. MR3020 consume around 1-watt-hour. Since ugai.cgi does not operate using the rootfs method, there is a minimal chance of system failure in the event of a sudden power outage or a drop in current. You can be more confident using ugai.cgi to run a digital wireless library on a remote island with only solar panels as your power source, compared to other systems that operate over `rootfs`.
 
-Proceed with the usual flashing process, whether from a router still using the original TP-LINK firmware or a newer version of OpenWRT.
-
+[![This video show exactly how to flash.]([http://www.youtube.com/watch?v=q8KNBix4JUY "Installation Video"](https://youtu.be/q8KNBix4JUY?si=8PgCVmA1Cq0cCT60&t=14))
 
 ### Storage Media
 The `ugai.cgi` system handles size seamlessly. However, performance degrades when a single Calibre database system exceeds 7,000 collections, each with more than 10 keywords. But you can split yout collections into diferent Calibre database system. Assume you have 1TB and hundreds thousands video, music, ebook; then you can split by media type. If your collection, let's say, videos exceeds 7.000, then you can split videos by subject. Therefore, the choice of storage media depends more on the router's ability to supply power. 
