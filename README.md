@@ -23,7 +23,7 @@ Getting Started
 Download the OpenWRT 12.09 firmware that includes USB/HDD media reader integration in the kernel to simplify installation. Choose the firmware appropriate for your router. Incorrect installation at this stage can permanently damage your router (`bricked`). Below are the recommended routers based on real-world experience, cost-effectiveness, and ease of use.
 
 * [TP-Link MR3420 V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-mr3420-v1-squashfs-factory.bin)  
-This is the most economical tool for managing up to 128GB on USB flash drives and up to 250GB on hard drives, about $3 in Indonesia (2024).
+This is the most economical tool for managing up to 128GB on USB flash drives and up to 250GB on hard drives. It cost total only 18 US dollar with 320GB brand new SATA hardisk.
 
 * [TP-Link WR1043nd V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-wr1043nd-v1-squashfs-factory.bin)  
 This device is suitable for heavy usage with data needs up to 1TB.
