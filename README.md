@@ -31,7 +31,7 @@ This is the most economical tool for managing up to 128GB on USB flash drives an
 This device is suitable for heavy usage with data needs up to 1TB.
 
 * [TP-Link MR3020 V1 FAT32](http://stable.openwrt.piratebox.de/usb_only/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin) | [TP-Link MR3020 V1 EXT4](http://stable.openwrt.piratebox.de/ar71xx_AA_BB_0.1/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin)     
-Ideal for creating a mobile wireless server powered by a power bank or a static wireless server running on solar panels with small battery pack. MR3020 consume around 1-watt-hour. Since ugai.cgi does not operate using the rootfs method, there is a minimal chance of system failure in the event of a sudden power outage or a drop in current. You can be more confident using ugai.cgi to run a digital wireless library on a remote island with only solar panels as your power source, compared to other systems that operate over `rootfs`.
+Ideal for creating a mobile wireless server powered by a power bank or a static wireless server running on solar panels with small battery pack. MR3020 consume around 1-watt-hour. Since ugai.cgi does not operate using the rootfs method, there is a minimal chance of system failure in the event of a sudden power outage or a drop in current. You can be more confident using `ugai.cgi` to run a digital wireless library on a remote island with only solar panels as your power source, compared to other systems that operate over `rootfs`.
 
 [This video show exactly how to flash.](https://youtu.be/q8KNBix4JUY?si=8PgCVmA1Cq0cCT60&t=14)
 
@@ -152,16 +152,20 @@ The Calibre Desktop Application, starting from version 4, utilizes sqlite3 featu
 
 More Info
 =========
-## Ugai
-`Ugai`, pronounced *ooh-guy*, is a CGI application for the Calibre e-book library, developed for OpenWRT 12.09. The name `Ugai` refers to a hamlet on Siberut Island in the Mentawai Islands, Indonesia, meaning "home." This application manages the Application Layer for the Calibre e-books server.
+### Ugai
+Think of `ugai.cgi` as the brain of a person. Just like your brain helps you think and do your schoolwork, Ugai helps manage all the digital collections in a special online library. It ensures that everything in the library functions properly, allowing you to read and learn from your collection without any issues. `Ugai.cgi` is crucial because it keeps the library running smoothly.
 
-## Komugai
-`Komugai`, pronounced *co-mooh-guy*, is the project codename for a wireless digital library optimized for low-power routers at an economical cost. The term, from the Mee ethnic group in Papua, Indonesia, means "creatively using available resources to solve problems," aligning with the project's environmentally friendly goals. `Komugai` oversees the Network Layer for `Ugai`.
+### Komugai
+Komugai is like the body of a person, including the clothes they wear. Imagine having your favorite outfits that you can change anytime. Komugai decides how the online library looks and feels, similar to how you choose what clothes to wear. If you change these clothes to something different, it's still you, but you might not appear as if you belong to a specific group, like your school or a sports team, unless you wear their standard uniform. Komugai makes the library user-friendly and aesthetically pleasing, just as your choice of outfit makes you look good. Under the MIT License, you are free to change the "clothes" however you like, as long as you still display the original creator's "brand" on your clothes. You are free to still use "Komugai" for your new "clothes" or replace it with totally new name, but still a part of `ugai.cgi` users.
 
-## Perpustakaan Nirkabel
-`Perpustakaan Nirkabel` (Wireless Library Project) represents a personal initiative aimed at aiding remote Indonesian communities with limited internet, electricity, and educational resources. The project focuses on providing essential educational materials to meet national standards and is conducted as a non-profit, personal hobby without affiliations to any organizations or groups. All associated costs are funded through a personal hobby budget and aim to support the Social Layer for `Komugai` deployment.
+### Perpustakaan Nirkabel
+Finally, Perpustakaan Nirkabel or the Wireless Library is about the kind acts you perform for others. This project brings education materials to people in remote areas, where accessing education materials is challenging. It's like going out and helping other people learn new things, using your brain (Ugai) and your body (Komugai) to make a difference. If you use the tools and designs from `ugai.cgi` and Komugai but are helping out as part of a different group or your own community, you're doing great work, but not officially as part of the Perpustakaan Nirkabel Project. Similarly, if you download and use this repository as it is for private purposes (learn HTML, Javascript, JQuery, pentest, office) or just in your own school, you are not considered part of the 'Perpustakaan Nirkabel' Project but still a part of `ugai.cgi` users and also Komugai users.
 
+So, Ugai is the brain that makes everything function, Komugai is like your entire body and the clothes that express your uniqueness, and Perpustakaan Nirkabel is how you use these tools to help others.
 
+References
+==========
 More info about [ugai.cgi](https://perpustakaan.nirkabel.net/tampilkan/tagar/ugaicgi)
+
 More info about [Perpustakaan Nirkabel](https://perpustakaan.nirkabel.net/tampilkan/tagar/perpustakaannirkabel)
 
