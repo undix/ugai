@@ -4,6 +4,7 @@ A Calibre e-Books server operating natively on OpenWRT 12.09. Pronounced *ooh-gu
 
 [![Discover the simplicity and speed of the installation process in this video.](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Installation Video")
 
+If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, ugai.cgi is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone audience itu as presentation screen.
 
 What's New?
 ===========
@@ -35,7 +36,7 @@ Proceed with the usual flashing process, whether from a router still using the o
 
 
 ### Storage Media
-The `ugai.cgi` system handles size seamlessly. However, performance degrades when a single Calibre database system exceeds 10,000 collections, each with more than 10 keywords. Therefore, the choice of storage media depends more on the router's ability to supply power.
+The `ugai.cgi` system handles size seamlessly. However, performance degrades when a single Calibre database system exceeds 7,000 collections, each with more than 10 keywords. But you can split yout collections into diferent Calibre database system. Assume you have 1TB and hundreds thousands video, music, ebook; then you can split by media type. If your collection, let's say, videos exceeds 7.000, then you can split videos by subject. Therefore, the choice of storage media depends more on the router's ability to supply power. 
 
 Generally, only the WR1043nd is stable enough for using a 2.5-inch SATA hard disk, provided its power consumption is below 1,000 mA. The MR3420 can handle up to a 320GB 2.5-inch SATA hard disk. The MR3020 is suitable for USB drives up to 128GB.
 
