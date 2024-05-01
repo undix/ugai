@@ -5,7 +5,7 @@ A Calibre e-Books server operating natively on OpenWRT 12.09. Pronounced *ooh-gu
 
 [![Discover the simplicity and speed of the installation process in this video.](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Installation Video")
 
-If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, ugai.cgi is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone audience itu as presentation screen.
+If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, ugai.cgi is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone's audience as small presentation screen.
 
 What's New?
 ===========
