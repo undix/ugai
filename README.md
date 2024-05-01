@@ -3,9 +3,11 @@
 
 A Calibre e-Books application operating natively on MIPS Linux OpenWRT 12.09. Pronounced *ooh-guy*, this application enables rapid sharing of multimedia collections through any old router. With `ugai.cgi`, you can establish a portable, Calibre wireless server in under a minute, all for less than $10 and using under 5 watts of power. No advanced IT skills required! Just type 4 command.
 
+If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, `ugai.cgi` is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone's audience as small presentation screen.
+
 [![Discover the simplicity and speed of the installation process in this video.](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Installation Video")
 
-If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, ugai.cgi is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone's audience as small presentation screen.
+This video is intentionally presented without sound, adhering to the principle that 'actions speak louder than words'. Please activate closed captions for detailed descriptions of the actions on screen. Closed captions are available in multiple languages, with Bahasa Indonesia as the default setting.
 
 What's New?
 ===========
@@ -156,7 +158,7 @@ More Info
 Imagine `ugai.cgi`, pronounced `ooh-guy`, as the brain of a person. Just like your brain helps you think and do your schoolwork, `ugai.cgi` helps organize all the digital books in a special library called Calibre. It makes sure everything in the library works just right, so you can read and learn without any problems. `Ugai.cgi` is super important because it keeps the library running smoothly. In the real world, the name `ugai` refers to a hamlet on Siberut Island in the Mentawai Islands, Indonesia, meaning "home."
 
 ### Komugai
-Now, think of Komugai as the body of a person, including the clothes they wear. Imagine you can change your outfits anytime you like. Komugai decides how the online library looks and feels, kind of like how you pick your clothes every day. If you wear different clothes, you're still you, but you might not look like you belong to a specific group, like your school or a sports team, unless you wear their standard outfit. Komugai helps make the library easy to use and nice to look at, just like how your favorite outfit makes you feel good. Under the MIT License, you can change the "clothes" any way you want, as long as you still show the original creator's "brand" on your clothes. In short: `ugai` is the brain of Kom`ugai` 2024.
+Now, think of Komugai, pronounced co-mooh-guy, as the body of a person, including the clothes they wear. Imagine you can change your outfits anytime you like. Komugai decides how the online library looks and feels, kind of like how you pick your clothes every day. If you wear different clothes, you're still you, but you might not look like you belong to a specific group, like your school or a sports team, unless you wear their standard outfit. Komugai helps make the library easy to use and nice to look at, just like how your favorite outfit makes you feel good. Under the MIT License, you can change the "clothes" any way you want, as long as you still show the original creator's "brand" on your clothes. In short: `ugai` is the brain of Kom`ugai` 2024.
 
 You can keep using "Komugai" for your new "clothes" or pick a totally new name, but one thing is certain: you're still using `ugai.cgi` and need pay attention about it's upgrade version in the future. The term Komugai, which means 'creatively using available resources to solve problems,' is specific to the Mee ethnic group in Papua, Indonesia, and aligns with the project's environmentally friendly goals.
 
