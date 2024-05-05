@@ -214,7 +214,7 @@ The Calibre database itself virtualy has no total limit while using `ugai.cgi`.
 However, restrictions apply to the total number and logic of items in the `navigation` menu and the available media storage size.
 
 ##### Example Scenario:
-Suppose you have a collection of 17,000 official educational textbooks in PDF format, issued by the Ministry of Education in your country. You plan to store these on a server for a high school using the MR3420 device. Also you already have hundreds education video created by your local high school teachers it self.
+Imagine you have a collection of 17,000 educational textbooks in PDF format, officially issued by your country's Ministry of Education as standard text book. You intend to store these on an MR3420 server for high school use. Additionally, you have hundreds of educational videos created by local high school teachers.
 
 **Organize Your Collection:**
 1. **Segment by Reader Level:** Since these resources are for a high school, separate any non-high school materials into a different Calibre database.
