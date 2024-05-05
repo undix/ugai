@@ -220,6 +220,42 @@ Imagine you have a collection of 17,000 educational textbooks in PDF format, off
 1. **Segment by Reader Level:** Since these resources are for a high school, separate any non-high school materials into a different Calibre database.
 2. **Manage Excess Volumes:** If the collection of high school-appropriate ebooks (or teacher-created videos) exceeds 5,000 items, further divide them by subject (e.g., Physics, Chemistry, Biology, Sociology, Economics, etc.). Calibre it self has excelent tools to do this job easily. This step will be more easier if you already set tags for each item base on subject. Again, Calibre it self has excelent tools to do this job easily.
 
+Your directory will appear as follows:
+
+```text
+ugai
+├── install
+└── www
+    └── data
+        ├── elementaryschool
+        ├── highschool_biology
+        ├── highschool_chemistry
+        ├── highschool_economy
+        ├── highschool_history
+        ├── highschool_physics
+        ├── komugai
+        ├── midschool
+        └── references
+```
+
+Next, rewrite `navigation.txt` as follows using you text editor (Notepad, GEdit, nano, dll)
+
+```text
+db=komugai, home
+# Text Books
+## db=highschool_biology, biology
+## db=highschool_chemistry, chemistry
+## db=highschool_economy, economy
+## db=highschool_history, history
+## db=highschool_physics, physics
+# Bonuses
+## db=midschool, midschool
+## db=elementaryschool, elementaryschool
+## db=references, references
+```
+
+Plug your USB/HDD into MR3420 and power-on. 
+`
 
 About
 =====
