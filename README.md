@@ -218,7 +218,7 @@ Imagine you have a collection of 17,000 educational textbooks in PDF format, off
 
 **Organize Your Collection:**
 1. **Segment by Reader Level:** Since these resources are for a high school, separate any non-high school materials into a different Calibre database.
-2. **Manage Excess Volumes:** If the collection of high school-appropriate ebooks (or teacher-created videos) exceeds 5,000 items, further divide them by subject (e.g., Physics, Chemistry, Biology, Sociology, Economics, etc.). Calibre it self has excelent tools to do this job easily.
+2. **Manage Excess Volumes:** If the collection of high school-appropriate ebooks (or teacher-created videos) exceeds 5,000 items, further divide them by subject (e.g., Physics, Chemistry, Biology, Sociology, Economics, etc.). Calibre it self has excelent tools to do this job easily. This step will be more easier if you already set tags for each item base on subject. Again, Calibre it self has excelent tools to do this job easily.
 
 
 About
