@@ -1,7 +1,7 @@
 # Ugai.cgi
 **Transform the most makeshift router into a High-Efficiency Digital Library with `Ugai`**
 
-A Calibre e-Books application operating natively on MIPS Linux OpenWRT 12.09. Pronounced *ooh-guy*, this application enables rapid sharing of multimedia collections through any old router. With `ugai.cgi`, you can establish a portable, Calibre wireless server in under a minute, all for less than $10 and using under 5 watts of power. No advanced IT skills required! Just type 4 command.
+A Calibre e-Books application operating natively on MIPS Linux OpenWRT 12.09. Pronounced *ooh-guy*, this application enables rapid sharing of multimedia collections through any old router. With `ugai.cgi`, you can establish a portable, Calibre wireless server in under a minute. No advanced IT skills required! Just type 4 command.
 
 If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, `ugai.cgi` is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone's audience as small presentation screen.
 
@@ -9,7 +9,7 @@ If you planned to make home NAS storage for private collections and share it onl
 
 This video is intentionally presented without sound, adhering to the principle that 'actions speak louder than words'. Please activate closed captions for detailed descriptions of the actions on screen. Closed captions are available in multiple languages, with Bahasa Indonesia as the default setting.
 
-This server solution is the result of my extensive experience over the past decade in developing wireless digital libraries for remote areas in Indonesia, where educational resources are scarce. Focusing on cost-efficiency and minimal energy consumption, each setup is economically viable at approximately $10 per unit, making it an accessible option for volunteers and educators in similar conditions. The `ugai.cgi` server not only provides educational materials and a virtual teaching experience but also offers `micro-learning` opportunities akin to using Instagram's `doom-scrolling`, enhancing user engagement.
+This server setup is born from a decade of tailoring wireless digital libraries to the educational deserts of remote Indonesian locales. It’s a budget-friendly brainchild, with each unit costing about $10—perfect for resource-strapped volunteers and educators. The `ugai.cgi` server is more than just a digital bookshelf; it also delivers bite-sized, Instagram-style micro-learning experiences, making education not just accessible but downright engaging.
 
 What's New?
 ===========
