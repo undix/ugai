@@ -182,8 +182,31 @@ The Calibre Desktop Application, starting from version 4, utilizes sqlite3 featu
 
 If you've never used Calibre before, you can find plenty of tutorials on the internet, including on YouTube. For more tailored assistance, consider joining the [Calibre community](https://www.mobileread.com/forums/forumdisplay.php?f=166).
 
-More Info
-=========
+Common Error Cases
+==================
+
+### Page Not Displayed / CGI Error
+- Ensure that all entries in `config.json` are absolutely correct.
+
+### Web Running but Not Displaying Entries from Calibre
+- Double-check `config.json` to ensure the "server" value is correctly configured.
+
+### Cannot Find `config.json`
+- Enable your file manager to show all hidden files and directories by pressing CTRL+H.
+- Upon boot, the `ugai.cgi` environment automatically renames `config.json` to `.config.json`.
+
+### Running Too Slow
+- The more active users there are, the more resources are required, which are already limited (512 MB memory). Consider reducing the number of items in your Calibre database.
+- Create a new Calibre database within the `data` directory, then `move` (copy-and-delete) items into this new database based on criteria like subject, format, publisher, authors, pulished date, tags, etc.
+- Remember to register your new database in `navigation.txt` to display it in the navigation panel.
+
+### Incomplete Item
+- A collection will not be displayed if it lacks a cover, comments/description, or file attachment.
+- If you need just a single page (similar to a blog post), use the Calibre feature to add a blank file (TXT).
+- If you don't have cover, use Calibre built-in feature to make cover.
+
+About
+=====
 ### Ugai
 Imagine `ugai.cgi`, pronounced `ooh-guy`, as the brain of a person. Just like your brain helps you think and do your schoolwork, `ugai.cgi` helps organize all the digital books in a special library called Calibre. It makes sure everything in the library works just right, so you can read and learn without any problems. `Ugai.cgi` is super important because it keeps the library running smoothly. In the real world, the name `ugai` refers to a hamlet on Siberut Island in the Mentawai Islands, Indonesia, meaning "home."
 
