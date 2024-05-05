@@ -185,33 +185,41 @@ If you've never used Calibre before, you can find plenty of tutorials on the int
 Common Error Cases
 ==================
 
-### Page Not Displayed / CGI Error
+#### Page Not Displayed / CGI Error
 - Ensure that all entries in `config.json` are absolutely correct.
 
-### Web Running but Not Displaying Entries from Calibre
+#### Web Running but Not Displaying Entries from Calibre
 - Double-check `config.json` to ensure the "server" value is correctly configured.
 
-### Cannot Find `config.json`
+#### Cannot Find `config.json`
 - Enable your file manager to show all hidden files and directories by pressing CTRL+H.
 - Upon boot, the `ugai.cgi` environment automatically renames `config.json` to `.config.json`.
 
-### Running Too Slow
+#### Running Too Slow
 - The more active users there are, the more resources are required, which are already limited (512 MB memory). Consider reducing the number of items in your Calibre database.
 - Create a new Calibre database within the `data` directory, then `move` (copy-and-delete) items into this new database based on criteria like subject, format, publisher, authors, pulished date, tags, etc.
 - Remember to register your new database in `navigation.txt` to display it in the navigation panel.
 
-### Incomplete Item
+#### Incomplete Item
 - A collection will not be displayed if it lacks a cover, comments/description, or file attachment.
 - If you need just a single page (similar to a blog post), use the Calibre feature to add a blank file (TXT).
 - If you don't have cover, use Calibre built-in feature to make cover.
 
-Recommended Data Size Limits for Optimal Access:
+#### Recommended Data Size Limits for Optimal Access:
 - **TP-Link MR3020**: Limit to fewer than 1,000 entries, with a maximum of 3 tags per collection.
 - **TP-Link MR3420**: Limit to fewer than 5,000 entries, with a maximum of 3 tags per collection.
 - **TP-Link WR1043ND**: Limit to fewer than 10,000 entries, with a maximum of 3 tags per collection.
 
 The Calibre database itself virtualy has no total limit while using `ugai.cgi`.
 However, restrictions apply to the total number and logic of items in the `navigation` menu and the available media storage size.
+
+##### Example Scenario:
+Suppose you have a collection of 17,000 official educational textbooks in PDF format, issued by the Ministry of Education in your country. You plan to store these on a server for a high school using the MR3420 device. Also you already have hundreds education video created by your local high school teachers it self.
+
+**Organize Your Collection:**
+1. **Segment by Reader Level:** Since these resources are for a high school, separate any non-high school materials into a different Calibre database.
+2. **Manage Excess Volumes:** If the collection of high school-appropriate ebooks (or teacher-created videos) exceeds 5,000 items, further divide them by subject (e.g., Physics, Chemistry, Biology, Sociology, Economics, etc.). Calibre it self has excelent tools to do this job easily.
+
 
 About
 =====
