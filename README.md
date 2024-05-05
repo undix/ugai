@@ -205,6 +205,14 @@ Common Error Cases
 - If you need just a single page (similar to a blog post), use the Calibre feature to add a blank file (TXT).
 - If you don't have cover, use Calibre built-in feature to make cover.
 
+Recommended Data Size Limits for Optimal Access:
+- **TP-Link MR3020**: Limit to fewer than 1,000 entries, with a maximum of 3 tags per collection.
+- **TP-Link MR3420**: Limit to fewer than 5,000 entries, with a maximum of 3 tags per collection.
+- **TP-Link WR1043ND**: Limit to fewer than 10,000 entries, with a maximum of 3 tags per collection.
+
+The Calibre database itself virtualy has no total limit while using `ugai.cgi`.
+However, restrictions apply to the total number and logic of items in the `navigation` menu and the available media storage size.
+
 About
 =====
 ### Ugai
