@@ -49,13 +49,13 @@ Format the storage media with the FAT32 system in a single partition.
 ### Download the Code
 * Download the `ugai.cgi` code from [GitHub](https://github.com/undix/ugai/archive/refs/heads/main.zip). Familiar users can pull the `ugai.cgi` code using the following command in Windows PowerShell or a macOS/Linux terminal:
 
-```
+```bash
 git clone https://github.com/undix/ugai.git
 ```
 
 * Extract and rename the directory to `ugai`. Ensure the directory structure on the storage media is as follows:
 
-```
+```bash
 ugai
 ├── install
 └── www 
@@ -65,7 +65,7 @@ ugai
 #### config.txt
 Users can modify the configuration file named `config.txt` using a text editor like Notepad. The default demo settings are as follows:
 
-```
+```text
 current_ip_address='192.168.1.1'        # OpenWRT default
 my_ip_address='192.168.1.1'             # your new ip address, default 192.168.1.1
 my_time_zone='WIB-9'                    # change to your actual timezone, default UTC+9
@@ -101,7 +101,7 @@ This file will be rename to `.config.json` every boot. If you need to change lat
 This is navigation system that displayed on web page.
 Users who are not familiar with HTML can also modify the navigation system. The editable configuration file is `navigation.txt`, which uses more-less Markdown rules. Example:
 
-```
+```text
 db=komugai, Komugai
 # PHeT Lab
 ## tags=biologi&db=komugai, Bio
@@ -120,7 +120,7 @@ tags=about&db=komugai, About
 
 Each time the router boots, it will read and translate this text into HTML format. This structure is easier for lay users to understand than HTML tag-based coding systems. Let's compare with actual HTML after translation below:
 
-```
+```html
 <ul class="navbar-nav mx-auto mt-3 mt-lg-0">
   <li class="nav-item"> <a class="nav-link" href="?db=komugai">Komugai</a></li>
   <li class="nav-item dropdown">
@@ -160,13 +160,13 @@ This blank file set server status. If renamed to **.secured**, server run in pro
 
 * Turn on the router with the storage media attached and connect using the command:
 
-```
+```bash
 telnet 192.168.1.1
 ```
 
 * Continue the setup by typing the `mount` command and executing the installation script as follows:
 
-```
+```bash
 mkdir -p /mnt/usb
 mount -t vfat /dev/sda1 /mnt/usb 
 cd /mnt/usb/ugai/install
