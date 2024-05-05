@@ -60,6 +60,7 @@ ugai
 ```
 
 ### Configuration
+#### config.txt
 Users can modify the configuration file named `config.txt` using a text editor like Notepad. The default demo settings are as follows:
 
 ```
@@ -71,12 +72,31 @@ my_ssid="'Komugai'"                     # SSID change as you pleased
 my_ssid_passwd="none"                   # SSID password, default none means passwordless
 my_partition='/dev/sda1'                # your partition, do not change unless necessary
 my_mount_point='/mnt/usb'               # your mount point, do not change unless necessary
-my_format='vfat'			            # vfat OR ext4 
-my_max_clients=32			            # maximum clients at a time
+my_format='vfat'                        # vfat OR ext4 
+my_max_clients=32                       # maximum clients at a time
 
 ```
 
+### config.json
 
+Change this value if necessary. 
+* server - server IP address or name, must exactly the same as `config.txt` above
+* dir - directory where you put all off Calibre database (physical or just link)
+* name - default Calibre database as **home**
+
+You will have error page if `ugai.cgi` failed to find default Calibre database as `home`.
+
+```json
+{
+	"server": "http://192.168.1.1",
+	"dir": "data", 
+	"name": "komugai"
+}
+```
+This file will be rename to .config.json every boot.
+
+#### navigation.txt
+This is navigation system that displayed on web page.
 Users who are not familiar with HTML can also modify the navigation system. The editable configuration file is `navigation.txt`, which uses more-less Markdown rules. Example:
 
 ```
@@ -127,6 +147,12 @@ Each time the router boots, it will read and translate this text into HTML forma
   <li class="nav-item"> <a class="nav-link" href="?tags=about&db=komugai">About</a></li>
 </ul>
 ```
+
+#### secured
+
+This blank file set server status. If renamed to **.secured**, server run in production mode with UUID as parameter, otherwise server run in development mode that display `id` as `integer`.
+
+
 ### Install
 
 
