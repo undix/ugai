@@ -3,13 +3,13 @@
 
 A Calibre e-Books application operating natively on MIPS Linux OpenWRT 12.09. Pronounced *ooh-guy*, this application enables rapid sharing of multimedia collections through any old router. With `ugai.cgi`, you can establish a portable, Calibre wireless server in under a minute. No advanced IT skills required! Just type 4 command.
 
+This server setup is born from a decade of tailoring wireless digital libraries to the educational deserts of remote Indonesian locales. It’s a budget-friendly brainchild, with each unit costing about $10—perfect for resource-strapped volunteers and educators. The `ugai.cgi` server is more than just a digital bookshelf; it also delivers bite-sized, Instagram-style micro-learning experiences, making education not just accessible but downright engaging.
+
 If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, `ugai.cgi` is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone's audience as small presentation screen.
 
 [![Discover the simplicity and speed of the installation process in this video.](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Installation Video")
 
 This video is intentionally presented without sound, adhering to the principle that 'actions speak louder than words'. Please activate closed captions for detailed descriptions of the actions on screen. Closed captions are available in multiple languages, with Bahasa Indonesia as the default setting.
-
-This server setup is born from a decade of tailoring wireless digital libraries to the educational deserts of remote Indonesian locales. It’s a budget-friendly brainchild, with each unit costing about $10—perfect for resource-strapped volunteers and educators. The `ugai.cgi` server is more than just a digital bookshelf; it also delivers bite-sized, Instagram-style micro-learning experiences, making education not just accessible but downright engaging.
 
 What's New?
 ===========
