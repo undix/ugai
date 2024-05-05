@@ -93,7 +93,7 @@ You will have error page if `ugai.cgi` failed to find default Calibre database a
 	"name": "komugai"
 }
 ```
-This file will be rename to .config.json every boot.
+This file will be rename to `.config.json` every boot. If you need to change later, change your Windows file manager view with CTRL+H to display all hidden files and directories. 
 
 #### navigation.txt
 This is navigation system that displayed on web page.
