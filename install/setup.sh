@@ -143,6 +143,7 @@ fi
 #### Set Access Point ###
 # Enable the wireless by commenting out the 'disabled' option
 sed -i 's/option disabled/#option disabled/g' /etc/config/wireless
+echo "        option isolate  '1'" >> /etc/config/wireless
 
 ## Backup the current configuration
 cp /etc/config/wireless /etc/config/wireless.bak
@@ -179,7 +180,6 @@ config redirect
   option src 'lan'        
   option dest_ip '${my_ip_address}'
 EOF
-
 
 # mount usb/hdd permanently
 echo "
