@@ -176,36 +176,9 @@ sh setup.sh
 
 Done. Next, check for the SSID named `Komugai`.
 
-Problem with Calibre Version
-============================
-The Calibre Desktop Application, starting from version 4, utilizes sqlite3 features that are not supported by the version used in OpenWRT 12.09. Therefore, to avoid any issues when running the "ugai" webapp, please use Calibre Desktop Application version 3.48. To obtain version 3.48 (2019), you need to remove your current Calibre app first and downgrade to 3.48 from [Calibre repositori](https://download.calibre-ebook.com/3.48.0). If you are already have Calibre newer than 3.48 and reluctant to downgrade, you can choose portable edition (Windows 64-bit only). 
 
-If you've never used Calibre before, you can find plenty of tutorials on the internet, including on YouTube. For more tailored assistance, consider joining the [Calibre community](https://www.mobileread.com/forums/forumdisplay.php?f=166).
-
-Common Error Cases
-==================
-
-#### Page Not Displayed / CGI Error
-- Ensure that all entries in `config.json` are absolutely correct.
-
-#### Web Running but Not Displaying Entries from Calibre
-- Double-check `config.json` to ensure the "server" value is correctly configured.
-
-#### Cannot Find `config.json`
-- Enable your file manager to show all hidden files and directories by pressing CTRL+H.
-- Upon boot, the `ugai.cgi` environment automatically renames `config.json` to `.config.json`.
-
-#### Running Too Slow
-- The more active users there are, the more resources are required, which are already limited (512 MB memory). Consider reducing the number of items in your Calibre database.
-- Create a new Calibre database within the `data` directory, then `move` (copy-and-delete) items into this new database based on criteria like subject, format, publisher, authors, pulished date, tags, etc.
-- Remember to register your new database in `navigation.txt` to display it in the navigation panel.
-
-#### Incomplete Item
-- A collection will not be displayed if it lacks a cover, comments/description, or file attachment.
-- If you need just a single page (similar to a blog post), use the Calibre feature to add a blank file (TXT).
-- If you don't have cover, use Calibre built-in feature to make cover.
-
-#### Recommended Data Size Limits for Optimal Access:
+Recommended Data Size
+=====================
 - **TP-Link MR3020**: Limit to fewer than 1,000 entries, with a maximum of 3 tags per collection.
 - **TP-Link MR3420**: Limit to fewer than 5,000 entries, with a maximum of 3 tags per collection.
 - **TP-Link WR1043ND**: Limit to fewer than 10,000 entries, with a maximum of 3 tags per collection.
@@ -213,7 +186,8 @@ Common Error Cases
 The Calibre database itself virtualy has no total limit while using `ugai.cgi`.
 However, restrictions apply to the total number and logic of items in the `navigation` menu and the available media storage size.
 
-##### Example Scenario:
+Example Scenario
+================
 Imagine you have a collection of 17,000 educational textbooks in PDF format, officially issued by your country's Ministry of Education as standard text book. You intend to store these on an MR3420 server for high school use. Additionally, you have hundreds of educational videos created by local high school teachers.
 
 **Organize Your Collection:**
@@ -255,7 +229,36 @@ db=komugai, home
 ```
 
 Plug your USB/HDD into MR3420 and power-on. 
-`
+
+
+Problem with Calibre Version
+============================
+The Calibre Desktop Application, starting from version 4, utilizes sqlite3 features that are not supported by the version used in OpenWRT 12.09. Therefore, to avoid any issues when running the "ugai" webapp, please use Calibre Desktop Application version 3.48. To obtain version 3.48 (2019), you need to remove your current Calibre app first and downgrade to 3.48 from [Calibre repositori](https://download.calibre-ebook.com/3.48.0). If you are already have Calibre newer than 3.48 and reluctant to downgrade, you can choose portable edition (Windows 64-bit only). 
+
+If you've never used Calibre before, you can find plenty of tutorials on the internet, including on YouTube. For more tailored assistance, consider joining the [Calibre community](https://www.mobileread.com/forums/forumdisplay.php?f=166).
+
+Common Error Cases
+==================
+
+#### Page Not Displayed / CGI Error
+- Ensure that all entries in `config.json` are absolutely correct.
+
+#### Web Running but Not Displaying Entries from Calibre
+- Double-check `config.json` to ensure the "server" value is correctly configured.
+
+#### Cannot Find `config.json`
+- Enable your file manager to show all hidden files and directories by pressing CTRL+H.
+- Upon boot, the `ugai.cgi` environment automatically renames `config.json` to `.config.json`.
+
+#### Running Too Slow
+- The more active users there are, the more resources are required, which are already limited (512 MB memory). Consider reducing the number of items in your Calibre database.
+- Create a new Calibre database within the `data` directory, then `move` (copy-and-delete) items into this new database based on criteria like subject, format, publisher, authors, pulished date, tags, etc.
+- Remember to register your new database in `navigation.txt` to display it in the navigation panel.
+
+#### Incomplete Item
+- A collection will not be displayed if it lacks a cover, comments/description, or file attachment.
+- If you need just a single page (similar to a blog post), use the Calibre feature to add a blank file (TXT).
+- If you don't have cover, use Calibre built-in feature to make cover.
 
 About
 =====
