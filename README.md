@@ -178,7 +178,9 @@ Done. Next, check for the SSID named `Komugai`.
 
 Problem with Calibre Version
 ============================
-The Calibre Desktop Application, starting from version 4, utilizes sqlite3 features that are not supported by the version used in OpenWRT 12.09. Therefore, to avoid any issues when running the "ugai" webapp, please use Calibre Desktop Application version 3.48. To obtain version 3.48 (2019), you need to remove your current Calibre app first and downgrade to 3.48 from [Calibre repositori](https://download.calibre-ebook.com/3.48.0).
+The Calibre Desktop Application, starting from version 4, utilizes sqlite3 features that are not supported by the version used in OpenWRT 12.09. Therefore, to avoid any issues when running the "ugai" webapp, please use Calibre Desktop Application version 3.48. To obtain version 3.48 (2019), you need to remove your current Calibre app first and downgrade to 3.48 from [Calibre repositori](https://download.calibre-ebook.com/3.48.0). If you are already have Calibre newer than 3.48 and reluctant to downgrade, you can choose portable edition (Windows 64-bit only). 
+
+If you've never used Calibre before, you can find plenty of tutorials on the internet, including on YouTube. For more tailored assistance, consider joining the [Calibre community](https://www.mobileread.com/forums/forumdisplay.php?f=166).
 
 More Info
 =========
