@@ -9,6 +9,8 @@ If you planned to make home NAS storage for private collections and share it onl
 
 This video is intentionally presented without sound, adhering to the principle that 'actions speak louder than words'. Please activate closed captions for detailed descriptions of the actions on screen. Closed captions are available in multiple languages, with Bahasa Indonesia as the default setting.
 
+This server solution is the result of my extensive experience over the past decade in developing wireless digital libraries for remote areas in Indonesia, where educational resources are scarce. Focusing on cost-efficiency and minimal energy consumption, each setup is economically viable at approximately $10 per unit, making it an accessible option for volunteers and educators in similar conditions. The `ugai.cgi` server not only provides educational materials and a virtual teaching experience but also offers `micro-learning` opportunities akin to using Instagram's `doom-scrolling`, enhancing user engagement.
+
 What's New?
 ===========
 Discover the unique features of this system compared to other wireless server systems utilizing a router as a mini web server:
