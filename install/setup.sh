@@ -69,7 +69,10 @@ cat ${my_mount_point}/ugai/install/datetime.txt | xargs date +%Y%m%d%H%M -s
 set_navigation -s ${my_mount_point}/ugai/install/navigation.txt -d ${my_http_dir}/assets/templates/navigation.html
 
 # securing all directory from pry eyes
-find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && cp ${my_http_dir}/index.html "$1"' _ {} \;
+find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && touch "$1/index.html"' _ {} \;
+
+# create static index for faster search, disable by the default
+#set_index ${my_http_dir}/data ${current_ip_address}
 
 # set status www to 755
 chmod -R 755 ${my_http_dir}
