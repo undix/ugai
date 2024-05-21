@@ -78,6 +78,7 @@ find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && touch
 chmod -R 755 ${my_http_dir}
 
 exit 0
+
 " > /etc/rc.local
 
 ## Configure server based on configuration file settings
