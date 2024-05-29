@@ -31,6 +31,7 @@ cp ${my_install_dir}/uhttpd.conf /etc/config/uhttpd
 opkg install kmod-ipt-ipopt.ipk
 opkg install iptables-mod-ipopt.ipk
 opkg install nodogsplash.ipk
+
 ## bypass user authentication
 echo "
 AuthenticateImmediately yes
@@ -40,8 +41,12 @@ MaxClients ${my_max_clients}
 " >> /etc/nodogsplash/nodogsplash.conf
 /etc/init.d/nodogsplash enable
 
+## install index generator
+[ ! -f "/usr/bin/set_index" ] && cp set_index /usr/bin/
+chmod +x /usr/bin/set_index
+
 ## install navigation translator
-cp set_navigation /usr/bin/
+[ ! -f "/usr/bin/set_index" ] && cp set_navigation /usr/bin/
 chmod +x /usr/bin/set_navigation
 
 ## Enable crontab and datetime synchronization
@@ -58,18 +63,18 @@ ln -sf /etc/crontabs/root /etc/crontab
 
 # set tasks on boot
 echo "
-# run setup to enable user change configuration every time system boot using diferent USB/HDD without telnet/ssh
-# this option disable by default 
-#cd ${my_mount_point}/ugai/install && sh setup.sh
+# parsing users navigation.txt to navigation.html
+set_navigation -s ${my_mount_point}/ugai/install/navigation.txt -d ${my_http_dir}/assets/templates/navigation.html
 
 # set virtual datetime to system
 cat ${my_mount_point}/ugai/install/datetime.txt | xargs date +%Y%m%d%H%M -s
 
-# parsing users navigation.txt to navigation.html
-set_navigation -s ${my_mount_point}/ugai/install/navigation.txt -d ${my_http_dir}/assets/templates/navigation.html
+# secure all directory from pry eyes
+#find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && touch "$1/index.html"' _ {} \;
 
-# securing all directory from pry eyes
-find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && touch "$1/index.html"' _ {} \;
+# run setup to enable user change configuration every time system boot using diferent USB/HDD without telnet/ssh
+# this option disable by default 
+#cd ${my_mount_point}/ugai/install && sh setup.sh
 
 # create static index for faster search, disable by the default
 #set_index ${my_http_dir}/data ${current_ip_address}
@@ -78,7 +83,6 @@ find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && touch
 chmod -R 755 ${my_http_dir}
 
 exit 0
-
 " > /etc/rc.local
 
 ## Configure server based on configuration file settings
@@ -123,8 +127,12 @@ if [ -f "banner" ]; then
 	sed -i "s/MiPS/${machine_type}/g" /etc/banner
 	sed -i "s/FMT/${my_format}/g" /etc/banner
 else
-	echo "Perpustakaan Nirkabel - Komugai" > /etc/banner
-	echo "Komugai / ugai.cgi 2024  / ${my_format} / ${machine_type}" >> /etc/banner
+	echo " "
+	echo "========================================="
+	echo "Perpustakaan Nirkabel 2024" > /etc/banner
+	echo "Komugai / ugai.cgi / ${my_format} / ${machine_type}" >> /etc/banner
+	echo "========================================="
+	echo " "
 fi
 
 #### Set DHCP ###
@@ -147,7 +155,6 @@ fi
 #### Set Access Point ###
 # Enable the wireless by commenting out the 'disabled' option
 sed -i 's/option disabled/#option disabled/g' /etc/config/wireless
-echo "        option isolate  '1'" >> /etc/config/wireless
 
 ## Backup the current configuration
 cp /etc/config/wireless /etc/config/wireless.bak
@@ -184,6 +191,7 @@ config redirect
   option src 'lan'        
   option dest_ip '${my_ip_address}'
 EOF
+
 
 # mount usb/hdd permanently
 echo "
