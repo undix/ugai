@@ -7,4 +7,4 @@ my_ssid_passwd="none"       		        # SSID password, default none means passwo
 my_partition='/dev/sda1'		            # your partition, do not change unless necessary
 my_mount_point='/mnt/usb'               # your mount point, do not change unless necessary
 my_format='vfat'			                  # vfat OR ext4, default vfat (FAT32)
-my_max_clients=32			                  # maximum clients at a time
+my_max_clients=24			                  # maximum clients at a time
