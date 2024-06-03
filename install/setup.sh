@@ -7,6 +7,9 @@ source config.txt
 my_http_dir="${my_mount_point}/ugai/www"
 my_install_dir="${my_mount_point}/ugai/install"
 machine_type=$(grep 'machine' /proc/cpuinfo | awk -F': ' '{print $2}')
+# save machine_type to text file
+echo ${machine_type} > ${my_http_dir}/assets/machine_type.txt
+
 ## Set IP address
 # Escape the current and new IP address to use them in sed pattern matching
 current_ip_address_escaped=$(echo "${current_ip_address}" | sed 's/\./\\./g')
