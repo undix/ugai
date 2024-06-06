@@ -1,0 +1,57 @@
+#!/bin/sh
+
+# cek apakah ada perintah membuat index
+[ ! -f "/mnt/usb/ugai/install/index.txt" ] && exit 0
+
+# Direktori root dimana pencarian akan dilakukan
+root_dir="$1/"
+
+# URL dasar untuk API
+url="http://$2"
+
+# Mengecek jika direktori root ada
+if [ ! -d "$root_dir" ]; then
+    echo "Direktori $root_dir tidak ada!"
+    exit 1
+fi
+
+# Mencari semua direktori di dalam direktori $root_dir kecuali kamus
+find "$root_dir" -type d ! -path '*kamus*' | while read -r dir; do
+    # Cek jika berkas metadata.db ada dalam direktori
+    if [ -f "$dir/metadata.db" ]; then
+        # Simpan nama direktori yang memiliki metadata.db
+        calibre_dir=$dir
+
+        # Mendefinisikan berkas untuk judul, pengarang, seri, dan tag
+        # serta menghapus jika sudah ada dan mengunduh data baru
+        for type in titles authors series tags publishers; do
+
+            # hapus semua kemunculan data/ dari variabel calibre_dir.
+            calibre_dir_current=${calibre_dir#data/}                         
+                        	
+            # tambahkan root direktori data
+            berkas="$calibre_dir/$type.json"
+            
+            # hapus berkas sebelumnya
+            [ -f "$berkas" ] && rm -f "$berkas"
+            
+            # jalankan query
+            export QUERY_STRING="$type=1&api&db=$calibre_dir_current"
+            export REQUEST_METHOD="GET"
+            echo "${QUERY_STRING} > $berkas"
+            ./ugai.cgi > "$berkas"
+		
+            # Meng-escape karakter khusus yang mungkin ada di dalam $berkas
+            escaped_calibre_dir=$(echo "$calibre_dir" | sed 's|[\/&]|\\&|g')
+            sed -i "s|$escaped_calibre_dir||g" "$berkas"
+            # hapus residu proses
+            sed -i '1d' $berkas
+        done
+    fi
+done
+
+# hapus berkas index.txt
+[ -f "/mnt/usb/ugai/install/index.txt" ] && rm -f "/mnt/usb/ugai/install/index.txt"
+             
+# restart
+reboot

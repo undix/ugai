@@ -7,13 +7,6 @@ source config.txt
 my_http_dir="${my_mount_point}/ugai/www"
 my_install_dir="${my_mount_point}/ugai/install"
 machine_type=$(grep 'machine' /proc/cpuinfo | awk -F': ' '{print $2}')
-# save machine_type to text file
-echo ${machine_type} > ${my_http_dir}/assets/machine_type.txt
-
-## Set IP address
-# Escape the current and new IP address to use them in sed pattern matching
-current_ip_address_escaped=$(echo "${current_ip_address}" | sed 's/\./\\./g')
-my_ip_address_escaped=$(echo "${my_ip_address}" | sed 's/\./\\./g')
 
 ## set datetime
 cat datetime.txt | xargs date +%Y%m%d%H%M -s
@@ -30,44 +23,30 @@ opkg install ${my_install_dir}/uhttpd.ipk
 [ -f "/etc/config/uhttpd" ] && rm -f /etc/config/uhttpd
 cp ${my_install_dir}/uhttpd.conf /etc/config/uhttpd
 
+## Activate uHTTPd service
+# Enable uHTTPd to start on boot
+/etc/init.d/uhttpd enable
+
 #install captive portal
 opkg install kmod-ipt-ipopt.ipk
 opkg install iptables-mod-ipopt.ipk
 opkg install nodogsplash.ipk
-cp nodogsplash.conf /etc/nodogsplash/
-# use user's ip address
-sed -i "s/${current_ip_address_escaped}/${my_ip_address_escaped}/g" /etc/nodogsplash/nodogsplash.conf
-cp ${my_http_dir}/assets/images/logo-white.png /etc/nodogsplash/htdocs/images/
-echo '<html>
-<head>
-  <title>$gatewayname Portal</title>
-  <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-</head>
-<body bgcolor="#FFFFFF" text="#000000">
-<table border="0" cellpadding="2" cellspacing="0" width="100%">
-<tr>
-  <td align=center>
-  <h2>Perpustakaan Nirkabel</h2>               
-  <h3>Komugai 2024</h3>
-  </td>
-</tr>
-<tr>                            
-  <td align=center height="120">
-    <a href="$authtarget">                                              
-      <img src="$imagesdir/logo-white.png" width="199" height="117" border="1" alt="Click to enter" title="Click to enter">
-    </a>
-  </td>
-</tr>   
-</table>
-</body>
-</html>' > /etc/nodogsplash/htdocs/splash.html 
+
+## bypass user authentication
+echo "
+AuthenticateImmediately yes
+GatewayAddress ${my_ip_address}
+ClientIdleTimeout 15
+MaxClients ${my_max_clients}
+" >> /etc/nodogsplash/nodogsplash.conf
+/etc/init.d/nodogsplash enable
 
 ## install index generator
 [ ! -f "/usr/bin/set_index" ] && cp set_index /usr/bin/
 chmod +x /usr/bin/set_index
 
 ## install navigation translator
-[ ! -f "/usr/bin/set_navigation" ] && cp set_navigation /usr/bin/
+[ ! -f "/usr/bin/set_index" ] && cp set_navigation /usr/bin/
 chmod +x /usr/bin/set_navigation
 
 ## Enable crontab and datetime synchronization
@@ -79,20 +58,19 @@ echo "
 # Link the root crontab for the cron daemon to recognize and use
 ln -sf /etc/crontabs/root /etc/crontab
 
+# enable the cron daemon
+/etc/init.d/cron enable
 
 # set tasks on boot
 echo "
-# stop firewall
-/etc/init.d/firewall stop
-
 # parsing users navigation.txt to navigation.html
 set_navigation -s ${my_mount_point}/ugai/install/navigation.txt -d ${my_http_dir}/assets/templates/navigation.html
 
 # set virtual datetime to system
 cat ${my_mount_point}/ugai/install/datetime.txt | xargs date +%Y%m%d%H%M -s
 
-# set status www to 755
-chmod -R 755 ${my_http_dir}
+# secure all directory from pry eyes
+#find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && touch "$1/index.html"' _ {} \;
 
 # run setup to enable user change configuration every time system boot using diferent USB/HDD without telnet/ssh
 # this option disable by default 
@@ -101,13 +79,11 @@ chmod -R 755 ${my_http_dir}
 # create static index for faster search, disable by the default
 #set_index ${my_http_dir}/data ${current_ip_address}
 
-# secure all directory from pry eyes
-#find ${my_http_dir}/data -type d -exec sh -c 'test ! -f "$1/index.html" && touch "$1/index.html"' _ {} \;
-
+# set status www to 755
+chmod -R 755 ${my_http_dir}
 
 exit 0
 " > /etc/rc.local
-
 
 ## Configure server based on configuration file settings
 ### Set timezone
@@ -117,8 +93,13 @@ sed -i "s/UTC/${my_time_zone}/g" /etc/config/system
 # Update the system hostname from the default 'OpenWrt' to a custom server domain
 sed -i "s/OpenWrt/${my_server_domain}/g" /etc/config/system
 
+## Set IP address
+# Escape the current and new IP address to use them in sed pattern matching
+current_ip_address_escaped=$(echo "${current_ip_address}" | sed 's/\./\\./g')
+my_ip_address_escaped=$(echo "${my_ip_address}" | sed 's/\./\\./g')
 # Update the network configuration with the new IP address
 sed -i "s/${current_ip_address_escaped}/${my_ip_address_escaped}/g" /etc/config/network
+
 
 echo "secured config.json"
 if [ -f "${my_http_dir}/config.json" ]; then
@@ -190,7 +171,7 @@ if [ "${my_ssid_passwd}" != "none" ]; then
     sed -i "s/option encryption none/option encryption psk2\n\toption key ${my_ssid_passwd}/g" /etc/config/wireless
 fi
 
-#### Set Firewall (disable) ###
+#### Set Firewall ###
 # Add firewall redirection rules for DNS and HTTP to the configuration file
 cat <<EOF >> /etc/config/firewall
 config redirect          
@@ -202,7 +183,7 @@ config redirect
   option dest_ip '${my_ip_address}'     
              
 config redirect          
-  option enabled '1'        
+  option enabled '0'        
   option name 'http_perpustakaan_lan'    
   option src_dport '80'       
   option target 'DNAT'       
@@ -210,60 +191,7 @@ config redirect
   option src 'lan'        
   option dest_ip '${my_ip_address}'
 EOF
-## disable firewall
-/etc/init.d/firewall disable
-/etc/init.d/firewall stop
 
-# create shutdown button
-echo "$include /etc/hotplug2-common.rules
-
-SUBSYSTEM ~~ (^net$|^input$|button$|^usb$|^ieee1394$|^block$|^atm$|^zaptel$|^tty$) {
-	exec /sbin/hotplug-call %SUBSYSTEM%
-}
-
-DEVICENAME == watchdog {
-	exec /sbin/watchdog -t 5 /dev/watchdog
-	next-event
-}" > /etc/hotplug2.rules
-
-mkdir -p /etc/hotplug.d/button
-
-echo '#!/bin/sh
-logger $BUTTON
-logger $ACTION' > /etc/hotplug.d/button/buttons
-
-echo "
-#!/bin/sh
-. /lib/functions.sh
-do_button () {
-        local button
-        local action
-        local handler
-        local min
-        local max
-
-        config_get button $1 button
-        config_get action $1 action
-        config_get handler $1 handler
-        config_get min $1 min
-        config_get max $1 max
-
-        [ "$ACTION" = "$action" -a "$BUTTON" = "$button" -a -n "$handler" ] && {
-                [ -z "$min" -o -z "$max" ] && eval $handler
-                [ -n "$min" -a -n "$max" ] && {
-                        [ $min -le $SEEN -a $max -ge $SEEN ] && eval $handler
-                }
-        }
-}
-config_load system
-config_foreach do_button button
-" >> /etc/hotplug.d/button/00-button
-
-uci add system button
-uci set system.@button[-1].button=wps
-uci set system.@button[-1].action=pressed
-uci set system.@button[-1].handler='poweroff'
-uci commit system
 
 # mount usb/hdd permanently
 echo "
@@ -277,22 +205,13 @@ config mount
 " >> /etc/config/fstab
 
 
-# set executable
+# set exec
 chmod +x ${my_http_dir}/ugai.cgi
 
-## Start all services
+# Start all services
 /etc/init.d/network restart
-
-## Activate uHTTPd service
-/etc/init.d/uhttpd enable
 /etc/init.d/uhttpd start
-
-# enable the cron daemon
-/etc/init.d/cron enable
 /etc/init.d/cron start
-
-# enable the nodogsplash daemon
-/etc/init.d/nodogsplash enable
 /etc/init.d/nodogsplash start
 
 echo " "
@@ -302,7 +221,6 @@ echo "Komugai 2024 (ugai.cgi) by Sri Sutyoko Hermawan "
 echo " "
 echo "Your new digital wireless library will be up and running using SSID: ${my_ssid} "
 echo "web page: http://${my_ip_address}"
-echo "Push OSS button to shutdown your new server safelly."
 echo ""
 echo "Don't forget to use Calibre 3.48 version only to manage your collection"
 echo "Thanks for join Perpustakaan Nirkabel Projects"
@@ -310,7 +228,7 @@ echo "Regards,"
 echo " "
 echo "@sri.sutyoko"
 echo " "
-sleep 2
+sleep 3
 echo "-------------------------------------------------------------------------------"
 echo "Last step: Enter the root password, "cpu
 echo "or nobody will be able to access the console after rebooting."
@@ -324,7 +242,7 @@ passwd
 echo " "
 cat /etc/banner
 echo " "
-sleep 1
+sleep 3
 echo " "
 echo "type: reboot to restart or simply unplug then plug-in power cable"
 echo ""
