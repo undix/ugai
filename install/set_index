@@ -1,7 +1,10 @@
 #!/bin/sh
 
+berkas_index="/mnt/usb/ugai/install/index.txt"
+
 # cek apakah ada perintah membuat index
-[ ! -f "/mnt/usb/ugai/install/index.txt" ] && exit 0
+
+[ ! -f $berkas_index ] && exit 0
 
 # Direktori root dimana pencarian akan dilakukan
 root_dir="$1/"
@@ -44,6 +47,7 @@ find "$root_dir" -type d ! -path '*kamus*' | while read -r dir; do
             # Meng-escape karakter khusus yang mungkin ada di dalam $berkas
             escaped_calibre_dir=$(echo "$calibre_dir" | sed 's|[\/&]|\\&|g')
             sed -i "s|$escaped_calibre_dir||g" "$berkas"
+            
             # hapus residu proses
             sed -i '1d' $berkas
         done
@@ -51,7 +55,18 @@ find "$root_dir" -type d ! -path '*kamus*' | while read -r dir; do
 done
 
 # hapus berkas index.txt
-[ -f "/mnt/usb/ugai/install/index.txt" ] && rm -f "/mnt/usb/ugai/install/index.txt"
-             
+rm -f ${berkas_index}
+
+# hapus OPF
+#find /mnt/usb/ugai/www/data -type f \( -name "*.opf" \) -exec rm -f {} \;
+
+# amankan direktori dengan membuat index.html di semua direktori
+#find /mnt/usb/ugai/www/data -type d ! -path '*kamus*' -exec sh -c 'test ! -f "$1/index.html" && touch "$1/index.html"' _ {} \;
+
+# amankan
+#chmod -R 755 /mnt/usb/ugai/www/data
+
 # restart
 reboot
+
+
