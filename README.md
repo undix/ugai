@@ -231,12 +231,15 @@ db=komugai, home
 
 Plug your USB/HDD into MR3420 and power-on. 
 
-Upgrade
-=======
-If you need to upgrade the `ugai.cgi` file while keeping your customized design, simply download the file from the provided link and replace the existing one.
+Maintenance
+===========
+## Add/Delete/Edit Calibre Data
+After making changes to data (such as adding, deleting, renaming, etc. from Calibre), create a blank file named `index.txt` inside the *ugai\install* directory, and then return your media to the router. Whenever `index.txt` is found, the system will generate index files for each database to enhance response times. During this process, the system will be very busy and may not be able to handle any requests. After the index files are generated, the system will reboot, and operations will return to normal.
 
-Reinstall
-=========
+## Upgrade
+If you need to upgrade the `ugai.cgi` file while keeping your customized design, simply download the file from the provided link from `https://github.com/undix` and replace the existing one.
+
+## Reinstall
 If there are issues with the current version, you can reinstall while preserve your own Calibre data by following these steps:
 
 - Create a blank text file named `reset.txt`.
