@@ -18,8 +18,8 @@ if [ ! -d "$root_dir" ]; then
     exit 1
 fi
 
-# Mencari semua direktori di dalam direktori $root_dir kecuali kamus
-find "$root_dir" -type d ! -path '*kamus*' | while read -r dir; do
+# Mencari semua direktori di dalam direktori $root_dir kecuali 'references' atau 'referensi'
+find "$root_dir" -type d ! -path '*referen*' | while read -r dir; do
     # Cek jika berkas metadata.db ada dalam direktori
     if [ -f "$dir/metadata.db" ]; then
         # Simpan nama direktori yang memiliki metadata.db
