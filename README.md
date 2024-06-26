@@ -157,6 +157,7 @@ This blank file set server status. If renamed to **.secured**, server run in pro
 
 ### Install
 
+Make sure you have file `install.txt` inside directory **install**. 
 
 * Turn on the router with the storage media attached and connect using the command:
 
@@ -230,6 +231,24 @@ db=komugai, home
 
 Plug your USB/HDD into MR3420 and power-on. 
 
+Upgrade
+=======
+If you need to upgrade the `ugai.cgi` file while keeping your customized design, simply download the file from the provided link and replace the existing one.
+
+Reinstall
+=========
+If there are issues with the current version, you can reinstall while preserve your own Calibre data by following these steps:
+
+- Create a blank text file named `reset.txt`.
+- Place `reset.txt` into directory **ugai\install**.
+- Start the router as usual to reset it. Power off router and put back your USB/SSD/HDD to computer.
+- If you have existing Calibre data, move the data directory and `navigation.txt` file to a location *outside* of the `ugai` directory.
+- Delete or rename the `ugai` directory.
+- Download the new source code from GitHub.
+- Replace the `data` directory in the new source with your own Calibre `data` and also replace `navigation.txt` inside directory `install` .
+- Follow the installation instructions as previously described to set up a fresh system with your Calibre data and navigation menu intact.
+
+This process will ensure you have a clean installation while preserving your custom data.
 
 Problem with Calibre Version
 ============================
