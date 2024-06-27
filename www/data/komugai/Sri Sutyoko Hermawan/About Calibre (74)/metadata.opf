@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">74</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">cf9b2a5f-be79-425e-84f6-ca9465029671</dc:identifier>
+        <dc:title>About Calibre</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;p&gt;
+Calibre is a comprehensive e-book management tool, developed by Kovid Goyal, which first emerged in the digital landscape in 2006. Originally conceived to convert e-books to different formats, it has evolved into a versatile suite capable of managing comprehensive e-library tasks including e-book conversion, syncing to e-book reader devices, downloading news from the web and converting it into e-book form, and even functioning as an e-book viewer.&lt;/p&gt;
+&lt;p&gt;
+The application was developed in response to the rapid expansion of e-books and the diverse array of devices that emerged during the mid-2000s. As portable reading devices grew in popularity, there arose a pressing need for software that could handle multiple e-book formats and manage extensive digital libraries effectively. Calibre filled this niche, growing in popularity alongside the e-book revolution.&lt;/p&gt;
+&lt;p&gt;
+Today, Calibre supports a wide array of formats, from the widely used EPUB and MOBI to more obscure ones, ensuring compatibility across a broad spectrum of devices. Its user base is vast, with millions of users worldwide, a testament to its utility and effectiveness. Its open-source nature has allowed for continuous improvement and customization, adapting to new technologies and user needs over the years. This adaptability and comprehensive functionality make Calibre a favorite in the realm of digital book management, cementing its place as a critical tool for e-book enthusiasts and professionals alike.&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>Perpustakaan Nirkabel Project</dc:publisher>
+        <dc:identifier opf:scheme="VIEWS">0</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:subject>calibre</dc:subject>
+        <dc:subject>about</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="About Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="1" name="calibre:series_index"/>
+        <meta content="2024-04-28T18:22:39+00:00" name="calibre:timestamp"/>
+        <meta content="About Calibre" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

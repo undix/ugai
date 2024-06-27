@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">95</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">0dafdce2-357b-4bb6-b464-ee964bddee16</dc:identifier>
+        <dc:title>How to Use the 2018 Version of the PHeT Virtual Laboratory</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2018-06-05T04:20:37+00:00</dc:date>
+        <dc:description>&lt;div&gt;How to Use the 2018 Version of the PHeT Virtual Laboratory"&lt;/div&gt;</dc:description>
+        <dc:publisher>Perpustakaan Nirkabel Project</dc:publisher>
+        <dc:identifier opf:scheme="IDYT">MYeURgNptIg</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:subject>perpustakaan</dc:subject>
+        <dc:subject>nirkabel</dc:subject>
+        <dc:subject>laboratorium</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Phet" name="calibre:series"/>
+        <meta content="4" name="calibre:series_index"/>
+        <meta content="2018-06-05T04:20:37+00:00" name="calibre:timestamp"/>
+        <meta content="How to Use the 2018 Version of the PHeT Virtual Laboratory" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
