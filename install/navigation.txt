@@ -1,13 +1,9 @@
 db=komugai, Komugai
-# PHeT Lab
-## tags=biologi&db=komugai, Bio
-## series=laboratorium biologi&db=komugai, Biologi
+# Virtual Lab
+## series=laboratorium biologi&db=komugai, Biology
 ## tags=laboratorium&db=komugai, All
 # Collections
-## db=ebooks&tags=buku pelajaran sma, Pelajaran SMA
-## db=tutorial, Tutorials
 ## db=ebooks, Ebooks
-# Shortcuts
-## ugai&db=komugai, Ugai
-## tags=natural selection&db=komugai, Evolution
+## tags=tutorial&db=komugai, Tutorials
+titles=ShoutBox&db=komugai, Public Chat
 tags=about&db=komugai, About
