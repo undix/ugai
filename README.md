@@ -1,11 +1,11 @@
 # Ugai.cgi
 **Transform the most makeshift router into a High-Efficiency Digital Library with `Ugai`**
 
-A Calibre e-Books application operating natively on MIPS Linux OpenWRT 12.09. Pronounced *ooh-guy*, this application enables rapid sharing of multimedia collections through any old router. With `ugai.cgi`, you can establish a portable, Calibre wireless server in under a minute. No advanced IT skills required! Just type 4 command.
+If you're looking to set up home NAS storage for private collections, sharing only with family or guests (not strangers on social media), `ugai.cgi` is the perfect choice. It's also ideal for teachers and trainers, offering an affordable alternative to whiteboards and expensive projectors, turning smartphones into small presentation screens.
 
-This server setup is born from a decade of tailoring wireless digital libraries to the educational deserts of remote Indonesian locales. It’s a budget-friendly brainchild, with each unit costing about $10—perfect for resource-strapped volunteers and educators. The `ugai.cgi` server is more than just a digital bookshelf; it also delivers bite-sized, Instagram-style micro-learning experiences, making education not just accessible but downright engaging.
+Pronounced *ooh-guy*, this application enables rapid sharing of multimedia collections through any old router. With `ugai.cgi`, you can establish a portable, Calibre wireless server in under a minute. No advanced IT skills required! Just type *4 simple commands* on terminal.
 
-If you planned to make home NAS storage for private collections and share it only between family or guest--not to stranger at social media, `ugai.cgi` is the perfect choice. Or it fit for teacher or trainner to replace whiteboard even costly projector and turn smartphone's audience as small presentation screen.
+Born from a decade of experience in creating wireless digital libraries for remote Indonesian communities, this budget-friendly innovation costs only about $10 per unit. Perfect for volunteers and educators in resource-strapped areas, `ugai.cgi` is more than just a digital bookshelf; it also provides bite-sized, Instagram-style micro-learning experiences, making education both accessible and engaging.
 
 [![Discover the simplicity and speed of the installation process in this video.](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Installation Video")
 
