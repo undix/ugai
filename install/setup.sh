@@ -35,9 +35,6 @@ if [ -f "${my_install_dir}/install.txt" ]; then
 	opkg install iptables-mod-ipopt.ipk
 	opkg install nodogsplash.ipk
 
-	# set exec
-	chmod +x ${my_http_dir}/ugai.cgi
-
 	## Enable crontab and datetime synchronization
 	# Setup crontab to update the datetime every 5 minutes
 	echo "
