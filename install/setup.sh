@@ -13,10 +13,8 @@ cat datetime.txt | xargs date +%Y%m%d%H%M -s
 
 # reset to default firmware if found reset.txt
 if [ -f "${my_install_dir}/reset.txt" ]; then
-	# create install.txt
-	touch "install.txt"
-	# delete reset.txt
-	rm -f "reset.txt"
+	# rename reset.txt to install.txt
+	mv "${my_install_dir}/reset.txt" "${my_install_dir}/install.txt"
 	mount_root
 	mtd -r erase rootfs_data
 fi
@@ -46,7 +44,7 @@ if [ -f "${my_install_dir}/install.txt" ]; then
 
 	# set tasks on boot
 	echo "
-# disable firewall
+# disable firewall by default
 /etc/init.d/firewall disable
 /etc/init.d/firewall stop
 
