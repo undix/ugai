@@ -15,13 +15,20 @@ What's New?
 ===========
 Discover the unique features of this system compared to other wireless server systems utilizing a router as a mini web server:
 
-* `ugai.cgi`, tailored for Linux OpenWRT 12.09, runs natively, bypassing the need for interpreters like Python, Perl, or PHP. This efficiency results in significantly faster performance and less energy.
-* It operates directly on the hardware without requiring a traditional `rootfs` system, simplifying setup for beginners and enhancing energy efficiency.
-* Compatible with both EXT4 and FAT32 partitions, `ugai.cgi` enables users across all modern operating systems to easily modify content.
-* Features integration with Calibre, a leading digital data management application, providing a user-friendly interface for managing content through the Calibre Desktop app version 3.4.80.
-* The 2024 edition of `ugai.cgi` supports multiple Calibre databases simultaneously, improving performance by distributing data across separate databases. This capability allows for efficient management of extensive collections within MBR partition limits.
-* Installation is quick and easy, taking less than a minute with just four command lines in the console—making it accessible for anyone.
-* The `ugai.cgi` web server code is freely available under the MIT license, offering an educational tool for students to learn HTML, CSS, JavaScript, and server management at a low cost, with minimal energy consumption and rapid deployment.
+- **Instant Installation**: Get up and running in less than a minute! With just four simple command lines in the console, even beginners can easily set up `ugai.cgi`.
+
+- **Effortless Setup**: Say goodbye to complicated setups! `ugai.cgi` operates directly on the hardware without needing a `rootfs` system. Perfect for beginners, it simplifies the process and boosts energy efficiency.
+
+- **Broad Compatibility**: Whether you use EXT4 or FAT32 partitions, `ugai.cgi` works seamlessly with all modern operating systems. Capable of handling up to 1TB (tested) and a maximum of 2TB (MBR partition limit), content modification is a breeze.
+
+- **Seamless Calibre Integration**: Manage your digital content effortlessly with Calibre integration. The system offers a user-friendly interface through the Calibre Desktop app version 3.4.80.
+
+- **Blazing Fast Performance**: `ugai.cgi`, optimized for Linux OpenWRT 12.09, runs natively without the need for interpreters like Python, Perl, or PHP. This results in significantly faster performance and lower energy consumption.
+
+- **Enhanced Database Support**: The 2024 edition of `ugai.cgi` can handle multiple Calibre databases simultaneously. This improves performance by distributing data across separate databases, perfect for managing large collections within MBR partition limits.
+
+- **Educational and Open Source**: The `ugai.cgi` web server code and `ugai.kom` shoutbox application are freely available under the MIT license. This provides an excellent resource for students to learn HTML, CSS, JavaScript, and server management—cost-effective, energy-efficient, and quick to deploy.
+
 
 Getting Started
 ===============
