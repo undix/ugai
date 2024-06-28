@@ -303,7 +303,9 @@ In short: `ugai.cgi` is the brain that makes everything work, Kom`ugai` is like 
 References
 ==========
 More info about [ugai.cgi](https://perpustakaan.nirkabel.net/tampilkan/tagar/ugaicgi)
+
 More info about [Perpustakaan Nirkabel](https://perpustakaan.nirkabel.net/tampilkan/tagar/perpustakaannirkabel)
+
 SocMed: https://www.threads.net/@sri.sutyoko
 
 ![Home](www/assets/images/footer.png)
