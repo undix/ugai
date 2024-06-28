@@ -1,4 +1,7 @@
 # Ugai.cgi
+
+![Home](www/assets/images/beranda.png)
+
 **Transform the most makeshift router into a High-Efficiency Digital Library with `Ugai`**
 
 If you're looking to set up home NAS storage for private collections, sharing only with family or guests (not strangers on social media), `ugai.cgi` is the perfect choice. It's also ideal for teachers and trainers, offering an affordable alternative to whiteboards and expensive projectors, turning smartphones into small presentation screens.
@@ -29,6 +32,7 @@ Discover the unique features of this system compared to other wireless server sy
 
 - **Educational and Open Source**: The `ugai.cgi` web server code and `ugai.kom` shoutbox application are freely available under the MIT license. This provides an excellent resource for students to learn HTML, CSS, JavaScript, and server management—cost-effective, energy-efficient, and quick to deploy.
 
+![Home](www/assets/images/shoutbox.png)
 
 Getting Started
 ===============
