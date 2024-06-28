@@ -194,6 +194,10 @@ if [ -f "${my_install_dir}/install.txt" ]; then
 		sed -i "s/option encryption none/option encryption psk2\n\toption key ${my_ssid_passwd}/g" /etc/config/wireless
 	fi
 	
+	# Enable execution
+ 	chmod +x ${my_http_dir}/ugai.cgi
+  	chmod +x ${my_http_dir}/ugai.kom
+   
 	# Start all services
 	/etc/init.d/network restart
 	/etc/init.d/uhttpd enable
