@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">93</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">e202efe4-3a17-4056-920f-9dd517c84bfe</dc:identifier>
+        <dc:title>ShoutBox</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;p&gt;
+&lt;a href="ugai.kom"&gt;Shoutbox or Chat&lt;/a&gt;, also known as saybox, tagboard, or chatterbox, is a feature on websites that allows users to leave quick messages without registering. It typically displays a list of short messages with author details.
+&lt;/p&gt;
+&lt;p&gt;
+Using a wireless Shoutbox offers several benefits. In education, it enables quick communication between teachers and students, especially for online learning. Among neighbors, it simplifies sharing important information like community events and announcements. In emergencies, it is a vital tool for issuing warnings and coordinating evacuations when traditional networks fail.
+&lt;/p&gt;
+&lt;p&gt;
+Start using this tool &lt;a href="ugai.kom"&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+        <dc:publisher>Perpustakaan Nirkabel Project</dc:publisher>
+        <dc:identifier opf:scheme="VIEWS">0</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>chat</dc:subject>
+        <dc:subject>shoutbox. emoji</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="3" name="calibre:series_index"/>
+        <meta content="2024-06-27T14:17:19+00:00" name="calibre:timestamp"/>
+        <meta content="ShoutBox" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

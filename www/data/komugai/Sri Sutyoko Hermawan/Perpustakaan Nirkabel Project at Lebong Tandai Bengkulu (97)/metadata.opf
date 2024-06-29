@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">97</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">c4540a8e-54ed-420c-ac32-9707ddb24f86</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Lebong Tandai Bengkulu</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p style="margin: 0px;"&gt;Lebong Tandai was once a prominent gold mine during the Dutch East Indies era. As the gold mining era faded, palm plantations began to develop in Bengkulu. This location has only one mode of transportation in and out, which is by train. During its heyday, this train system was used to transport gold and facilitate the monitoring of authorities to prevent the theft of raw gold. &lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;Despite being far from the district capital, Lebong Tandai enjoys permanent electricity sourced from a micro-hydro power plant. The handover of the Perpustakaan Nirkabel unit to Lebong Tandai was done in collaboration with Sekolah Alam Mahira Bengkulu. They conducted this handover while holding an event at the location in January 2018.&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>perpustakaannirkabel,wirelesslibrarry</dc:publisher>
+        <dc:language>eng</dc:language>
+        <dc:subject>eng</dc:subject>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>lokasi perpustakaan nirkabel</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="11" name="calibre:series_index"/>
+        <meta content="2018-01-30T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Lebong Tandai Bengkulu" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

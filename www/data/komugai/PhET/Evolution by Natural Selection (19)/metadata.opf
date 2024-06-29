@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">19</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">a066715b-d0d4-4740-8d1b-e57338286f0e</dc:identifier>
+        <dc:title>Evolution by Natural Selection</dc:title>
+        <dc:creator opf:file-as="PhET" opf:role="aut">PhET</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+  &lt;p&gt;Topic: Natural Selection, Mutation, Genetics&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Theoretical Basis:&lt;/strong&gt; Natural selection is a natural process where organisms that possess traits suited to their environment are more likely to survive and reproduce. Mutation is a random change in an organism's DNA, which can produce new traits. Genetics is the science that studies how these traits are inherited from parents to offspring.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Let's see how organisms with different traits can survive or not when there are changes in their environment.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Learning Objectives:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Determine which types of mutations are beneficial or neutral when there are predators or changing food sources.&lt;/li&gt;
+    &lt;li&gt;Describe how certain traits can affect an organism's ability to survive in various environmental conditions.&lt;/li&gt;
+    &lt;li&gt;Conduct experiments with environments that can make rabbit populations stable, extinct, or rapidly reproduce.&lt;/li&gt;
+    &lt;li&gt;Observe how genes are transferred from one generation to the next.&lt;/li&gt;
+    &lt;li&gt;Differentiate between dominant and recessive genes and how they are passed down to the next generation.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href="_laboratorium/biologi/Evolusi-Seturut-Seleksi-Alam.html"&gt;Click this link to start the practicum through the Wireless Library server&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+        <dc:publisher>University of Colorado Boulder</dc:publisher>
+        <dc:identifier opf:scheme="VIEWS">0</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>biologi</dc:subject>
+        <dc:subject>natural selection</dc:subject>
+        <dc:subject>charles darwin</dc:subject>
+        <dc:subject>evolution</dc:subject>
+        <dc:subject>phet</dc:subject>
+        <dc:subject>laboratorium</dc:subject>
+        <dc:subject>praktikum</dc:subject>
+        <dc:subject>praktikum biologi</dc:subject>
+        <dc:subject>genetika</dc:subject>
+        <dc:subject>dna</dc:subject>
+        <dc:subject>seleksi alam</dc:subject>
+        <dc:subject>mutasi</dc:subject>
+        <meta content="{&quot;PhET&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Laboratorium" name="calibre:series"/>
+        <meta content="1" name="calibre:series_index"/>
+        <meta content="2003-12-31T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Evolution by Natural Selection" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

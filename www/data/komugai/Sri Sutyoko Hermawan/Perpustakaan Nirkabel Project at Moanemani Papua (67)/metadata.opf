@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">67</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">9f8844e6-92d6-4e4e-b683-df1eb57d7498</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Moanemani Papua</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;p&gt;The Perpustakaan Nirkabel is present in a girls' dormitory managed by the Sisters of Dina Santo Yoseph (DSY). This facility serves approximately 75 junior high school boarding students who have begun learning to use digital technology.&lt;/p&gt;</dc:description>
+        <dc:publisher>Perpustakaan Nirkabel Project</dc:publisher>
+        <dc:identifier opf:scheme="VIEWS">0</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>papua</dc:subject>
+        <dc:subject>mee</dc:subject>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>lokasi perpustakaan nirkabel</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="10" name="calibre:series_index"/>
+        <meta content="2020-12-03T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Moanemani Papua" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

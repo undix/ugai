@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">73</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">f20cd497-c78b-4d95-88d6-6a50e86ab8be</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Piliana Maluku</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p style="margin: 0px;"&gt;Piliana Village is the official gateway to the summit of Mount Binaiya on Seram Island. The residents have a library called Rumah Baca Noel (Noel Reading House), established in April 2018.&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;The library's collection primarily consists of items brought by Mount Binaiya climbers. Since August 2018, a Perpustakaan Nirkabel, including a transmitter and a laptop, has been available here. Donations to Piliana can be in the form of books or electronic devices.&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;Electricity has been available in this area since August 18, 2017. Climbers can leave their belongings with a friend who intends to ascend Mount Binaiya.&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>Perpustakaan Nirkabel Project</dc:publisher>
+        <dc:identifier opf:scheme="VIEWS">0</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>lokasi perpustakaan nirkabel</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="8" name="calibre:series_index"/>
+        <meta content="2018-08-07T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Piliana Maluku" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

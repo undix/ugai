@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">69</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">776bc5ae-8a48-4d97-a72c-bfe050051b36</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Wisma Transito NTB</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p&gt;
+One unit of a Perpustakaan Nirkabel Project laptop is available at Wisma Transito in Mataram, West Nusa Tenggara, Lombok. This project aims to support refugees in achieving digital literacy despite facing discrimination since 2006. It is a collaborative effort with the Gusdurian Network in West Nusa Tenggara.
+&lt;/p&gt;
+&lt;p&gt;
+Owned by the Transmigration Office of West Nusa Tenggara Province, Wisma Transito was built in 1974 to serve as a transit point for Sasak transmigrants en route to regions like Kalimantan, Papua, Sulawesi, and Sumbawa.
+&lt;/p&gt;
+&lt;p&gt;
+Since 2006, Wisma Transito has become a sanctuary for 35 local households (approximately 135 individuals) who were forced to flee their hometowns due to threats of violence. Their properties, including houses, fields, and farms, were destroyed, and their lives remain at risk if they return home.
+&lt;/p&gt;
+
+&lt;/div&gt;</dc:description>
+        <dc:publisher>Perpustakaan Nirkabel Project</dc:publisher>
+        <dc:identifier opf:scheme="VIEWS">0</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>lokasi perpustakaan nirkabel</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="5" name="calibre:series_index"/>
+        <meta content="2019-12-03T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Wisma Transito NTB" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

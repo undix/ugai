@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">75</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">cfd32658-ead8-4050-8180-b1ca623346f2</dc:identifier>
+        <dc:title>PhET Interactive Simulations project</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p style="margin: 0px;"&gt;The PhET Interactive Simulations project, initiated at the University of Colorado Boulder in 2002 by Nobel Laureate Carl Wieman, aims to enhance the learning of science and mathematics. The project develops engaging, interactive simulations that vividly illustrate and animate complex scientific concepts, making them more accessible and understandable for students of all ages.&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;PhET simulations are known for their interactive, game-like environments where users can manipulate variables and see the results in real-time. This approach helps students visualize and understand abstract concepts in physics, chemistry, biology, earth science, and mathematics. Each simulation is designed to encourage exploration, experimentation, and discovery.&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;Extensive educational research has documented the effectiveness of PhET simulations in improving STEM education. Studies show that these tools enhance students' conceptual understanding and promote positive attitudes towards learning. By transforming passive learning into an interactive experience, PhET makes complex scientific principles more tangible and relatable.&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;Currently, PhET provides over 150 simulations that are freely accessible and available in multiple languages, making them a valuable resource worldwide. These simulations are used by millions of learners and educators in over 200 countries. The project's dedication to updating and expanding its simulation library ensures it remains at the forefront of educational technology, advancing STEM education globally. This widespread use and ongoing development highlight the project's significance in fostering a deeper understanding of STEM fields.&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>University of Colorado Boulder</dc:publisher>
+        <dc:identifier opf:scheme="VIEWS">0</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>phet</dc:subject>
+        <dc:subject>about</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="4" name="calibre:series_index"/>
+        <meta content="2024-04-28T18:26:09+00:00" name="calibre:timestamp"/>
+        <meta content="PhET Interactive Simulations project" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>

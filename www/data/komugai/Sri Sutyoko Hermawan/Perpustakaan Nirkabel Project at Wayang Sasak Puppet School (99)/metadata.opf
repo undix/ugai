@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">99</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">32155ede-c99b-4c82-ad05-3d48a70539b5</dc:identifier>
+        <dc:title>Perpustakaan Nirkabel Project at Wayang Sasak Puppet School</dc:title>
+        <dc:creator opf:file-as="Hermawan, Sri Sutyoko" opf:role="aut">Sri Sutyoko Hermawan</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.48.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2024-06-29T17:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;p style="margin: 0px;"&gt;The Perpustakaan Nirkabel server for Lombok Island is housed in a Wayang Sasak art center. Lombok Island received the final unit of the Perpustakaan Nirkabel for 2019, which is also the smallest version.&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin: 0px;"&gt;With dimensions of 15 x 7 x 3 cm, this educational server is compact enough to fit in a pocket along with its adapter, making it highly portable. It is currently located at the Wayang Sasak Puppet School in Ampenan, Mataram. Here, young children are taught the traditional art of wayang puppetry, a cultural heritage that thrives in the Lombok region.&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>perpustakaannirkabel,wirelesslibrarry</dc:publisher>
+        <dc:language>eng</dc:language>
+        <dc:subject>eng</dc:subject>
+        <dc:subject>wayang</dc:subject>
+        <dc:subject>sasak</dc:subject>
+        <dc:subject>perpustakaan nirkabel</dc:subject>
+        <dc:subject>lokasi perpustakaan nirkabel</dc:subject>
+        <meta content="{&quot;Sri Sutyoko Hermawan&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="Perpustakaan Nirkabel Project" name="calibre:series"/>
+        <meta content="6" name="calibre:series_index"/>
+        <meta content="2019-12-20T17:00:00+00:00" name="calibre:timestamp"/>
+        <meta content="Perpustakaan Nirkabel Project at Wayang Sasak Puppet School" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
