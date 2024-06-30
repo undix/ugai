@@ -66,10 +66,11 @@ git clone https://github.com/undix/ugai.git
 
 * Extract and rename the directory to `ugai`. Ensure the directory structure on the storage media is as follows:
 
-```bash
+```text
 ugai
+├── documents
 ├── install
-└── www 
+└── www
 ```
 
 ### Configuration
