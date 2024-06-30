@@ -58,15 +58,18 @@ Generally, only the WR1043nd is stable enough for using a 2.5-inch SATA hard dis
 Format the storage media with the FAT32 system in a single partition.
 
 ### Download the Code
-* Download the `ugai.cgi` code from [GitHub](https://github.com/undix/ugai/archive/refs/heads/main.zip).
 
-Familiar users can pull the `ugai.cgi` code using the following command in Windows PowerShell or a macOS/Linux terminal:
+#### For MacOS/Linux
+
+Open terminal and type:
 
 ```bash
 git clone https://github.com/undix/ugai.git
 ```
 
-Using Git from Microsoft Windows PowerShell:
+#### For Windows 10
+
+##### Using Git from Microsoft Windows PowerShell:
 
 ```bash
 Windows PowerShell
@@ -87,6 +90,8 @@ Updating files: 100% (196/196), done.
 PS F:\>
 ```
 
+#### Using link from browser
+* Click [https://github.com/undix/ugai/archive/refs/heads/main.zip](https://github.com/undix/ugai/archive/refs/heads/main.zip)
 * Extract and rename the directory to `ugai`. Ensure the directory structure on the storage media is as follows:
 
 ```text
