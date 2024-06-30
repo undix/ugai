@@ -261,23 +261,46 @@ Plug your USB/HDD into MR3420 and power-on.
 Maintenance
 ===========
 ## Add/Delete/Edit Calibre Data
-After making changes to data (such as adding, deleting, renaming, etc. from Calibre), create a blank file named `index.txt` inside the *ugai\install* directory, and then return your media to the router. Whenever `index.txt` is found, the system will generate index files for each database to enhance response times. During this process, the system will be very busy and may not be able to handle any requests. After the index files are generated, the system will reboot, and operations will return to normal.
+After making changes to data (such as adding, deleting, renaming, etc. from Calibre), create a blank file named `index.txt` inside the *ugai\install* directory, and then return your media to the router. 
+
+```text
+ugai
+└── install
+    └── index.txt
+```
+
+Whenever `index.txt` is found, the system will generate index files for each database to enhance response times. During this process, the system will be very busy and may not be able to handle any requests. After the index files are generated, the system will reboot, and operations will return to normal.
 
 ## Upgrade
-If you need to upgrade the `ugai.cgi` file while keeping your customized design, simply download file `ugai.cgi` from [https://github.com/undix/ugai/blob/main/www/ugai.cgi](https://github.com/undix/ugai/blob/main/www/ugai.cgi) and replace the existing one. 
+If you need to upgrade the `ugai.cgi` file while keeping your customized design, simply download file `ugai.cgi` from [https://github.com/undix/ugai/blob/main/www/ugai.cgi](https://github.com/undix/ugai/blob/main/www/ugai.cgi) and [https://github.com/undix/ugai/blob/main/www/ugai.cgi](https://github.com/undix/ugai/blob/main/www/ugai.kom) then replace the existing one. 
 
 ## Reinstall
 If there are issues with the current version, you can reinstall while preserve your own Calibre data by following these steps:
-- Create a blank text file named `reset.txt`.
-- Place `reset.txt` into directory **ugai\install**.
-- Start the router as usual to reset it. Power off router and put back your USB/SSD/HDD to computer.
+- Create a blank text file named `reset.txt` and save into directory **ugai\install**.
+
+```text
+ugai
+└── install
+    └── reset.txt
+```
+
+- Start the router as usual to reset it. Power off router and put back your USB/SSD/HDD to computer. Wait until reboot and put back your storage into computer.
 - If you have existing Calibre data, move the **data** directory and `navigation.txt` file to a location *outside* of the `ugai` directory.
+
+```text
+navigation.txt
+data
+ugai
+└── install
+└── www
+```
+
 - Delete or rename the `ugai` directory.
 - Download the new source code from GitHub.
-- Replace the **data** directory in the new source with your own Calibre data and also replace `navigation.txt` inside directory `install` .
+- Replace **www\data** directory with your backup and also replace `navigation.txt` inside directory `ugai\install`.
 - Follow the installation instructions as previously described to set up a fresh system with your Calibre data and navigation menu intact.
 
-This process will ensure you have a clean installation while preserving your custom data.
+This process will ensure you have a clean installation while preserving your custom and navigation data.
 
 Problem with Calibre Version
 ============================
