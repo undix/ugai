@@ -312,7 +312,8 @@ Common Error Cases
 ==================
 #### ERROR 503: Server not respond
 - Make sure your data readable. Change mode to 755 (`chmod -R 777 ugai\www\data`) ussually works.
-- Make sure `ugai.cgi` and `ugai.kom` executable. Change mode to `+x` (`chmod +x ugai\www\ugai.cgi` and `chmod +x ugai\www\ugai.kom`) ussually works. 
+- Make sure `ugai.cgi` and `ugai.kom` executable. Change mode to `+x` (`chmod +x ugai\www\ugai.cgi` and `chmod +x ugai\www\ugai.kom`) ussually works.
+- Make sure your server is not in `extremelly busy status`, in example, when still reindex process.
 
 #### Page Not Displayed / CGI Error
 - Ensure that all entries in `config.json` are absolutely correct.
