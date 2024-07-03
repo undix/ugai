@@ -32,8 +32,6 @@ Discover the unique features of this system compared to other wireless server sy
 
 - **Educational and Open Source**: The `ugai.cgi` web server code and `ugai.kom` shoutbox application are freely available under the MIT license. This provides an excellent resource for students to learn HTML, CSS, JavaScript, and server management—cost-effective, energy-efficient, and quick to deploy.
 
-![Home](www/assets/images/shoutbox.png)
-
 Getting Started
 ===============
 ### Firmware
@@ -152,17 +150,6 @@ db=komugai, Home
 ## titles=Indonesian Glossary&db=komugai, Indonesian Glossary
 ## titles=English-Indonesian dictionary&db=komugai, English-Indonesian
 ## titles=Indonesian English dictionary&db=komugai, Indonesian English
-## titles=Arabic-Indonesian Conversation Dictionary&db=komugai, Arabic-Indonesian
-## titles=Chinese-Indonesian Conversation Dictionary&db=komugai, Chinese-Indonesian
-## titles=Dutch-Indonesian Conversation Dictionary&db=komugai, Dutch-Indonesian
-## titles=French-Indonesian Conversation Dictionary&db=komugai, French-Indonesian
-## titles=German-Indonesian Conversation Dictionary&db=komugai, German-Indonesian
-## titles=Italian-Indonesian Conversation Dictionary&db=komugai, Italian-Indonesian
-## titles=Japanese-Indonesian Conversation Dictionary&db=komugai, Japanese-Indonesian
-## titles=Korean-Indonesian Conversation Dictionary&db=komugai, Korean-Indonesian
-## titles=Portuguese-Indonesian Conversation Dictionary&db=komugai, Portuguese-Indonesian
-## titles=Russian-Indonesian Conversation Dictionary&db=komugai, Russian-Indonesian
-## titles=Spanish-Indonesian Conversation Dictionary&db=komugai, Spanish-Indonesian
 titles=ShoutBox&db=komugai, ShoutBox
 series=About Perpustakaan Nirkabel Project&db=komugai, About
 ```
@@ -187,17 +174,6 @@ Each time the router boots, it will read and translate this text into HTML forma
       <a class="dropdown-item" href="?titles=Indonesian Glossary&db=komugai">Indonesian Glossary</a>
       <a class="dropdown-item" href="?titles=English-Indonesian dictionary&db=komugai">English-Indonesian</a>
       <a class="dropdown-item" href="?titles=Indonesian English dictionary&db=komugai">Indonesian English</a>
-      <a class="dropdown-item" href="?titles=Arabic-Indonesian Conversation Dictionary&db=komugai">Arabic-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Chinese-Indonesian Conversation Dictionary&db=komugai">Chinese-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Dutch-Indonesian Conversation Dictionary&db=komugai">Dutch-Indonesian</a>
-      <a class="dropdown-item" href="?titles=French-Indonesian Conversation Dictionary&db=komugai">French-Indonesian</a>
-      <a class="dropdown-item" href="?titles=German-Indonesian Conversation Dictionary&db=komugai">German-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Italian-Indonesian Conversation Dictionary&db=komugai">Italian-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Japanese-Indonesian Conversation Dictionary&db=komugai">Japanese-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Korean-Indonesian Conversation Dictionary&db=komugai">Korean-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Portuguese-Indonesian Conversation Dictionary&db=komugai">Portuguese-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Russian-Indonesian Conversation Dictionary&db=komugai">Russian-Indonesian</a>
-      <a class="dropdown-item" href="?titles=Spanish-Indonesian Conversation Dictionary&db=komugai">Spanish-Indonesian</a>
     </div>
   </li>
   <li class="nav-item"> <a class="nav-link" href="?titles=ShoutBox&db=komugai">ShoutBox</a></li>
@@ -383,6 +359,55 @@ Finally, `Perpustakaan Nirkabel`, or the Wireless Library Project, is about what
 Also, if you download and use this setup for personal reasons (like learning HTML, JavaScript, jQuery, pentesting, office meeting room, even make personal profit) or just in your school, you're not considered part of the 'Perpustakaan Nirkabel' Project, but you're still a user of both `ugai.cgi` and `Komugai` digital wireless server system. Some people call this "social impact."
 
 In short: `ugai.cgi` is the brain that makes everything work, Kom`ugai` is like your whole body and the clothes that make you unique, and Perpustakaan Nirkabel Project is how you use these tools to help others.
+
+Screenshot v2024.1.5
+====================
+
+### As e-library
+Managed and share education materials (audio, video, or all ebooks format)
+
+![Ebooks](screenshot/komugai_2024.1.5_ebooks.png)
+
+### As communication tools
+
+Communications using Shoutbox proved really useful during the COVID-19 Pandemic of 2020-2021. This nifty open communication feature shines in chaotic disaster situations, helps lost hikers in trekking areas, and keeps refugee camps connected. Just pack it into a tiny MR3020 with a powerful antenna, and bam! You're all set for seamless connectivity. 
+
+![Dictionary](screenshot/komugai_2024.1.5_shoutbox.png)
+
+### As mini portable blog
+Educators can write and share their own materials here without relaying to Internet connection.
+
+![Blog Style](screenshot/komugai_2024.1.5_blog-style.png)
+
+
+### As references
+
+![Dictionary](screenshot/komugai_2024.1.5_referensi.png)
+
+As a library, Perpustakaan Nirkabel 2024 isn’t just about tossing books and videos at you from afar. This e-library can beam multimedia goodies, dictionaries, and even the mighty Wikipedia to the most remote corners of the Earth. It's like sending the entire 12,000-year saga of human achievement to places where the internet is a daylight robbery or just a distant dream. 
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-wikipedia-1.png)
+Wikipedia
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-wikipedia-2.png)
+Wikipedia
+
+Perpustakaan Nirkabel 2024's dictionary capabilities aren't just stuck in the land of Latin characters. Nope, this brainy library is a linguistic chameleon, ready to tackle Asian fonts like Chinese, Korean, Japanese, even Russia. Planning a trip to Indonesia? You'll be chatting like a local in no time, thanks to the handy audio pronunciations attached to every dictionary entry. Just pack this system into a tiny MR3020 router and embark on your Indonesian adventure. Impress Indonesian with their own proverbs and help them to speak with your own language. **Terima kasih!**
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-english.png)
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-china-1.png)
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-china-2.png)
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-japan.png)
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-korea-1.png)
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-korea-2.png)
+
+![Dictionary](screenshot/komugai_2024.1.5_dict-russia.png)
+
 
 References
 ==========
