@@ -1,12 +1,61 @@
 #!/bin/sh -e
 
 # Load variables from the external configuration file
-source config.txt
+. config.txt
 
 # Define directories for HTTP server and installations
 my_http_dir="${my_mount_point}/ugai/www"
 my_install_dir="${my_mount_point}/ugai/install"
 machine_type=$(grep 'machine' /proc/cpuinfo | awk -F': ' '{print $2}')
+
+# Function to convert size to TB if needed
+convert_size() {
+  size_in_kb=$1
+
+  # Convert size to GB with two decimal places
+  size_in_gb=$((size_in_kb / 1024 / 1024))
+  size_in_gb_fraction=$(( (size_in_kb % (1024 * 1024)) * 100 / (1024 * 1024) ))
+  
+  if [ "$size_in_gb" -ge 1024 ]; then
+    size_in_tb=$((size_in_gb / 1024))
+    size_in_tb_fraction=$(( (size_in_gb % 1024) * 100 / 1024 ))
+    echo "${size_in_tb}.$(printf "%02d" "$size_in_tb_fraction") TB"
+  else
+    echo "${size_in_gb}.$(printf "%02d" "$size_in_gb_fraction") GB"
+  fi
+}
+
+
+# Disk info
+disk_info() {  
+  # Get disk information using df
+  disk_info=$(df "$my_mount_point" | tail -1)
+
+  # Separates information on stored capacity, available capacity, total capacity and percent used
+  used_space=$(echo $disk_info | awk '{print $3}')
+  free_space=$(echo $disk_info | awk '{print $4}')
+  total_space=$(echo $disk_info | awk '{print $2}')
+  pct_used=$(echo $disk_info | awk '{print $5}')
+
+  # Calculates the percent of available capacity
+  pct_free=$((100 - ${pct_used%\%}))
+  pct_used=$((100 - ${pct_free}))
+	
+  # Convert size to TB if necessary
+  used_space=$(convert_size $used_space)
+  free_space=$(convert_size $free_space)
+  total_space=$(convert_size $total_space)
+
+  # Save the results into a JSON file with the desired format
+  echo "{" > "${my_http_dir}/disk_info.json"
+  echo "\"machine\": \"${machine_type}\"," >> "${my_http_dir}/disk_info.json"
+  echo "\"storage\": \"${total_space}\"," >> "${my_http_dir}/disk_info.json"
+  echo "\"storage_used\": \"${used_space}\"," >> "${my_http_dir}/disk_info.json"
+  echo "\"storage_free\": \"${free_space}\"," >> "${my_http_dir}/disk_info.json"
+  echo "\"pct_storage_used\": ${pct_used}," >> "${my_http_dir}/disk_info.json"
+  echo "\"pct_storage_free\": ${pct_free}" >> "${my_http_dir}/disk_info.json"
+  echo "}" >> "${my_http_dir}/disk_info.json"
+}
 
 ## set datetime
 cat datetime.txt | xargs date +%Y%m%d%H%M -s
@@ -71,7 +120,13 @@ exit 0
 	fi
 fi
 
-## This command execute every boot to implement user needs anytime
+##################################
+## This command execute every boot
+##################################
+# get disk info
+disk_info
+
+# refresh nodogsplash.conf
 if [ -f "${my_install_dir}/nodogsplash.conf" ]; then
 	/etc/init.d/nodogsplash stop
 	## copy nodogsplash custom
@@ -80,12 +135,14 @@ if [ -f "${my_install_dir}/nodogsplash.conf" ]; then
 	/etc/init.d/nodogsplash start
 fi	
 
+# refresh set_index
 if [ -f "${my_install_dir}/set_index" ]; then
 	## install index generator
 	cp ${my_install_dir}/set_index /usr/bin/
 	chmod +x /usr/bin/set_index
 fi
 
+# refresh set_navigation
 if [ -f "${my_install_dir}/set_navigation" ]; then
 	## install index generator
 	cp ${my_install_dir}/set_navigation /usr/bin/
