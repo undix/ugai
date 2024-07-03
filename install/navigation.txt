@@ -1,9 +1,22 @@
-db=komugai, Komugai
-# Virtual Lab
-## series=laboratorium biologi&db=komugai, Biology
-## tags=laboratorium&db=komugai, All
-# Collections
-## db=ebooks, Ebooks
-## tags=tutorial&db=komugai, Tutorials
-titles=ShoutBox&db=komugai, Public Chat
-tags=about&db=komugai, About
+db=komugai, Home
+# Features
+## tags=ebooks&db=komugai, E-books
+## tags=laboratorium&db=komugai, Virtual Lab
+# References
+## titles=Wikipedia Bahasa Indonesia&db=komugai, Wikipedia Indonesia
+## titles=Kamus Besar Bahasa Indonesia&db=komugai, KBBI
+## titles=Indonesian Glossary&db=komugai, Indonesian Glossary
+## titles=English-Indonesian dictionary&db=komugai, English-Indonesian
+## titles=Indonesian English dictionary&db=komugai, Indonesian-English
+## titles=Arabic-Indonesian Conversation Dictionary&db=komugai, Arabic-Indonesian
+## titles=Chinese-Indonesian Conversation Dictionary&db=komugai, Chinese-Indonesian
+## titles=Dutch-Indonesian Conversation Dictionary&db=komugai, Dutch-Indonesian
+## titles=German-Indonesian Conversation Dictionary&db=komugai, German-Indonesian
+## titles=Italian-Indonesian Conversation Dictionary&db=komugai, Italian-Indonesian
+## titles=Japanese-Indonesian Conversation Dictionary&db=komugai, Japanese-Indonesian
+## titles=Korean-Indonesian Conversation Dictionary&db=komugai, Korean-Indonesian
+## titles=Portuguese-Indonesian Conversation Dictionary&db=komugai, Portuguese-Indonesian
+## titles=Russian-Indonesian Conversation Dictionary&db=komugai, Russian-Indonesian
+## titles=Spanish-Indonesian Conversation Dictionary&db=komugai, Spanish-Indonesian
+titles=ShoutBox&db=komugai, ShoutBox
+series=About Perpustakaan Nirkabel Project&db=komugai, About
