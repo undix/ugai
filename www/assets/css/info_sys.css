@@ -1,0 +1,11 @@
+.machine-image {
+    max-width: 80%;
+    height: auto;
+}
+
+#storageChartCanvas {
+    display: block;
+    margin: 10px auto;
+    width: 270px !important;
+    height: 270px !important;
+}
