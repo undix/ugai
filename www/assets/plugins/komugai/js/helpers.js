@@ -1,4 +1,4 @@
-const api_server_url = "../../game.cgi?api";
+const api_server_url = "../../ugai.game?api";
 var token = "00000000";
 var apikey = "00000000";
 
