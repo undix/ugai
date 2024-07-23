@@ -58,7 +58,7 @@ disk_info() {
 }
 
 ## set datetime
-cat datetime.txt | xargs date +%Y%m%d%H%M -s
+cat ${my_install_dir}/datetime.txt | xargs date +%Y%m%d%H%M -s
 
 # reset to default firmware if found reset.txt
 if [ -f "${my_install_dir}/reset.txt" ]; then
@@ -71,21 +71,23 @@ fi
 #Main software installation
 if [ -f "${my_install_dir}/install.txt" ]; then
 	
-	# Install pthread library from custom installation directory
+	echo "Install pthread"
 	opkg install ${my_install_dir}/libpthread.ipk
 
-	# Install uHTTPd, a lightweight HTTP server
+	echo "Install uHTTPd, a lightweight HTTP server for OpenWRT"
 	opkg install ${my_install_dir}/uhttpd.ipk
 
-	#install captive portal
-	opkg install kmod-ipt-ipopt.ipk
-	opkg install iptables-mod-ipopt.ipk
-	opkg install nodogsplash.ipk
+	echo "install captive portal"
+	opkg install ${my_install_dir}/kmod-ipt-ipopt.ipk
+	opkg install ${my_install_dir}/iptables-mod-ipopt.ipk
+	opkg install ${my_install_dir}/nodogsplash.ipk
 
-	## Enable crontab and datetime synchronization
-	# Setup crontab to update the datetime every 5 minutes
+	## Enable crontab and setup command
 	echo "
-*/5 * * * *     date +\"%Y%m%d%H%M\" > ${my_mount_point}/ugai/install/datetime.txt
+# update time from users
+*/5 * * * *	[ -f /tmp/user.timestamp ] && cat /tmp/user.timestamp | xargs date +%Y%m%d%H%M -s && rm -f /tmp/user.timestamp
+# save current datetime for next boot 
+*/15 * * * *    date +\"%Y%m%d%H%M\" > ${my_install_dir}/datetime.txt
 " > /etc/crontabs/root
 
 	# Link the root crontab for the cron daemon to recognize and use
@@ -101,11 +103,11 @@ if [ -f "${my_install_dir}/install.txt" ]; then
 cat ${my_mount_point}/ugai/install/datetime.txt | xargs date +%Y%m%d%H%M -s
 
 # parsing users navigation.txt to navigation.html
-set_navigation -s ${my_mount_point}/ugai/install/navigation.txt -d ${my_http_dir}/assets/templates/navigation.html
+set_navigation -s ${my_install_dir}/navigation.txt -d ${my_http_dir}/assets/templates/navigation.html
 
 # run setup to enable user change configuration every time system boot using diferent USB/HDD without telnet/ssh
 # this option enable by default 
-cd ${my_mount_point}/ugai/install && sh setup.sh
+cd ${my_install_dir} && sh setup.sh
 
 # create static index for faster search, disable by the default
 cd ${my_http_dir} && set_index data ${current_ip_address}
