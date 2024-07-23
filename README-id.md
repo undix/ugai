@@ -8,7 +8,7 @@ Jika Anda ingin membuat penyimpanan digital di rumah untuk koleksi pribadi, berb
 
 Diucapkan *ooh-guy*, aplikasi ini memungkinkan berbagi koleksi multimedia dengan cepat melalui router lama apa saja. Dengan `ugai.cgi`, Anda dapat mendirikan server nirkabel Calibre yang portabel dalam waktu kurang dari satu menit. Tidak diperlukan keahlian IT tingkat lanjut! Cukup ketik *4 perintah sederhana* di terminal.
 
-Lahir dari satu dekade pengalaman dalam menciptakan perpustakaan digital nirkabel untuk komunitas terpencil di Indonesia, inovasi hemat biaya ini hanya berharga sekitar $10 per unit. Sempurna untuk relawan dan pendidik di daerah yang kekurangan sumber daya, `ugai.cgi` lebih dari sekadar rak buku digital; ini juga menyediakan pengalaman mikro-belajar ala Instagram yang singkat, membuat pendidikan menjadi mudah diakses dan menarik.
+Lahir dari satu dekade pengalaman dalam menciptakan perpustakaan digital nirkabel untuk komunitas terpencil di Indonesia, inovasi hemat biaya ini hanya berharga sekitar $10 per unit. Sempurna untuk relawan dan pendidik di daerah yang kekurangan sumber daya, `ugai.cgi` lebih dari sekadar rak buku digital; ini juga menyediakan pengalaman belajar ala Instagram, membuat pendidikan menjadi mudah diakses dan menarik.
 
 [![Discover the simplicity and speed of the installation process in this video.](http://img.youtube.com/vi/q8KNBix4JUY/0.jpg)](http://www.youtube.com/watch?v=q8KNBix4JUY "Installation Video")
 
