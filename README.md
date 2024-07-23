@@ -6,6 +6,8 @@
 
 If you're looking to set up home NAS storage for private collections, sharing only with family or guests (not strangers on social media), `ugai.cgi` is the perfect choice. It's also ideal for teachers and trainers, offering an affordable alternative to whiteboards and expensive projectors, turning smartphones into small presentation screens.
 
+![Baca panduan dalam Bahasa Indonesia di sini](README-id.md)
+
 Pronounced *ooh-guy*, this application enables rapid sharing of multimedia collections through any old router. With `ugai.cgi`, you can establish a portable, Calibre wireless server in under a minute. No advanced IT skills required! Just type *4 simple commands* on terminal.
 
 Born from a decade of experience in creating wireless digital libraries for remote Indonesian communities, this budget-friendly innovation costs only about $10 per unit. Perfect for volunteers and educators in resource-strapped areas, `ugai.cgi` is more than just a digital bookshelf; it also provides bite-sized, Instagram-style micro-learning experiences, making education both accessible and engaging.
