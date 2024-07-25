@@ -348,7 +348,7 @@ function setTimeBasedOnTitle() {
 async function saveQuestion(q, status, time) {
   try {
       const updatedApiKey = await updateToken();
-      const url = `${api_server_url}&opt=kuisQuest&quest=${encodeURIComponent(q)}&game=kuis&unit=${status}&val=${time}&key=${updatedApiKey}&f=i&t=${dateTime}`;
+      const url = `${api_server_url}&opt=kuisQuest&quest=${encodeURIComponent(q)}&game=kuis&unit=${status}&val=${time}&key=${updatedApiKey}&f=i&t=${getCurrentDateTime()}`;
 
       for (let attempt = 0; attempt < maxRetryToApiServer; attempt++) {
           //console.log(`Attempt ${attempt + 1}: saveQuestion URL : ${url}`);
@@ -385,7 +385,7 @@ async function saveQuestion(q, status, time) {
 async function saveScoreFailed(lastHS) {
   try {
       const updatedApiKey = await updateToken();
-      const url = `${api_server_url}&f=i&t=${dateTime}&game=kuisJawabanSalah&opt=kuis&unit=salah&val=${lastHS}&name=Anonim&key=${updatedApiKey}`;
+      const url = `${api_server_url}&f=i&t=${getCurrentDateTime()}&game=kuisJawabanSalah&opt=kuis&unit=salah&val=${lastHS}&name=Anonim&key=${updatedApiKey}`;
 
       for (let attempt = 0; attempt < maxRetryToApiServer; attempt++) {
           //console.log(`Attempt ${attempt + 1}: saveScoreFailed URL : ${url}`);
