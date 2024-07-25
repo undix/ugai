@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <title>Perpustakaan Nirkabel::Tebak Kata</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
+    <link href="/assets/plugins/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/assets/plugins/chartjs/chart.js"></script>
+    <script src="/assets/plugins/chartjs/chartjs-adapter-date-fns"></script>
+    <script src="/assets/plugins/chartjs/simple-statistics"></script>
+    <link rel="stylesheet" href="/assets/css/fonts.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <img src="/assets/images/logo-white.png" alt="" style="height: 65px;">
+          </div>
+          <div class="col">
+            <h1>Permainan Tebak Kata</h1>
+          </div>
+        </div>
+      </div>
+    </header>    
+    <div class="container mt-3">
+    <!-- Navigasi Tab -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="tab-01" data-bs-toggle="tab" data-bs-target="#beranda" type="button" role="tab" aria-controls="home" aria-selected="true">Tebak Kata</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-02" data-bs-toggle="tab" data-bs-target="#jawara" type="button" role="tab" aria-controls="jawara" aria-selected="false">Jawara</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-03" data-bs-toggle="tab" data-bs-target="#chart-dist-page" type="button" role="tab" aria-controls="chart-dist-page" aria-selected="false">Skor</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="tab-03" data-bs-toggle="tab" data-bs-target="#chart-difficulty-page" type="button" role="tab" aria-controls="chart-difficulty-page" aria-selected="false">Tingkat Kesulitan</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+
+      <div class="tab-pane fade show active" id="beranda" role="tabpanel" aria-labelledby="tab-01">
+          <div class="wrapper">
+            <p id="topik"></p>
+            <div id="hold"></div>
+            <p id="mylives"></p>
+            <div id="buttons"></div>
+            <p id="clue"></p>
+            <div class="container">
+              <button id="hint">Petunjuk</button>
+              <button id="reset">Main lagi</button>
+            </div>
+          </div>
+      </div>
+
+      <div class="tab-pane fade" id="jawara" role="tabpanel" aria-labelledby="tab-02">
+        <div id="list-top-score">Belum ada data</div>
+      </div>
+
+      <div class="tab-pane fade" id="chart-dist-page" role="tabpanel" aria-labelledby="tab-03">
+        <div class="wrapper">
+          <canvas id="chart-scatter-plot">Belum ada data</canvas>
+          <div>
+            <p>
+              Grafik scatter plot di atas menampilkan sebaran skor permainan 1-2-3. 
+              Setiap titik pada grafik di bawah ini mewakili skor satu kali permainan. 
+              Sumbu mendatar menunjukkan tanggal permainan, sementara sumbu vertikal menunjukkan skor. 
+            </p>
+            <p>
+              Grafik ini membantu mengidentifikasi pola atau tren dalam performa pemain, seperti:
+              <ul>
+                <li>apakah skor cenderung meningkat, menurun, atau tetap stabil seiring waktu</li>
+                <li>apakah ada kesenjangan kemampuan pemain yang mencolok</li>
+              </ul>
+            </p>  
+            </div>
+          <div class="container">
+            <p><div class="button" id="unduh-chart-scatter-csv"></div> 
+            <div class="button" id="unduh-chart-scatter-image"></div></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="chart-difficulty-page" role="tabpanel" aria-labelledby="tab-04">
+        <p>
+          Tingkat Kesulitan dihitung dengan mencari rasio jawaban yang salah terhadap total jawaban. 
+          Gunakan blanko pencarian untuk mencari topik/pertanyaan yang hendak diperiksa.
+        </p>
+        <hr />
+        <input type="text" id="searchInput" placeholder="Cari pertanyaan..." onkeyup="filterQuestions()">
+        <div id="progressBarsContainer">Belum ada data</div>
+      </div>     
+    </div>
+    <!-- Modal di luar tab panel -->
+    <div class="modal fade" id="playerNameModal" tabindex="-1" aria-labelledby="playerNameModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="playerNameModalLabel">Laporkan Keberhasilanmu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Informasi tentang game akan muncul di sini.</p>
+            <input type="text" class="form-control" id="playerNameInput" placeholder="Masukkan nama/inisial Anda" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+            <button type="button" class="btn btn-primary" onclick="submitPlayerName()">Laporkan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <script src="/assets/plugins/jquery/3.6.0/js/jquery.min.js"></script>
+    <script src="/assets/plugins/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/plugins/papaparse/papaparse.min.js"></script>
+    <script src="/assets/plugins/komugai/js/helpers.js"></script>  
+    <script src="js/hangman.js"></script>
+  </body> 
+</html>

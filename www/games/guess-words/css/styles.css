@@ -1,0 +1,177 @@
+body {
+  background: #ffffff;
+  font-family: "Lato", sans-serif;
+  color: #333333; /* Warna teks lebih gelap untuk kontras tinggi */
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cd__main {
+  background: #ffffff; /* Warna latar lebih cerah dari tema untuk kontras tinggi */
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+canvas {
+  color: #000000; /* Warna teks di dalam canvas menjadi hitam untuk kontras */
+  padding: 15px;
+  background: #ffffff; /* Menetapkan warna latar canvas menjadi putih */
+}
+
+h1, h2, h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold; /* Perbaiki font-weight dari 32px menjadi bold */
+  text-transform: uppercase;
+  margin: 5px 0;
+  color: #006bb2; /* Warna teks sesuai tema */
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+#topik {
+  font-size: 1.6em;
+  color: #006bb2; /* Warna teks sesuai tema */
+}
+
+#alphabet {
+  margin: 12px auto;
+  padding: 0;
+  max-width: 900px;
+}
+
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 45px;
+  height: 45px;
+  padding-top: 10px;
+  background: #006bb2; /* Warna latar sesuai tema */
+  color: #ffffff; /* Warna teks untuk kontras tinggi */
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 1px #045a8d; /* Warna border lebih gelap untuk kontras tinggi */
+}
+
+#alphabet li:hover {
+  background: #ffffff; /* Warna saat hover untuk kontras tinggi */
+  border: solid 1px #006bb2;
+  color: #006bb2; /* Warna teks saat hover sesuai tema */
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+#my-word li.active {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+
+#my-word li.active:hover {
+  opacity: 1;
+}
+
+#mylives {
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+button {
+  border-radius: 5px;
+  background: #ededed;
+  color: #333333; /* Warna teks lebih gelap untuk kontras tinggi */
+  border: solid 1px #333333; /* Warna border lebih gelap */
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover {
+  transition: all 0.3s ease-in-out;
+  background: #dcb700; /* Warna saat hover sesuai tema */
+  border: solid 1px #045a8d; /* Warna border lebih gelap */
+  color: #ffffff;
+}
+
+#playerNameModal .modal-dialog {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 60px);
+  width: 350px;
+  height: 200px;
+  margin: auto;
+}
+
+#playerNameModal .modal-body p {
+  font-size: 16px;
+}
+
+#playerNameModal .modal-footer button,
+#playerNameModal .modal-dialog button {
+  width: 90px;
+}
+
+#playerNameModal.modal.fade .modal-dialog {
+  transition: transform .3s ease-out, opacity .3s ease-out;
+  transform: scale(0.5) translateY(-50%);
+}
+
+#playerNameModal.modal.show .modal-dialog {
+  transform: scale(1) translateY(0);
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}
+
+#jawara, #chart-dist-page, #text-progress-bar{
+  text-align: left; /* Menambahkan aturan CSS untuk text-align left */
+}
