@@ -383,9 +383,7 @@ Educators can write and share their own materials here without relaying to Inter
 
 ### as community-based independent digital school
 
-A community-based independent digital school merges local engagement with digital flexibility. It tailors curricula to local culture and issues, enhancing relevance and engagement. Such schools extend educational access to those facing barriers to traditional schooling. They also foster community involvement, allowing for deeper parental and local participation in education. 
-
-This model supports local development by building educational and technological capacities and preserving cultural heritage. Overall, it combines the benefits of digital schooling, like accessibility and customization, with the strengths of community engagement, creating a dynamic and inclusive educational environment.
+Through simple games like word-guessing and quizzes, this project empowers communities to independently establish digital schools. Teachers and volunteers can use digital technology to teach local customs and traditions. This approach not only utilizes videos but also interactive games to preserve and promote cultural heritage. A hyper-local community-based independent digital school combines digital flexibility with local engagement, tailoring education to local needs and enhancing accessibility. It fosters community involvement, supports local development, and preserves cultural identity, making education more relevant and inclusive.
 
 ![Digital School](screenshot/komugai_2024.2.1_games.png)
 
