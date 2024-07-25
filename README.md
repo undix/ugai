@@ -376,10 +376,16 @@ Communications using Shoutbox proved really useful during the COVID-19 Pandemic 
 ![Dictionary](screenshot/komugai_2024.1.5_shoutbox.png)
 
 ### As mini portable blog
+
 Educators can write and share their own materials here without relaying to Internet connection.
 
 ![Blog Style](screenshot/komugai_2024.1.5_blog-style.png)
 
+### as Community-based independent digital school
+
+A community-based independent digital school merges local engagement with digital flexibility. It tailors curricula to local culture and issues, enhancing relevance and engagement. Such schools extend educational access to those facing barriers to traditional schooling. They also foster community involvement, allowing for deeper parental and local participation in education. This model supports local development by building educational and technological capacities and preserving cultural heritage. Overall, it combines the benefits of digital schooling, like accessibility and customization, with the strengths of community engagement, creating a dynamic and inclusive educational environment.
+
+![Digital School](screenshot/komugai_2024.2.1_games.png)
 
 ### As references
 
@@ -391,7 +397,8 @@ As a library, Perpustakaan Nirkabel 2024 isn’t just about tossing books and vi
 Wikipedia
 
 ![Dictionary](screenshot/komugai_2024.1.5_dict-wikipedia-2.png)
-Wikipedia
+
+#### Wikipedia Bahasa Indonesia
 
 Perpustakaan Nirkabel 2024's dictionary capabilities aren't just stuck in the land of Latin characters. Nope, this brainy library is a linguistic chameleon, ready to tackle Asian fonts like Chinese, Korean, Japanese, even Russia. Planning a trip to Indonesia? You'll be chatting like a local in no time, thanks to the handy audio pronunciations attached to every dictionary entry. Just pack this system into a tiny MR3020 router and embark on your Indonesian adventure. Impress Indonesian with their own proverbs and help them to speak with your own language. **Terima kasih!**
 
