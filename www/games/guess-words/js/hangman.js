@@ -97,7 +97,7 @@ async function getTopScoresList() {
   try {
     const updatedApiKey = await updateToken();
     const url = `${api_server_url}&f=r&game=tebakKataSukses&opt=topScores&key=${updatedApiKey}`;
-    console.log(`getTopScoresList URL : ${url}`);
+    //console.log(`getTopScoresList URL : ${url}`);
 
     apiCall(url, (error, data) => {
       if (error) {
@@ -151,7 +151,7 @@ async function displayScatterPlot() {
   try {
     const updatedApiKey = await updateToken();
     const url = `${api_server_url}&f=r&game=tebakKataSukses&opt=ScoresAll&key=${updatedApiKey}`;
-    console.log(`getTopScoresList URL : ${url}`);
+    //console.log(`displayScatterPlot URL : ${url}`);
 
     apiCall(url, (error, data) => {
       if (error) {
