@@ -3,12 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, shrink-to-fit=no" />
-  <title>Perpustakaan Nirkabel::Permainan 1-2-3</title>
-  <link
-    rel="shortcut icon"
-    href="/assets/images/favicon.png"
-    type="image/x-icon"
-  />
+  <title>Perpustakaan Nirkabel::1-2-3</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
   <link href="/assets/plugins/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="/assets/css/fonts.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
@@ -19,7 +15,16 @@
 </head>
 <body class="container-fluid">
   <header>
-    <h1>Permainan 1-2-3</h1>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <img src="/assets/images/logo.png" alt="" style="height: 65px;">
+        </div>
+        <div class="col">
+          <h1>Permainan 1-2-3</h1>
+        </div>
+      </div>
+    </div>
   </header>  
   <main>
     <div class="container mt-3">
@@ -159,7 +164,6 @@
     <li>melihat nilai rata-rata dan modus skor <strong>dengan mengabaikan waktu</strong></li>
     <li>apakah distribusi skor merata atau cenderung miring ke salah satu sisi (ada kesenjangan skor) <strong>dengan mengabaikan waktu</strong></li>
 </ul>
-
               </div>
               <div>
                 <p><div class="button" id="unduh-chart-dist-csv"></div></p>
@@ -197,7 +201,7 @@
   
   <script src="/assets/plugins/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/plugins/komugai/js/helpers.js"></script>  
-  <script src="js/phaser.min.js"></script>
-  <script src="js/123.js"></script>
+  <script src="/assets/plugins/phaser/js/phaser.min.js"></script>
+  <script src="/assets/plugins/phaser/js/123.js"></script>
 </body>
 </html>

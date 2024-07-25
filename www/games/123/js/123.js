@@ -13,10 +13,10 @@ window.onload = function () {
   var score = 0;
   var scoreText;
   var isGameOver = false;
-  var topScoreName;
-  var topScoreNumber;
-  var topScoreDate;
-  var topScore;
+  //var topScoreName;
+  //var topScoreNumber;
+  //var topScoreDate;
+  //var topScore;
   var numbersArray = [-3, -2, -1, 1, 2, 3];
 
   window.submitPlayerName = submitPlayerName; // Pastikan fungsi ini tersedia di cakupan global
@@ -26,7 +26,7 @@ window.onload = function () {
     try {
       const updatedApiKey = await updateToken();
       const url = `${api_server_url}&f=r&game=1-2-3&opt=ScoresAll&key=${updatedApiKey}`;
-      console.log(`getTopScoresList URL : ${url}`);
+      //console.log(`getTopScoresList URL : ${url}`);
 
       apiCall(url, (error, data) => {
         if (error) {
@@ -68,8 +68,8 @@ window.onload = function () {
             datasets: [
               {
                 data: bins,
-                backgroundColor: "rgba(75, 192, 192, 0.2)",
-                borderColor: "rgba(75, 192, 192, 1)",
+                backgroundColor: "rgba(75, 128, 192, 0.2)",
+                borderColor: "rgba(75, 128, 192, 1)",
                 borderWidth: 1,
               },
             ],
@@ -96,7 +96,7 @@ window.onload = function () {
               },
               title: {
                 display: true,
-                text: "Kelompok Skor Permainan 1-2-3 di Perpustakaan Nirkabel ("+ getCurrentDate()  +")",
+                text: "Kelompok Skor Permainan 1-2-3 di Perpustakaan Nirkabel (sampai dengan "+ getCurrentDate()  +")",
                 font: {
                   size: 14,
                   family: "Lato",
@@ -150,7 +150,7 @@ async function displayScatterPlot() {
   try {
     const updatedApiKey = await updateToken();
     const url = `${api_server_url}&f=r&game=1-2-3&opt=ScoresAll&key=${updatedApiKey}`;
-    console.log(`getTopScoresList URL : ${url}`);
+    //console.log(`getTopScoresList URL : ${url}`);
 
     apiCall(url, (error, data) => {
       if (error) {
@@ -178,7 +178,7 @@ async function displayScatterPlot() {
           datasets: [
             {
               data: scores,
-              backgroundColor: "rgba(75, 192, 192, 0.2)",
+              backgroundColor: "#002D68",
               borderColor: "rgba(75, 192, 192, 1)",
               borderWidth: 1,
             },
@@ -209,7 +209,7 @@ async function displayScatterPlot() {
               },
               title: {
                 display: true,
-                text: "Tanggal Permainan",
+                text: "Tanggal",
               },
             },
             y: {
@@ -226,7 +226,7 @@ async function displayScatterPlot() {
             },
             title: {
               display: true,
-              text: "Skor Permainan 1-2-3 di Perpustakaan Nirkabel ("+ getCurrentDate()  +")",
+              text: "Skor Permainan 1-2-3 di Perpustakaan Nirkabel (sampai dengan "+ getCurrentDate()  +")",
               font: {
                 size: 14,
                 family: "Lato",
@@ -281,7 +281,7 @@ async function displayScatterPlot() {
     try {
       const updatedApiKey = await updateToken();
       const url = `${api_server_url}&f=r&game=1-2-3&opt=topScores&key=${updatedApiKey}`;
-      console.log(`getTopScoresList URL : ${url}`);
+      //console.log(`getTopScoresList URL : ${url}`);
 
       apiCall(url, (error, data) => {
         if (error) {
@@ -335,10 +335,11 @@ async function displayScatterPlot() {
     try {
       const updatedApiKey = await updateToken();
       const url = `${api_server_url}&f=r&game=1-2-3&opt=topScore&key=${updatedApiKey}`;
-      console.log(`setHighestScore URL : ${url}`);
+      //(`setHighestScore URL : ${url}`);
       apiCall(url, (data) => {
-        if (!data || !data.score || !data.name || !data.date) {
-          console.error("Invalid data received from API:", data);
+        //if (!data || !data.score || !data.name || !data.date) {
+          if (!data) {
+          console.error("Invalid respons from API:", data);
           return;
         }
 
@@ -348,9 +349,7 @@ async function displayScatterPlot() {
         topScoreName = data.name;
         topScoreNumber = data.score;
         topScoreDate = data.date;
-        console.log(
-          `topScoreNumber: ${data.score}, topScoreName: ${data.name}, topScoreDate: ${data.date}`
-        );
+        //console.log(`topScoreNumber: ${data.score}, topScoreName: ${data.name}, topScoreDate: ${data.date}`);
       });
     } catch (error) {
       console.error("Error updating the API key:", error);
@@ -374,7 +373,7 @@ async function displayScatterPlot() {
   function submitPlayerName() {
     const playerNameInput = document.getElementById("playerNameInput").value;
     if (playerNameInput) {
-      console.log(playerNameInput);
+      //console.log(playerNameInput);
       const nameModal = bootstrap.Modal.getInstance(
         document.getElementById("nameModal")
       );
@@ -387,7 +386,7 @@ async function displayScatterPlot() {
       };
       localStorage.setItem("playerName", JSON.stringify(item));
     } else {
-      console.log("Player name input is empty.");
+      //console.log("Player name input is empty.");
       saveScoreHelper("1-2-3", Anonim, score, "skor", "1-2-3Skor");
     }
   }
@@ -402,9 +401,7 @@ async function displayScatterPlot() {
   function onCreate() {
     setHighestScore();
     topScore =
-      localStorage.getItem("topScoreNumber") == null
-        ? 0
-        : localStorage.getItem("topScoreNumber");
+      localStorage.getItem("topScoreNumber") == null ? 0 : localStorage.getItem("topScoreNumber");
     game.stage.backgroundColor = "#FFFFFF";
     game.stage.disableVisibilityChange = true;
 
@@ -421,13 +418,7 @@ async function displayScatterPlot() {
     scoreText = game.add.text(10, 10, "-", { font: "bold 18px Lato" });
 
     for (var i = 0; i < 3; i++) {
-      var numberButton = game.add.button(
-        50,
-        250 + i * 75,
-        "buttons",
-        checkAnswer,
-        this
-      );
+      var numberButton = game.add.button( 50, 250 + i * 75, "buttons", checkAnswer, this);
       numberButton.frame = i;
     }
 
@@ -436,7 +427,7 @@ async function displayScatterPlot() {
   }
 
   function gameOver(gameOverString) {
-    game.stage.backgroundColor = "#ff0000";
+    game.stage.backgroundColor = "#A40404";
     questionText.text = questionText.text + " = " + gameOverString;
     isGameOver = true;
     showForm();
