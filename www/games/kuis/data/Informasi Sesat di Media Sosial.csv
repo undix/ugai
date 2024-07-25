@@ -1,0 +1,11 @@
+question;choice1;choice2;choice3;choice4;answer
+Jika jumlah hoaks yang tersebar di media sosial meningkat dua kali lipat setiap bulan, dan ada 10 hoaks di bulan pertama, berapa banyak hoaks setelah 3 bulan?;30 hoaks;40 hoaks;80 hoaks;100 hoaks;80 hoaks
+Jika x adalah jumlah hoaks yang disebarkan dalam satu minggu dan jumlah tersebut bertambah 5 setiap minggunya, apa persamaan untuk jumlah hoaks setelah n minggu?;x + 5n;x + n;x + 5;5x + n;x + 5n
+Jika jumlah hoaks yang ditangani dalam satu bulan adalah 4 kali jumlah hoaks yang terdeteksi, dan ada 15 hoaks yang terdeteksi, berapa jumlah hoaks yang ditangani?;60;45;30;75;60
+Jika y adalah jumlah orang yang percaya pada hoaks dan jumlah tersebut berkurang 10% setiap bulan, apa persamaan untuk jumlah orang yang percaya setelah t bulan?;y(1 - 0,1t);y(0,9)^t;y - 0,1t;y + 0,9t;y(0,9)^t
+Jika z adalah jumlah akun yang menyebarkan hoaks dan jumlahnya berkurang setengah setiap minggu, berapa jumlah akun yang tersisa setelah 4 minggu jika awalnya ada 64 akun?;8;4;16;2;4
+Jika jumlah hoaks meningkat 3 kali lipat setiap minggu dan ada 5 hoaks di awal minggu, berapa jumlah hoaks setelah 2 minggu?;15;30;45;60;45
+Jika jumlah hoaks yang berhasil dibantah setiap hari adalah y dan jumlah tersebut bertambah 2 setiap hari, apa persamaan untuk jumlah hoaks yang berhasil dibantah setelah x hari?;y + 2x;y + x;y + 2;2y + x;y + 2x
+Jika jumlah hoaks yang diterima oleh pengguna media sosial setiap hari adalah y dan meningkat 5% setiap hari, apa persamaan untuk jumlah hoaks setelah d hari?;y(1 + 0,05d);y(1,05)^d;y + 0,05d;y(0,95)^d;y(1,05)^d
+Jika x adalah jumlah hoaks yang disebarkan per hari dan jumlahnya meningkat 4 kali lipat setiap minggu, berapa jumlah hoaks yang disebarkan setelah 2 minggu jika x = 10?;40;160;320;640;160
+Jika jumlah hoaks yang beredar adalah x dan meningkat 2 kali lipat setiap hari, apa persamaan untuk jumlah hoaks setelah n hari?;x + 2n;x * 2n;x(2^n);x^n * 2;x(2^n)

@@ -1,0 +1,99 @@
+header {
+  padding: 20px;
+  background-color: hsl(0, 82%, 30%);
+}
+
+h1,
+h3 {
+  color: seashell;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: seashell;
+  font-weight: bold;
+}
+
+.countdown {
+  font-size: 15px;
+  color: seashell;
+}
+
+a {
+  color: seashell;
+  font-size: 15px;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: rgb(77, 34, 34);
+}
+
+.quizBox,
+.gameOver,
+.myButton {
+  text-align: center;
+  justify-content: center;
+}
+
+.answerButtons,
+.theButtons {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 8px;
+  background-color: #ecf5ff;
+}
+
+.btn:hover {
+  background-color: #0092e1;
+  color: white;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.footer {
+  color: seashell;
+  padding: 20px;
+  border-top: 2px solid;
+  background-color: #9c9c9c;
+}
+
+.userInput {
+  margin-bottom: 10px;
+  border: solid;
+}
+
+.userInput:focus {
+  background-color: #ecf5ff;
+}
+
+#chart-container {
+  width: 100%; /* Mengambil 100% dari elemen induk */
+  padding: 0 5%; /* Margin untuk kesan 90% */
+  box-sizing: border-box;
+}
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
