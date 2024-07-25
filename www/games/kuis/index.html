@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perpustakaan Nirkabel::Kuis</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="/assets/plugins/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/assets/plugins/chartjs/chart.js"></script>
+    <script src="/assets/plugins/chartjs/chartjs-adapter-date-fns"></script>
+    <script src="/assets/plugins/chartjs/simple-statistics"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="container-fluid">
+    <header>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <img src="/assets/images/logo.png" alt="" style="height: 65px;">
+        </div>
+        <div class="col">
+          <h1>Permainan Kuis</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div class="container mt-3">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="01-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#tab_01"
+            type="button"
+            role="tab"
+            aria-controls="tab_01"
+            aria-selected="true"
+          >
+            Kuis
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="02-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#tab_02"
+            type="button"
+            role="tab"
+            aria-controls="tab_02"
+            aria-selected="false"
+          >
+            Jawara
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="03-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#tab_03"
+            type="button"
+            role="tab"
+            aria-controls="tab_03"
+            aria-selected="false"
+          >
+            Skor
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="04-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#tab_04"
+            type="button"
+            role="tab"
+            aria-controls="tab_04"
+            aria-selected="false"
+          >
+            Tingkat Kesulitan
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="tutorial-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#tab_05"
+            type="button"
+            role="tab"
+            aria-controls="tab_05"
+            aria-selected="false"
+          >
+          Tanya-Jawab
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div
+          class="tab-pane fade show active"
+          id="tab_01"
+          role="tabpanel"
+          aria-labelledby="01-tab"
+        >
+          <section class="row justify-content-center mt-5">
+            <section class="col-sm-6 border border-secondary">
+              <header class="row justify-content-center text-center">
+                <div id="quiz_title">Daftar Pertanyaan Belum Terpilih</div>
+                <section class="countdown text-end" id="timer"></section>
+                <section class="countdown text-end" id="timeToThinkDisplay"></section>
+              </header>
+              <main class="mt-3 mb-3">
+                <section class="gameOver"></section>
+                <section class="quizBox"></section>
+                <section class="myButton"></section>
+                <section class="answerButtons visibility"></section>
+              </main>
+              <footer class="row justify-content-center text-center footer">
+                <p id="result"></p>
+                <p id="score"></p>
+              </footer>
+            </section>
+          </section>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tab_02"
+          role="tabpanel"
+          aria-labelledby="02-tab"
+        >
+          <div id="list-top-score">Belum ada data</div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tab_03"
+          role="tabpanel"
+          aria-labelledby="03-tab"
+        >
+          <p>
+            Setiap titik di dalam grafik ini memperlihatkan kecepatan menjawab setiap hari mulai dari tercepat sampai terlama.
+          </p>
+          
+            <canvas id="chart-durasi-bermain">Belum ada data</canvas>
+            <div>
+              <p>
+                Grafik scatter plot di atas menampilkan sebaran skor permainan kuis. 
+                Setiap titik pada grafik di bawah ini mewakili skor satu kali permainan. 
+                Sumbu mendatar menunjukkan tanggal permainan, sementara sumbu vertikal menunjukkan skor. 
+              </p>
+              <p>
+                Grafik ini membantu mengidentifikasi pola atau tren dalam performa pemain, seperti:
+                <ul>
+                  <li>apakah skor cenderung meningkat, menurun, atau tetap stabil seiring waktu</li>
+                  <li>apakah ada kesenjangan kemampuan pemain yang mencolok</li>
+                </ul>
+              </p>  
+              </div>
+            <div>
+              <p><div id="unduh-durasi-scatter-csv"></div></p>
+              <p><div id="unduh-durasi-scatter-image"></div></p>
+            </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tab_04"
+          role="tabpanel"
+          aria-labelledby="04-tab"
+        >
+          <h4>Tingkat Kesulitan Soal Relatif Terhadap Populasi</h4>
+          <p>
+            Tingkat Kesulitan dihitung dengan mencari rasio jawaban yang salah terhadap total jawaban. 
+            Gunakan blanko pencarian untuk mencari topik/pertanyaan yang hendak diperiksa.
+          </p>
+          <hr />
+          <input type="text" id="searchInput" placeholder="Cari pertanyaan..." onkeyup="filterQuestions()">
+          <div id="progressBarsContainer">Belum ada data</div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="tab_05"
+          role="tabpanel"
+          aria-labelledby="tutorial-tab"
+        >
+          <div id="list-faq"></div>
+        </div>
+      </div>
+    </div>
+    <footer><hr /></footer>
+  </body>
+  <script src="/assets/plugins/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/plugins/komugai/js/helpers.js"></script>  
+  <script src="/assets/plugins/papaparse/papaparse.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
