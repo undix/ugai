@@ -83,3 +83,156 @@
        url(var(--appServerPath)+'/assets/fonts/lato/lato-v16-latin_latin-ext-900italic.svg#Lato') format('svg'); /* Legacy iOS */
 }
 
+/* NotoSans-Black.ttf */
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Black'), local('NotoSans-Black'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Black Italic'), local('NotoSans-BlackItalic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-BlackItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Bold'), local('NotoSans-Bold'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Bold Italic'), local('NotoSans-BoldItalic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-BoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Extra Bold'), local('NotoSans-ExtraBold'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-ExtraBold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Extra Bold Italic'), local('NotoSans-ExtraBoldItalic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-ExtraBoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Regular'), local('NotoSans-Regular'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Medium'), local('NotoSans-Medium'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Medium Italic'), local('NotoSans-MediumItalic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-MediumItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Extra Light'), local('NotoSans-ExtraLight'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-ExtraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Light Extra Italic'), local('NotoSans-ExtraLightItalic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-ExtraLightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Light'), local('NotoSans-Light'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Light Italic'), local('NotoSans-LightItalic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Italic'), local('NotoSans-Italic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Semi Bold Italic'), local('NotoSans-SemiBoldItalic'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-SemiBoldItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Semi Bold'), local('NotoSans-SemiBold'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-SemiBold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+
+
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: bold;
+  font-weight: 900;
+  src: local('NotoSans Thin'), local('NotoSans-Thin'),
+       url(var(--appServerPath)+'/assets/fonts/noto/NotoSans-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
