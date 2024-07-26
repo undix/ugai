@@ -1,4 +1,3 @@
-
 var timerDisplay = document.querySelector("#timer");
 var timeToThinkDisplay = document.querySelector("#timeToThinkDisplay");
 var timeToThinkTotalDisplay = document.querySelector("#timeToThinkTotal");
@@ -221,7 +220,8 @@ async function durasi() {
               text: "Sebaran Skor Harian Permainan Kuis di Perpustakaan Nirkabel (sampai dengan "+ getCurrentDate()  +")",
               font: {
                 size: 16,
-                family: "Lato"
+                family: "NotoSans, Lato, Roboto"
+
               }
             }
           }
@@ -296,28 +296,16 @@ async function fetchTopScores() {
     }
 
     var rank = 0;
-    let tableHTML = `<table class="table">
-                      <thead>
-                          <tr>
-                              <th width=\"10\">Peringkat</th>
-                              <th>Nama</th>
-                              <th width=\"20\">Nilai</th>
-                              <th>Tanggal</th>
-                          </tr>
-                      </thead>
-                      <tbody>`;
-
+    let tableHTML = `<div class="table-responsive-md"><table class="table table-striped">
+                      <caption>Daftar jawara diambil berdasarkan akumulasi skor</caption>
+                      <thead><tr><th width=\"10\">Peringkat</th><th width=\"470\">Nama</th><th width=\"20\">Skor</th><th width=\"100\">Tanggal</th></tr></thead><tbody>`;
+                          
     data.forEach((item) => {
       rank++;
-      tableHTML += `<tr>
-                        <td>${rank}</td>
-                        <td>${item.name}</td>
-                        <td>${item.score}</td>
-                        <td>${item.date}</td>
-                      </tr>`;
+      tableHTML += `<tr><td>${rank}</td><td>${item.name}</td><td>${item.score}</td><td>${item.date}</td></tr>`;
     });
 
-    tableHTML += "</tbody></table>";
+    tableHTML += "</tbody></table></div>";
     tableElement.innerHTML = tableHTML;
   } catch (error) {
     console.error("Error fetching data:", error);
@@ -450,7 +438,7 @@ function updateTimer() {
       gameOver();
     } else {
       timeLeft--;
-      timerDisplay.textContent = "sisa waktu berpikir: " + timeLeft + " detik";
+      timerDisplay.textContent = "Sisa waktu berpikir: " + timeLeft + " detik";
       timeToThink++;
       timeToThinkDisplay.textContent ="Kamu sudah berpikir " + timeToThink + " detik untuk pertanyaan ini";
       timeToThinkTotal++;
@@ -558,6 +546,13 @@ function getQuestion() {
   option4.onclick = selectAnswer;
 }
 
+// Fungsi untuk menghapus item spesifik dari localStorage
+function resetLocalData() {
+  localStorage.removeItem("berkasTerpilih");
+  //localStorage.removeItem("nama");
+  //localStorage.removeItem("nilai");
+}
+
 // Function to be called when answer buttons are clicked
 function selectAnswer(event) {
   // Set variable for the current target of the click event
@@ -588,26 +583,39 @@ function selectAnswer(event) {
 
 // Function to get the selected files from localStorage
 function getStoredSelectedFiles() {
-  const storedData = localStorage.getItem("berkasPertanyaanTerpilih");
-  if (storedData) {
+  const storedData = localStorage.getItem("berkasTerpilih");
+  if (storedData && storedData !== "0" && storedData !== "false") {
     const { selectedFiles, expiration } = JSON.parse(storedData);
     if (new Date().getTime() < expiration) {
       return selectedFiles;
     } else {
-      localStorage.removeItem("berkasPertanyaanTerpilih");
+      localStorage.removeItem("berkasTerpilih");
     }
   }
   return [];
 }
 
+
+// Fungsi untuk menangani kasus ketika semua berkas sudah dibaca
+function handleAllFilesUsed() {
+    console.log("All files have been used. Resetting the list.");
+    document.getElementById("quiz_title").innerHTML = '<h4 class="text text-warning">' + '<p class="text text-small text-warning">Pertanyaan untuk perangkat ini sudah ludes.</p>';
+    // Tampilkan alert
+    //alert("Pertanyaan sudah ludes terlontar! Mohon menunggu 30 menit lagi. Silakan kontak pengelola Perpustakaan Nirkabel untuk membuat pertanyaan baru atau tunggu 30 menit lagi.");
+    // Kosongkan seluruh localStorage yang digunakan
+    //resetLocalData();
+    // Redirect ke halaman index.html#tab_04
+    //window.location.href = my_game_server;
+}
+
 // Function to store the selected files in localStorage with an expiration time
 function storeSelectedFiles(selectedFiles) {
-  const expiration = new Date().getTime() + 1 * 60 * 60 * 1000; // 1 hours expiration
+  const expiration = new Date().getTime() + 1 * 25 * 60 * 1000; //kadaluwarsa
   const data = {
     selectedFiles,
     expiration,
   };
-  localStorage.setItem("berkasPertanyaanTerpilih", JSON.stringify(data));
+  localStorage.setItem("berkasTerpilih", JSON.stringify(data));
 }
 
 // Function to fetch and parse the index CSV file
@@ -620,7 +628,6 @@ function fetchIndex() {
         delimiter: ";",
         complete: function (results) {
           const csvFiles = results.data.map((row) => `${row.file}`);
-          //console.log("CSV Files:", csvFiles); // Debugging: Log list of CSV files
           fetchQuestions(csvFiles); // Pass the list of CSV files to fetchQuestions
         },
       });
@@ -635,12 +642,9 @@ function fetchQuestions(csvFiles) {
     (file) => !selectedFiles.includes(file)
   );
 
-  // If all files have been used, reset the selectedFiles array
+  // If all files have been used
   if (availableFiles.length === 0) {
-    console.log("All files have been used. Resetting the list.");
-    selectedFiles = [];
-    storeSelectedFiles(selectedFiles); // Store the reset list in localStorage
-    fetchQuestions(csvFiles); // Retry with all files available
+    handleAllFilesUsed();
     return;
   }
 
@@ -651,7 +655,7 @@ function fetchQuestions(csvFiles) {
       var randomIndex = Math.floor(Math.random() * availableFiles.length);
       selectedFile = availableFiles[randomIndex];
       //console.log("Selected file:", selectedFile); // Debugging: Log selected file
-    } while (selectedFile === "index.csv");
+    } while (selectedFile === "index.csv"); //tangkal penyusup
 
   // Record the selected file
   selectedFiles.push(selectedFile);
@@ -666,8 +670,8 @@ function fetchQuestions(csvFiles) {
   //console.log("Quiz Title:", quiz_title); // Debugging: Log quiz title
 
   // Set the quiz title in the HTML
-  document.getElementById("quiz_title").innerHTML =
-    "<h2>" + quiz_title + "</h2>";
+  document.getElementById("quiz_title").innerHTML = "<h2>" + quiz_title + "</h2>";
+    
 
   //setTimeBasedOnTitle(); // Set the timer based on the quiz title
 
@@ -712,4 +716,3 @@ document.addEventListener("DOMContentLoaded", fetchTopScores);
 document.addEventListener("DOMContentLoaded", durasi);
 document.addEventListener("DOMContentLoaded", tingkat_kesulitan);
 document.addEventListener("DOMContentLoaded", faq);
-
