@@ -128,6 +128,13 @@ fi
 # get disk info
 disk_info
 
+# rebuild index.csv for quiz game
+if [ -d "${my_http_dir}/games/kuis/data" ]; then
+	echo "file" > "${my_http_dir}/games/kuis/data/index.csv"
+	find "${my_http_dir}/games/kuis/data" -maxdepth 1 -type f -name "*.csv" ! -name "index.csv" -exec basename {} \; >> "${my_http_dir}/games/kuis/data/index.csv"
+	
+fi
+
 # refresh nodogsplash.conf
 if [ -f "${my_install_dir}/nodogsplash.conf" ]; then
 	/etc/init.d/nodogsplash stop
