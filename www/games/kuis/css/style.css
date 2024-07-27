@@ -1,3 +1,7 @@
+body {
+  font-family: Lato, Roboto, sans-serif;
+}
+
 header {
   padding: 20px;
   background-color: hsl(0, 82%, 30%);

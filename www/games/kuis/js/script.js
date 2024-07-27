@@ -217,10 +217,10 @@ async function durasi() {
             },
             title: {
               display: true,
-              text: "Sebaran Skor Harian Permainan Kuis di Perpustakaan Nirkabel (sampai dengan "+ getCurrentDate()  +")",
+              text: "Sebaran Skor Permainan Kuis di Perpustakaan Nirkabel (sampai dengan "+ getCurrentDate()  +")",
               font: {
                 size: 16,
-                family: "NotoSans, Lato, Roboto"
+                family: "NotoSans, Lato, Roboto, Sans-serif",
 
               }
             }
@@ -412,12 +412,7 @@ function rulesFirst() {
   var rulesFirst = document.createElement("p");
   rulesFirst.setAttribute("style", "margin-bottom: 10px");
   rulesFirst.setAttribute("id", "rulesFirst");
-  rulesFirst.textContent =
-    "Jawablah pertanyaan seputar '" +
-    quiz_title +
-    "' dalam " +
-    timeLeftMinutes +
-    " menit per pertanyaan.";
+  rulesFirst.textContent = "Jawablah pertanyaan seputar '" + quiz_title + "' dalam " + timeLeftMinutes + " menit per pertanyaan.";
   quizBox.appendChild(rulesFirst);
   // Create start button, append it to quizBox and add click event
   var startButton = document.createElement("button");
@@ -595,17 +590,9 @@ function getStoredSelectedFiles() {
   return [];
 }
 
-
 // Fungsi untuk menangani kasus ketika semua berkas sudah dibaca
 function handleAllFilesUsed() {
-    console.log("All files have been used. Resetting the list.");
-    document.getElementById("quiz_title").innerHTML = '<h4 class="text text-warning">' + '<p class="text text-small text-warning">Pertanyaan untuk perangkat ini sudah ludes.</p>';
-    // Tampilkan alert
-    //alert("Pertanyaan sudah ludes terlontar! Mohon menunggu 30 menit lagi. Silakan kontak pengelola Perpustakaan Nirkabel untuk membuat pertanyaan baru atau tunggu 30 menit lagi.");
-    // Kosongkan seluruh localStorage yang digunakan
-    //resetLocalData();
-    // Redirect ke halaman index.html#tab_04
-    //window.location.href = my_game_server;
+    document.getElementById("quiz_title").innerHTML = '<h4 class="text text-warning">Selesai/Finished!</h4><p class="text text-small text-info">Pertanyaan sudah habis! Mintalah paket pertanyaan baru kepada pengelola perpustakaan ini atau tunggu 30 menit untuk mengulangi.</p><p class="text text-small text-info">All out of questions! Ask your library wizard or wait 30 minutes.</p>';
 }
 
 // Function to store the selected files in localStorage with an expiration time
