@@ -1,0 +1,21 @@
+question;choice1;choice2;choice3;choice4;answer
+Jika dinding berwarna merah atau biru dan tidak berwarna hijau, maka dinding berwarna?;Merah;Biru;Hijau;Kuning;Merah
+Sebuah rumah memiliki 4 kamar tidur. Jika setiap kamar tidur memiliki 2 jendela, berapa total jendela?;6;8;10;12;8
+Jika sebuah ruang tamu memiliki sofa atau kursi dan tidak memiliki meja, maka ruang tamu memiliki?;Sofa;Kursi;Meja;Karpet;Sofa
+Jika warna dinding adalah hijau jika dan hanya jika warna pintu adalah putih, dan pintu berwarna putih. Maka warna dinding adalah?;Hijau;Putih;Merah;Biru;Hijau
+Jika semua kursi di rumah adalah biru dan meja adalah hijau, berapa banyak kursi biru di rumah dengan 6 kursi?;3;4;6;8;6
+Sebuah rumah memiliki taman atau kolam renang tetapi tidak keduanya. Jika ada taman, maka tidak ada?;Taman;Kolam;Garasi;Dapur;Kolam
+Jika semua jendela di rumah adalah besar dan beberapa jendela adalah kaca, maka beberapa jendela besar adalah?;Kaca;Kecil;Kayu;Plastik;Kaca
+Jika setiap kamar tidur memiliki 1 lampu dan ada 5 kamar tidur, berapa total lampu?;4;5;6;7;5
+Jika pintu berwarna biru atau merah, dan tidak keduanya. Jika pintu tidak biru, maka pintu?;Hijau;Putih;Merah;Kuning;Merah
+Jika sebuah rumah memiliki ruang tamu atau dapur, tetapi tidak keduanya. Jika ada ruang tamu, maka tidak ada?;Kamar;Dapur;Garasi;Kebun;Dapur
+Jika semua kursi adalah kayu dan beberapa kursi adalah rotan, maka beberapa kursi kayu adalah?;Plastik;Rotan;Besi;Busa;Rotan
+Jika semua lampu di rumah adalah LED dan ada 10 lampu, berapa banyak lampu LED?;8;9;10;11;10
+Jika dinding berwarna merah atau putih dan tidak berwarna hitam, maka dinding berwarna?;Hitam;Hijau;Merah;Biru;Merah
+Jika setiap ruang tamu memiliki karpet dan ada 3 ruang tamu, berapa total karpet?;2;3;4;5;3
+Jika ada taman atau garasi, tetapi tidak keduanya. Jika ada garasi, maka tidak ada?;Kamar;Taman;Dapur;Ruang;Taman
+Jika semua meja adalah kayu dan beberapa meja adalah kaca, maka beberapa meja kayu adalah?;Plastik;Besi;Kaca;Busa;Kaca
+Jika semua lampu adalah LED dan ada 6 kamar dengan 1 lampu di tiap kamar, berapa banyak lampu LED?;4;5;6;7;6
+Jika warna dinding adalah biru jika dan hanya jika warna lantai adalah putih, dan lantai berwarna putih. Maka warna dinding adalah?;Merah;Putih;Hijau;Biru;Biru
+Jika setiap kamar mandi memiliki 2 cermin dan ada 4 kamar mandi, berapa total cermin?;6;8;10;12;8
+Jika semua pintu adalah kayu dan beberapa pintu adalah kaca, maka beberapa pintu kayu adalah?;Besi;Busa;Kaca;Plastik;Kaca

@@ -1,0 +1,21 @@
+question;choice1;choice2;choice3;choice4;answer
+Saya mencatat jumlah poin yang saya dapatkan dalam 5 pertandingan basket. Jika rata-rata poin saya adalah 20, berapa total poin saya?;80;90;100;110;100
+Saya memiliki data hasil pertandingan catur selama 30 hari. Jika median dari data tersebut adalah 15, apa arti median dalam konteks ini?;Nilai rata-rata;Nilai tengah;Nilai maksimum;Nilai minimum;Nilai tengah
+Saya mencatat jumlah permainan tenis yang saya menangkan dalam bilangan biner. Jika jumlah kemenangan adalah 13, berapa dalam biner?;1001;1011;1101;1110;1101
+Saya ingin mengetahui probabilitas memenangkan pertandingan bulutangkis dari total 25 pertandingan dengan 10 kemenangan. Berapa probabilitas tersebut?;0.2;0.4;0.5;0.6;0.4
+Saya menghitung modus dari data jumlah kemenangan tenis meja. Jika modus adalah 8, apa arti modus dalam konteks ini?;Nilai rata-rata;Nilai tengah;Nilai yang paling sering muncul;Nilai minimum;Nilai yang paling sering muncul
+Saya mencatat jumlah gol yang saya cetak setiap pertandingan sepakbola. Jika standar deviasi adalah 2, apa arti standar deviasi dalam konteks ini?;Sebaran data;Nilai rata-rata;Nilai tengah;Nilai maksimum;Sebaran data
+Saya memiliki data jumlah servis yang berhasil dalam bola voli dan ingin membuat diagram batang. Apa tujuan dari diagram batang?;Membandingkan data;Menunjukkan sebaran data;Menunjukkan tren data;Menampilkan data waktu;Membandingkan data
+Saya mencatat jumlah pertandingan atletik yang saya ikuti dalam bilangan biner. Jika jumlah pertandingan adalah 22, berapa dalam biner?;10110;11010;11110;10010;10110
+Saya ingin mengetahui probabilitas memenangkan balap sepeda dari total 50 lomba dengan 25 kemenangan. Berapa probabilitas tersebut?;0.5;0.4;0.6;0.7;0.5
+Saya menghitung rata-rata jumlah pertandingan basket yang saya menangkan per bulan. Jika total kemenangan dalam sebulan adalah 15, berapa rata-rata per minggu?;3;4;5;6;3.75
+Saya mencatat jumlah set yang saya menangkan dalam tenis meja. Jika jumlah set yang dimenangkan adalah 18, berapa dalam biner?;10010;11000;11100;10011;11000
+Saya ingin mengetahui probabilitas memenangkan pertandingan sepakbola dari total 40 pertandingan dengan 12 kemenangan. Berapa probabilitas tersebut?;0.3;0.2;0.4;0.5;0.3
+Saya menghitung varian dari data jumlah poin yang saya dapatkan dalam basket. Jika varian adalah 16, apa arti varian dalam konteks ini?;Sebaran data;Nilai rata-rata;Nilai tengah;Nilai maksimum;Sebaran data
+Saya mencatat jumlah pertandingan bulutangkis yang saya menangkan. Jika data tersebut berdistribusi normal, apa arti distribusi normal dalam konteks ini?;Sebaran data merata;Sebaran data simetris;Sebaran data tidak merata;Sebaran data acak;Sebaran data simetris
+Saya menggunakan diagram lingkaran untuk menunjukkan proporsi jenis kemenangan dalam olahraga. Apa tujuan dari diagram lingkaran?;Membandingkan data;Menunjukkan sebaran data;Menunjukkan bagian dari keseluruhan;Menampilkan data waktu;Menunjukkan bagian dari keseluruhan
+Saya ingin mengetahui probabilitas memenangkan turnamen catur dari total 20 turnamen dengan 5 kemenangan. Berapa probabilitas tersebut?;0.1;0.2;0.25;0.3;0.25
+Saya menghitung rata-rata jumlah pertandingan bola voli yang saya menangkan per bulan. Jika total kemenangan dalam sebulan adalah 20, berapa rata-rata per minggu?;5;4;6;7;5
+Saya mencatat jumlah set yang saya menangkan dalam bulutangkis. Jika data tersebut berdistribusi normal, bagaimana bentuk kurva distribusi tersebut?;Simetris;Miring ke kiri;Miring ke kanan;Acak;Simetris
+Saya ingin mengetahui probabilitas memenangkan turnamen tenis dari total 10 turnamen dengan 2 kemenangan. Berapa probabilitas tersebut?;0.1;0.2;0.3;0.4;0.2
+Saya menghitung modus dari data jumlah kemenangan dalam sepakbola. Jika modus adalah 8, apa arti modus dalam konteks ini?;Nilai rata-rata;Nilai tengah;Nilai yang paling sering muncul;Nilai minimum;Nilai yang paling sering muncul

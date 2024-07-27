@@ -1,0 +1,11 @@
+question;choice1;choice2;choice3;choice4;answer
+Apa yang dimaksud dengan 'print' dalam Python?;Mengirim dokumen ke printer;Menampilkan teks ke layar;Mencetak variabel pada file;Scan teks dari dokumen;Menampilkan teks ke layar
+Apa fungsi dari perintah 'input' di Python?;Menampilkan output;Membuat fungsi baru;Mengambil input dari pengguna;Menyimpan data ke database;Mengambil input dari pengguna
+Bagaimana cara membuat komentar di Python?;/* Komentar */;<!-- Komentar -->;// Komentar;# Komentar;# Komentar
+Struktur kontrol apa yang digunakan untuk iterasi di Python?;for;repeat;loop;do;for
+Apa itu variabel di Python?;Sebuah perintah untuk menjalankan program;Nama yang digunakan untuk menyimpan data;Fungsi untuk menghitung data;Label untuk nilai error;Nama yang digunakan untuk menyimpan data
+Bagaimana cara mendeklarasikan variabel di Python?;variabel = 10;int variabel = 10;var: variabel = 10;set variabel = 10;variabel = 10
+Apa yang terjadi jika Anda mencoba mengakses variabel yang belum didefinisikan di Python?;Program akan crash;Python akan membuat variabel itu;Akan muncul pesan kesalahan;Variabel akan memiliki nilai null;Akan muncul pesan kesalahan
+Apa yang dimaksud dengan 'list' dalam Python?;Sebuah tipe data untuk menyimpan urutan angka;Sebuah fungsi untuk mengurutkan data;Sebuah tipe data untuk menyimpan urutan item yang dapat diubah;Sebuah perintah untuk mencetak semua item;Sebuah tipe data untuk menyimpan urutan item yang dapat diubah
+Fungsi apa yang digunakan untuk mengubah tipe data menjadi integer di Python?;int();str();float();type();int()
+Bagaimana cara mengimport sebuah modul di Python?;load modul;require modul;import modul;use modul;import modul

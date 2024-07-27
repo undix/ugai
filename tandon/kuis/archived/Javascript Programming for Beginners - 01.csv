@@ -1,0 +1,4 @@
+question;choice1;choice2;choice3;choice4;answer
+How to declare a variable in JavaScript?;"let varName;";"int varName;";"var varName;";"string varName;";"var varName;"
+What function is used to display a message in the browser console?;console.show();console.log();console.write();console.display();console.log()
+How to create a function in JavaScript?;function myFunction = {};create myFunction() {};function myFunction() {};def myFunction() {};function myFunction() {}

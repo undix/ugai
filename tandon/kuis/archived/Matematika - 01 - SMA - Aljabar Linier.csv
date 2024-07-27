@@ -1,0 +1,6 @@
+question;choice1;choice2;choice3;choice4;answer
+Jika vektor a = (2, 3) dan vektor b = (4, 1), berapa hasil a + b?;(6, 4);(6, 3);(2, 4);(4, 4);(6, 4)
+Apa yang dimaksud dengan matriks identitas?;Matriks semua elemen nol;Matriks dengan elemen diagonal satu;Matriks persegi;Matriks dengan elemen semua satu;Matriks dengan elemen diagonal satu
+Berapa determinan dari matriks [[1, 2], [3, 4]]?;-2;2;4;-4;-2
+Jika A adalah matriks 2x2, kapan A memiliki invers?;Jika A simetris;Jika determinan A ≠ 0;Jika A persegi;Jika A ortogonal;Jika determinan A ≠ 0
+Apa hasil dari perkalian skalar 3 dengan vektor (2, -1)?;(6, -1);(6, -3);(2, -3);(3, -1);(6, -3)

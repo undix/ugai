@@ -1,0 +1,4 @@
+question;choice1;choice2;choice3;choice4;answer
+Apa yang dimaksud dengan komputasi biner?;Menghitung dengan angka desimal;Menghitung dengan angka oktal;Menghitung dengan angka biner (0 dan 1);Menghitung dengan angka heksadesimal;Menghitung dengan angka biner (0 dan 1)
+Berapa hasil dari operasi biner 1010 + 0101?;1110;1101;1011;1001;1111
+Apa fungsi utama dari gerbang logika AND dalam komputasi biner?;Menghasilkan 1 jika salah satu input 1;Menghasilkan 0 jika salah satu input 0;Menghasilkan 1 jika semua input 1;Menghasilkan 0 jika semua input 0;Menghasilkan 1 jika semua input 1

@@ -1,0 +1,4 @@
+question;choice1;choice2;choice3;choice4;answer
+Apa yang diukur algoritma KNN untuk menentukan tetangga terdekat?;Jarak Euclidean;Jarak Manhattan;Jarak Minkowski;Semua benar;Semua benar
+Apa nilai 'k' dalam algoritma KNN?;Jumlah fitur;Jumlah tetangga terdekat;Jumlah data latih;Jumlah kelas;Jumlah tetangga terdekat
+Apa kelemahan utama dari algoritma KNN?;Sulit diimplementasikan;Memerlukan banyak memori dan waktu komputasi;Tidak akurat;Tidak mendukung data kontinu;Memerlukan banyak memori dan waktu komputasi

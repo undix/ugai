@@ -1,0 +1,21 @@
+question;choice1;choice2;choice3;choice4;answer
+Terdapat 3 jenis tanaman padi, jagung, dan kacang. Berapa banyak cara menanam ketiganya di tiga petak tanah yang berbeda?;3;6;9;12;6
+Ada 4 jenis bibit yang akan ditanam dalam 2 pot. Berapa banyak cara memilih 2 bibit dari 4 jenis bibit tersebut?;6;12;16;8;6
+Sebuah kebun memiliki 5 jenis bunga berbeda. Berapa banyak cara menanam 3 bunga dari 5 jenis bunga tersebut?;10;20;30;60;10
+Ada 7 jenis sayuran dan 3 pot. Berapa banyak cara memilih 3 jenis sayuran dari 7 jenis tersebut?;21;35;42;49;35
+Terdapat 6 jenis buah dan 2 keranjang. Berapa banyak cara memilih 2 jenis buah dari 6 jenis tersebut?;10;15;21;28;15
+Ada 8 jenis tanaman dan 4 pot. Berapa banyak cara memilih 4 jenis tanaman dari 8 jenis tersebut?;70;56;35;28;70
+Sebuah kebun memiliki 5 jenis pohon buah. Berapa banyak cara menanam 2 pohon dari 5 jenis pohon tersebut?;10;15;20;25;10
+Terdapat 4 jenis bibit dan 3 pot. Berapa banyak cara memilih 3 bibit dari 4 jenis bibit tersebut?;4;6;12;24;4
+Ada 6 jenis bunga dan 2 keranjang. Berapa banyak cara memilih 2 jenis bunga dari 6 jenis tersebut?;12;15;18;21;15
+Sebuah ladang memiliki 3 jenis tanaman. Berapa banyak cara menanam ketiganya di 3 lahan yang berbeda?;3;6;9;12;6
+Ada 5 jenis sayuran dan 2 pot. Berapa banyak cara memilih 2 jenis sayuran dari 5 jenis tersebut?;10;15;20;25;10
+Terdapat 7 jenis buah dan 3 keranjang. Berapa banyak cara memilih 3 jenis buah dari 7 jenis tersebut?;21;35;42;49;35
+Ada 6 jenis bibit dan 3 pot. Berapa banyak cara memilih 3 jenis bibit dari 6 jenis tersebut?;20;30;40;60;20
+Sebuah kebun memiliki 4 jenis tanaman berbeda. Berapa banyak cara menanam 2 tanaman dari 4 jenis tanaman tersebut?;4;6;8;10;6
+Terdapat 5 jenis bunga dan 2 pot. Berapa banyak cara memilih 2 jenis bunga dari 5 jenis tersebut?;10;15;20;25;10
+Ada 4 jenis buah dan 3 keranjang. Berapa banyak cara memilih 3 jenis buah dari 4 jenis tersebut?;4;6;8;12;4
+Sebuah ladang memiliki 6 jenis tanaman. Berapa banyak cara menanam 4 jenis tanaman dari 6 jenis tersebut?;15;20;25;30;15
+Ada 7 jenis sayuran dan 3 pot. Berapa banyak cara memilih 3 jenis sayuran dari 7 jenis tersebut?;21;35;42;49;35
+Terdapat 6 jenis buah dan 2 keranjang. Berapa banyak cara memilih 2 jenis buah dari 6 jenis tersebut?;10;15;21;28;15
+Ada 4 jenis bibit dan 3 pot. Berapa banyak cara memilih 3 bibit dari 4 jenis bibit tersebut?;4;6;12;24;4

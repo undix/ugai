@@ -1,0 +1,4 @@
+question;choice1;choice2;choice3;choice4;answer
+Jika u = x dan dv = e^x dx, apa bentuk integral parsial dari ∫x e^x dx?;x e^x - ∫ e^x dx;x e^x + ∫ e^x dx;x e^x - ∫ x dx;e^x - ∫ x e^x dx;x e^x - ∫ e^x dx
+Apa bentuk integral parsial dari ∫ln(x) dx dengan memilih u = ln(x) dan dv = dx?;x ln(x) - x + C;x ln(x) + x + C;x ln(x) - ∫ dx;ln(x) - x + C;x ln(x) - x + C
+Dalam metode integral parsial, jika u = x^2 dan dv = sin(x) dx, apa bentuk integral parsial dari ∫x^2 sin(x) dx?;x^2 cos(x) - ∫2x cos(x) dx;-x^2 cos(x) - ∫2x cos(x) dx;-x^2 sin(x) + ∫2x sin(x) dx;x^2 sin(x) - ∫2x sin(x) dx;-x^2 cos(x) + ∫2x cos(x) dx

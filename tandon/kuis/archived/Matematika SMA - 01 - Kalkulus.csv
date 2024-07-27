@@ -1,0 +1,6 @@
+question;choice1;choice2;choice3;choice4;answer
+Apa turunan dari fungsi f(x) = x^2 + 3x + 2?;2x + 3;x^2 + 3;3x^2;2x - 3;2x + 3
+Jika f'(x) = 3x^2, apa f(x)?;x^3 + C;3x + C;3x^2 + C;x^2 + C;x^3 + C
+Apa integral dari fungsi f(x) = 4x?;2x^2 + C;4x^2 + C;4x + C;2x + C;2x^2 + C
+Apa nilai limit dari (x^2 - 1)/(x - 1) saat x mendekati 1?;0;1;2;Tidak ada;2
+Jika f(x) = sin(x), apa turunan pertama f(x)?;cos(x);-cos(x);sin(x);-sin(x);cos(x)

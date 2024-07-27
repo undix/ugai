@@ -1,0 +1,8 @@
+INFO
+====
+[Indonesia]
+Direktori ini berisi berkas soal yang tidak dilontarkan dalam permainan kuis. Salin atau pindahkan berkas terpilih apabila ingin muncul dalam permainan kuis. 
+
+[English]
+This directory contains question files that are not asks in the quiz game. Copy or move selected files to enable directory if you want them to appear in the quiz game.
+

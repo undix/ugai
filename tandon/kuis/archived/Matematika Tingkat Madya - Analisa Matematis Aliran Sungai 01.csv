@@ -1,0 +1,21 @@
+question;choice1;choice2;choice3;choice4;answer
+Pak Budi menghitung kecepatan aliran sungai. Jika kecepatan V(t) = 10 + 2e^(0.1t), berapa kecepatan aliran setelah 5 tahun?;12;14;16;18;12
+Pak Andi ingin mengetahui laju perubahan volume air. Jika volume V(t) = 40t^2 + 300, berapa laju perubahan volume pada t = 3 tahun?;240;250;260;270;270
+Pak Tono memiliki fungsi biaya C(x) = 200 + 10x^2 untuk pemeliharaan sungai. Berapa biaya marginal pada x = 4?;50;60;70;80;80
+Pak Udin menghitung total debit air menggunakan integral. Jika debit air D = ∫(3x + 2)dx dari 0 hingga 6, berapa total debit air tersebut?;60;66;72;78;78
+Pak Harun ingin mengetahui pertumbuhan debit sungai. Jika debit D(t) = 50e^(0.02t), berapa debit setelah 10 tahun?;70;75;80;85;75
+Pak Rudi memiliki fungsi pendapatan R(x) = 1000x - 50x^2 dari turisme. Berapa pendapatan maksimal yang dapat diperoleh?;5000;7500;10000;12500;12500
+Pak Joko menghitung biaya perawatan bendungan. Jika biaya B(x) = 300 + 5x^3, berapa biaya perawatan untuk x = 3?;345;360;375;390;360
+Pak Anto menghitung total debit air menggunakan integral. Jika debit air D = ∫(4x + 3)dx dari 0 hingga 5, berapa total debit air tersebut?;40;45;50;55;55
+Pak Doni ingin mengetahui tingkat pertumbuhan debit sungai. Jika debit D(t) = 300e^(0.03t), berapa debit setelah 8 tahun?;380;400;420;440;400
+Pak Sardi memiliki fungsi biaya C(x) = 50x + 2x^2 untuk pemeliharaan sungai. Berapa biaya total untuk x = 4?;180;200;220;240;240
+Pak Ahmad menghitung total debit air menggunakan integral. Jika debit air D = ∫(2x + 1)dx dari 0 hingga 4, berapa total debit air tersebut?;16;18;20;22;18
+Pak Rahmat ingin mengetahui laju perubahan debit sungai. Jika debit D(t) = 80t + 100, berapa laju perubahan pada t = 5 tahun?;200;300;400;500;400
+Pak Arif memiliki fungsi pendapatan R(x) = 2000x - 100x^2 dari pariwisata sungai. Berapa pendapatan maksimal yang dapat diperoleh?;8000;10000;12000;14000;10000
+Pak Yanto menghitung biaya pengendalian banjir. Jika biaya B(x) = 500 + 20x^2, berapa biaya pengendalian untuk x = 3?;620;640;660;680;680
+Pak Fajar menghitung total debit air menggunakan integral. Jika debit air D = ∫(3x + 5)dx dari 1 hingga 4, berapa total debit air tersebut?;30;32;34;36;36
+Pak Hari ingin mengetahui tingkat pertumbuhan debit sungai. Jika debit D(t) = 100e^(0.04t), berapa debit setelah 7 tahun?;130;140;150;160;140
+Pak Yono memiliki fungsi biaya C(x) = 150 + 4x^2 untuk pemeliharaan sungai. Berapa biaya marginal pada x = 6?;30;36;42;48;48
+Pak Surya menghitung total debit air menggunakan integral. Jika debit air D = ∫(5x + 3)dx dari 0 hingga 5, berapa total debit air tersebut?;40;50;60;70;70
+Pak Kadir ingin mengetahui laju pertumbuhan debit sungai. Jika debit D(t) = 200e^(0.02t), berapa debit setelah 6 tahun?;225;230;235;240;230
+Pak Bambang menghitung biaya perawatan sungai. Jika biaya B(x) = 400 + 10x^3, berapa biaya perawatan untuk x = 2?;480;490;500;510;480

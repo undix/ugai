@@ -1,0 +1,23 @@
+question;choice1;choice2;choice3;choice4;answer
+A hunter starts from point A and moves to point B. How many possible paths can he follow if there are 3 paths from A to B?;3;6;9;12;3
+The hunter is at point C and needs to get to point D by 4 different routes. How many possible combinations are there if he chooses 2 routes out of 4?;6;8;12;16;6
+If there are 5 points in the forest connected by paths, how many paths are needed to connect all the points without any loops?;4;5;6;7;4
+The hunter can move from point E to F via 3 paths and from F to G via 2 paths. How many ways are there in total to get from E to G?;5;6;7;8;6
+From 6 different points, how many possible pairs of points can be formed if each pair is connected by a single path?;10;12;15;20;15
+If point H is connected to point I, and I is connected to point J, how many paths are there to get from H to J?;1;2;3;4;1
+In a forest with 4 points connected by 3 paths, how many additional paths are needed to form a loop?;1;2;3;4;1
+A hunter can choose between 4 paths to reach point K. If he chooses 2 paths simultaneously, how many choices are available?;6;8;12;16;6
+If there are 3 points forming a triangle and one additional point, how many paths are needed to connect the additional point to all the other points?;3;4;5;6;3
+A hunter wants to explore 5 points in the forest. How many paths are needed to connect all the points if there are no loops?;4;5;6;7;4
+In the forest, there are 3 points connected in a straight line. How many paths are needed to connect each point without creating a loop?;2;3;4;5;2
+A hunter chooses 3 paths from a total of 5 available paths to reach the destination. How many possible ways are there for this selection?;10;15;20;25;10
+If 6 points are connected by 4 paths, how many additional paths are needed to form a loop?;1;2;3;4;2
+In the forest, there are 2 points connected by 4 paths. If one path is removed, how many paths are left?;3;4;5;6;3
+A hunter can move from point L to M via 2 paths and from M to N via 4 paths. How many total paths are available from L to N?;6;8;10;12;8
+If there are 7 points in the forest and they are all connected without loops, how many total paths are needed?;21;28;35;42;21
+A hunter can choose 3 out of 6 paths to get to point O. How many possible combinations are there for such choices?;20;30;40;50;20
+In the forest, there are 4 points forming a square and 1 additional point inside it. How many paths are needed for the additional point to connect to all the points?;5;6;7;8;5
+If there are 3 points forming a triangle and 2 additional paths, how many total paths are there if all the paths are connected?;5;6;7;8;5
+A hunter is at point P and wants to get to point Q by choosing 3 out of 5 available paths. How many ways can he choose the path?;10;15;20;25;10
+In the forest, there are 4 points and each point is connected to one other point. How many paths are needed in total to form a connected graph without loops?;3;4;5;6;3
+If a vertex R is connected to a vertex S by 2 paths, and S is connected to a vertex T by 3 paths, how many paths are there in total from R to T?;5;6;7;8;6

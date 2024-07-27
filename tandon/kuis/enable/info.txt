@@ -1,0 +1,8 @@
+INFO
+====
+[Indonesia]
+Direktori ini berisi berkas soal aktif yang ditanyakan dalam permainan kuis. 
+
+[English]
+This directory contains the active question files asked in the quiz game.
+

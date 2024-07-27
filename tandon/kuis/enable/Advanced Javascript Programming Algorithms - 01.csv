@@ -1,0 +1,4 @@
+question;choice1;choice2;choice3;choice4;answer
+How to find the largest value in an array of numbers using JavaScript?;"Math.max(array);";"array.max();";"Math.max(...array);";"array.maxValue();";"Math.max(...array);"
+If you want to sort a list of student names alphabetically, what JavaScript function would you use?;"list.sortNames();";"names.order();";"array.sort();";"list.orderBy();";"array.sort();"
+How to count the number of elements in an array that meet a certain criteria using JavaScript?;"array.filter(criteria).count();";"array.count(criteria);";"array.filter(criteria).length;";"array.countIf(criteria);";"array.filter(criteria).length;"
