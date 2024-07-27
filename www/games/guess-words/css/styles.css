@@ -1,6 +1,6 @@
 body {
   background: #ffffff;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, Roboto, sans-serif;
   color: #333333; /* Warna teks lebih gelap untuk kontras tinggi */
   height: 100%;
   text-align: center;
@@ -29,7 +29,7 @@ canvas {
 }
 
 h1, h2, h3 {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, Roboto, sans-serif;
   font-weight: bold; /* Perbaiki font-weight dari 32px menjadi bold */
   text-transform: uppercase;
   margin: 5px 0;

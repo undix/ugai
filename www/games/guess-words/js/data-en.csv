@@ -1,4 +1,51 @@
 topik;kata;petunjuk
+country;Japan;The land of the rising sun with a unique culture
+country;Australia;Continent with kangaroos and koalas
+country;Canada;Country with a maple leaf on its flag
+country;Brazil;The largest country in South America
+country;Egypt;Country with pyramids and Sphinx
+country;Italy;The country with the leaning tower of Pisa
+country;India;Country with the Taj Mahal
+country;German;Country with the Berlin Wall
+country;China;The most populous country with a Great Wall
+country;France;Country with the Eiffel Tower
+country;Russia;The largest country in the world
+country;Spanish;The country with the Tomatina festival
+country;Dutch;Country with windmills
+country;Türkiye;Country on the border of Asia and Europe
+country;Argentina;Country of tango and steak
+country;Switzerland;Country with Alps
+country;Mexico;Country with Aztec cultural heritage
+country;Thailand;A country of exotic temples and beaches
+country;Malaysia;The country with the Petronas twin towers
+country;Vietnamese;Country with famous Pho food
+country;Philippines;A country with beautiful beaches and islands
+country;Greece;A country with ancient and Olympic history
+country;Norway;Country with beautiful fjords
+country;Sweden;Country with IKEA and Abba
+country;Finland;A country with thousands of lakes
+country;Poland;Country with a long history in Eastern Europe
+country;Portugal;Country with the Algarve coast
+country;Ireland;Country with green pastures
+country;Austria;A country of mountains and classical music
+country;Belgium;The country with famous chocolate and beer
+country;Czech;Country with the city of Prague
+country;Chile;Country with wine and Andes Mountains
+country;Kenya;Country with safari and wild animals
+country;Nigeria;The country with the largest economy in Africa
+country;Pakistan;Country with mountains and the Indus river
+country;Bangladesh;Country with Sundarbans and Bengalis
+country;Morocco;A country with old cities and diverse culture
+country;Peru;Country with the Machu Picchu site
+country;Colombia;Country with salsa music and coffee
+country;Venezuela;A country of oil and natural beauty
+country;Cambodia;Country with Angkor Wat
+country;Sri Lanka;Country with Ceylon tea
+country;Jordan;Country with the ancient city of Petra
+country;Hungary;Country with the city of Budapest
+country;Romania;Country with palaces and castles
+country;Ukraine;Country with a long history in Eastern Europe
+country;Serbia;Country with the Danube river
 country;Croatia;Country with the Adriatic coast
 country;Ecuador;Countries with the equator
 country;Uruguay;Country with beaches and football
@@ -10,6 +57,65 @@ chemistry;Reaction;The process in which one or more substances are converted int
 chemistry;Catalyst;Substances that speed up the rate of chemical reactions without changing them permanently.
 chemistry;Electrolyte;Substances that can conduct electricity in solution.
 chemistry;Bond;The force that holds atoms together in a molecule or compound.
+chemistry;pH;A measure of the acidity or alkalinity of a solution.
+chemistry;Isotope;Variants of elements that have different numbers of neutrons.
+chemistry;Compound;Chemical substances formed from two or more elements chemically bonded.
+chemistry;Concentration;The amount of solute dissolved in a given amount of solvent.
+chemistry;Redox;A chemical reaction involving the transfer of electrons between two substances.
+chemistry;Polymer;Large molecules consisting of repeating units are called monomers.
+chemistry;Endotherm;Reactions that absorb energy in the form of heat.
+chemistry;Exothermic;Reactions that release energy in the form of heat.
+chemistry;Anion;Negatively charged ions.
+chemistry;Cations;Positively charged ions.
+chemistry;Valence;The ability of an atom to form chemical bonds.
+chemistry;Solution;A homogeneous mixture of two or more substances.
+chemistry;Ion;Atoms or molecules that have an electric charge.
+chemistry;Salt;Compounds formed from reactions between acids and bases.
+chemistry;ALOTROP;Different forms of the same element in the same physical state.
+chemistry;Carbon;Non-metallic element with symbol C and atomic number 6.
+chemistry;Oxidation;The process of losing electrons or increasing the oxidation number.
+chemistry;Hydrolysis;A chemical reaction in which a compound reacts with water.
+chemistry;Titration;Chemical analysis method to determine the concentration of a solution.
+chemistry;Buffers;A solution that maintains a relatively constant pH even when acid or base is added.
+chemistry;Distillation;The process of separating substances based on differences in boiling points.
+chemistry;Kelvin;Temperature unit in the SI system.
+chemistry;Spectroscopy;An analytical technique for identifying substances based on the interaction of light with matter.
+chemistry;Enthalpy;The total amount of energy in a thermodynamic system at constant pressure.
+chemistry;Annealing;The process of heating and cooling a metal to change its physical properties.
+chemistry;Metabolism;Biochemical processes in the bodies of living things to produce energy.
+chemistry;Chromatography;Mixture separation method based on differences in migration speeds of components.
+chemistry;Precipitate;A solid substance formed from a solution during a chemical reaction.
+chemistry;Spectrometer;An instrument used to measure the spectrum of light.
+chemistry;Electrolysis;The process of breaking down ionic compounds using electric current.
+chemistry;Substrate;Substances that react with enzymes in biochemical reactions.
+chemistry;Inhibitors;Substances that inhibit the rate of chemical reactions.
+chemistry;Oxidizer;Substances that cause oxidation in other substances.
+chemistry;Reductor;Substances that cause reduction in other substances.
+chemistry;Catalysis;The process of increasing the rate of a chemical reaction by a catalyst.
+chemistry;Alkali;A strong base that dissolves in water and produces hydroxide ions.
+chemistry;Sour;Substances that can release protons (H+ ions) in solution.
+chemistry;Bass;Substances that can accept protons or release hydroxide ions (OH-) in solution.
+chemistry;Electron;Subatomic particles with a negative charge that surround the atomic nucleus.
+chemistry;Isomers;Molecules with the same molecular formula but different structures.
+chemistry;Mass;The amount of matter in an object, measured in kilograms.
+chemistry;Thermochemistry;The branch of chemistry that studies energy changes during chemical reactions.
+chemistry;Amphoteric;Substances that can act as acids or bases.
+chemistry;Entropy;A measure of the degree of disorder or chaos in a system.
+chemistry;Reaction;A chemical process in which one or more substances are converted into another substance.
+chemistry;Kelvin;The unit of temperature in the SI system starts from absolute zero.
+chemistry;Conductor;Material that conducts heat or electricity well.
+chemistry;Corrosion;The process of material degradation due to chemical reactions with the environment.
+chemistry;Solubility;The ability of a substance to dissolve in a particular solvent.
+chemistry;Electronegativity;The ability of an atom to attract electrons in a chemical bond.
+chemistry;Hydrocarbons;Organic compounds consisting of carbon and hydrogen atoms.
+chemistry;Isomerization;The process of changing one isomer into another isomer.
+chemistry;Reactant;Substances that are present at the start of a chemical reaction and change during the reaction.
+chemistry;Sublimation;Direct change from solid to gas without passing through the liquid phase.
+chemistry;Distillation;The process of separating mixtures based on differences in boiling points of components.
+chemistry;Effusion;The process in which gas passes through a small gap.
+chemistry;Fermentation;The process of converting sugar into alcohol by microorganisms.
+chemistry;Ionization;The process of forming ions from atoms or molecules.
+chemistry;Kelat;Complexes formed by organic molecules with metal ions.
 math;Arithmetic;Study of basic operations such as addition, subtraction, multiplication, and division.
 math;Geometry;The study of shape, size, and spatial properties and the relative position of numbers.
 math;Trigonometry;A branch of mathematics that studies the relationships between angles and sides in triangles.
@@ -17,8 +123,47 @@ math;Algebra;The part of mathematics that deals with symbols and the rules for m
 math;Calculus;The study of changes, limits, and integrals of functions.
 math;Logarithm;A function that is the inverse of exponential and is used to solve growth problems.
 math;Statistics;The study of data collection, analysis, interpretation, and presentation.
+math;Vector;A quantity that has both magnitude and direction, is used in physics and engineering.
+math;Matrix;The arrangement of numbers or symbols in rows and columns used in linear algebra.
+math;Row;A sequence of numbers that follows certain rules and has an infinite number of numbers.
+math;Function;A relationship that connects each element of one set to exactly one element of another set.
+math;Integral;Concepts in calculus related to continuous addition.
+math;Limits;A concept in calculus used to describe the behavior of a function approaching a point.
+math;Differential Equations;Equations involving functions and their derivatives, are used in many scientific applications.
+math;Transformation;The process of changing one shape into another, often used in geometry and algebra.
+math;Exponential Functions;Mathematical functions containing variable exponents, often used to model growth.
+math;Logarithmic Functions;The inverse function of the exponential function, is used to solve for exponents.
+math;Line up;A sequence of elements arranged according to certain rules, often used in number theory.
+math;Opportunity;A mathematical concept that measures the probability of an event occurring.
+math;Graph;Graphical representation of relationships between objects, consisting of nodes and edges.
+math;Cartesian coordinates;A coordinate system that uses two perpendicular lines to determine the position of points.
+math;Symmetry;The property of a shape being that it can be divided into two equal parts.
+math;Asymptote;A line or curve that approaches a function but never touches it.
+math;Quadratic Function;A second degree polynomial function whose graphic is a parabola.
+math;Descriptive Statistics;The branch of statistics concerned with the depiction and explanation of data numerically.
+math;Primes;A number that has only two positive divisors, namely 1 and itself.
+math;Imaginary Numbers;A number that is the product of the negative square roots of one.
+math;Interpolation;The process of estimating values ​​in a data range using known values.
+math;Extrapolation;The process of estimating values ​​outside the range of known data.
+math;Fourier Transform;The process of converting a time function into a frequency function, often used in signal analysis.
+math;Ratio;A comparison between two numbers that shows how many times one number contains the other.
+math;Logic;The branch of mathematics that studies the formal rules of valid reasoning.
+math;Convergence;The property of a series or function approaching a certain value as the input value increases.
+math;Divergence;The property of a series or function that does not approach a certain value as the input value increases.
+math;Complex Numbers;Numbers consisting of a real part and an imaginary part, are often used in signal analysis and control.
+math;Dimensions;Measures of space or scope in a mathematical system, such as length, width and height.
+math;Inverse;An operation that returns an element to its identity value after being combined with the original element.
+math;Polynomial;A mathematical expression consisting of a number of terms, each of which is the result of multiplying a constant by a variable raised to a power.
+math;Function Graphs;Visual representation of mathematical functions on a cartesian graph.
+math;Infinite Limit;The value reached by a function when a variable approaches infinity.
+math;Discriminant;The value that determines the number and type of roots of a quadratic equation.
+math;Derivative;Operations that measure changes in a function to its variables.
+math;Indefinite Integrals;Integrals that have no limits of integration, give a family of antiderivative functions.
+math;Integral Sure;An integral that has limits of integration, gives the numerical value of the area under the curve.
+math;Coefficient;A constant that is multiplied by a variable in a term in a polynomial.
 math;Exponential Function;A function that has the form f(x) = a^x, with a as a constant base.
 math;Geometric Series;A series of numbers in which the ratio between successive terms is constant.
+math;Pythagorean theorem;The theorem states that in a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the two legs.
 math;Natural Logarithms;Logarithms with base e, where e is Euler's number.
 math;Random variable;A variable that takes different values ​​based on the results of a random experiment.
 physics;Gravity;The attractive force that acts between two objects due to their masses.
@@ -32,6 +177,74 @@ physics;Ohm's Law;The law that states the relationship between voltage, current,
 physics;Power;Energy flow rate or work per unit time.
 physics;Speed;Change in position of an object per unit time.
 physics;Heat;Energy transferred due to temperature differences.
+physics;Newton's Laws;Three laws that describe the relationship between force and motion.
+physics;Pressure;The force acting per unit surface area.
+physics;Style;A push or pull that can cause a change in the motion of an object.
+physics;Mass;The amount of matter contained in an object.
+physics;Mechanical Waves;Waves that require a medium to propagate, such as sound waves.
+physics;Impedance;Total inhibition of electric current in an AC circuit.
+physics;Electromagnetic Induction;The process of generating an electric current in a conductor by changing the magnetic field.
+physics;Lens;Transparent objects that can refract light and form shadows.
+physics;Capacitor;Electrical components that can store energy in the form of an electric field.
+physics;Boyle's Law;The law that states the relationship between pressure and volume of a gas at constant temperature.
+physics;Thermodynamics;The branch of physics that studies heat transfer and work.
+physics;Resonance;The phenomenon of increasing vibration amplitude when the natural frequency of the system is equal to the external frequency.
+physics;Fluid;Substances that can flow, such as liquids and gases.
+physics;Stationary Waves;A wave that is formed when two waves with the same frequency and amplitude interfere.
+physics;Diffraction;The propagation of a wave when passing through a narrow gap or over an obstacle.
+physics;Voltage;The difference in electrical potential between two points in a circuit.
+physics;Coulomb's Law;Law that explains the force between two electric charges.
+physics;Electric field;The space around an electric charge where electric forces can be felt.
+physics;Doppler effect;A change in the frequency or wavelength of a wave due to the movement of a source or observer.
+physics;Inductance;The ability of a circuit to generate its own induced emf.
+physics;Entropy;A measure of disorder in a thermodynamic system.
+physics;Capacitance;The ability of an electrical component to store electric charge.
+physics;Refraction;The bend in the direction of a wave when it passes a boundary between two media.
+physics;Archimedes Law;The law which states that an object immersed in a fluid experiences an upward force equal to the weight of the displaced fluid.
+physics;Temperature;A measure of the degree of hotness or coldness of an object or environment.
+physics;Conservation of Momentum;The principle that states that the total momentum in a closed system remains constant.
+physics;Vibration;Periodic movement back and forth around a balance point.
+physics;Electric current;Movement of electric charges through a conductor.
+physics;Faraday's Law;The law states that changes in the magnetic field in a loop cause an electric current.
+physics;Photoelectric Effect;The phenomenon when electrons are emitted from a metal surface due to the absorption of light.
+physics;Longitudinal Waves;Waves in which the vibrations of the medium are parallel to the direction of wave propagation.
+physics;Strong Electric Current;The amount of electric charge flowing through a conductor per unit time.
+physics;Gravitational Field;The space around a mass in which gravitational forces can be felt.
+physics;Acceleration;The change in speed of an object per unit time.
+physics;Interference;The phenomenon when two waves meet and produce a new wave pattern.
+physics;Wave Reduction;The process of decreasing wave amplitude due to energy loss.
+physics;Electromagnetic Spectrum;The range of all electromagnetic waves based on their wavelength or frequency.
+physics;Transformer;A tool for changing AC electrical voltage from one level to another level.
+physics;Kirchhoff's Law;Two laws that govern current and voltage in electrical circuits.
+biology;Photosynthesis;The process of plants converting sunlight into energy
+biology;Cell;The basic unit of life of all living things
+biology;Genetics;The science that studies the inheritance of traits from generation to generation
+biology;Ecosystem;A community of living things that interact with the environment
+biology;Evolution;Gradual changes in the characteristics of living things from generation to generation
+biology;Metabolism;Chemical processes in the body to maintain life
+biology;Enzyme;Proteins that speed up chemical reactions in the body
+biology;Mutation;Changes in an organism's genetic material
+biology;Chloroplast;The part of a plant cell that carries out photosynthesis
+biology;Cellular Respiration;The process produces energy by breaking down glucose
+biology;DNA;The main genetic material in cells, determines traits
+biology;RNA;Molecules that transmit genetic information
+biology;Proteins;Important molecules that carry out functions in cells
+biology;Hormone;Chemical substances that regulate body functions
+biology;Homeostasis;Balance of the body's internal conditions
+biology;Adaptation;The process by which organisms adapt to their environment
+biology;Biodiversity;The diversity of living things in a habitat
+biology;Habitats;The natural residence of an organism
+biology;Karyokinesis;Division of the cell nucleus during mitosis
+biology;Immune System;The body's defense system against pathogens
+biology;Osmosis;Movement of water through a semi-permeable membrane
+biology;Cytoplasm;The fluid part of a cell that surrounds organelles
+biology;Mitochondria;Energy producing organelles in cells
+biology;Meiosis;Cell division that produces sex cells
+biology;Phagocytosis;The process of ingesting large particles by cells
+biology;Chemosynthesis;Energy production through chemical reactions without light
+biology;Symbiogenesis;The theory of the origin of eukaryotic cells from symbiosis
+biology;Transcription;The process of forming RNA from DNA
+biology;Chlorophyll;Green pigment in plants that absorbs light
 biology;Fermentation;The process produces energy from glucose without oxygen
 biology;Chromosome;The structure that carries genetic material in cells
 biology;Lysosomes;Organelles that play a role in intracellular digestion
@@ -42,12 +255,107 @@ biology;Blood plasma;The fluid component of blood that carries blood cells
 biology;Nucleus;The part of a cell that stores genetic material
 biology;Endoplasmic Reticulum;Organelles that help in the synthesis of proteins and lipids
 biology;Golgi;Organelles that process and package proteins
+biology;Cell Membrane;The protective layer that surrounds cells
+biology;Telomeres;The structure at the end of a chromosome that protects the DNA
+biology;DNA replication;The process of duplicating DNA before cell division
+biology;Photosystem;A complex of proteins and pigments that captures light
+biology;Community;A collection of populations that live together
+biology;Stem Cells;Cells that can develop into other cell types
+biology;Parenchyma;Basic tissues in plants
+biology;Endocytosis;The process of cells swallowing material from outside the cell
+biology;Epidermis;The outer layer of cells that protects the underlying tissue
+biology;Flagella;A whip-like structure that helps cells move
 biology;Blood group;Classification of blood based on antigens on the surface of red blood cells
 Indonesian proverbs;Air beriak tanda tak dalam;People who talk a lot are usually not knowledgeable.
 Indonesian proverbs;Bagai telur di ujung tanduk;A very dangerous or critical condition.
 Indonesian proverbs;Besar pasak daripada tiang;Expenditures are greater than income.
 Indonesian proverbs;Bersatu kita teguh, bercerai kita runtuh;Unity makes us strong, division makes us weak.
+Indonesian proverbs;Gajah di pelupuk mata tak tampak, semut di seberang lautan tampak;One's own mistakes are invisible, but other people's mistakes are visible.
 Indonesian proverbs;Guru kencing berdiri, murid kencing berlari;A teacher's bad deeds will be followed by his students.
+Indonesian proverbs;Lain ladang lain belalang, lain lubuk lain ikannya;Each place or region has its own rules and customs.
+Indonesian proverbs;Mendapat durian runtuh;Sudden luck.
+Indonesian proverbs;Nasi sudah menjadi bubur;A situation that has already happened and cannot be changed anymore.
+Indonesian proverbs;Tak ada gading yang tak retak;Nothing is perfect in this world.
+Indonesian proverbs;Seperti katak dalam tempurung;People with narrow insight.
+Indonesian proverbs;Bagai pungguk merindukan bulan;Expecting something that is impossible to achieve.
+Indonesian proverbs;Sepandai-pandai tupai melompat, akhirnya jatuh juga;No matter how wise a person is, they will always make mistakes.
+Indonesian proverbs;Setinggi-tinggi bangau terbang, akhirnya ke pelimbahan juga;As far as one goes, one eventually returns to one's origins.
+Indonesian proverbs;Berat sama dipikul, ringan sama dijinjing;Work together in the face of difficulties.
+Indonesian proverbs;Bersusah-susah dahulu, bersenang-senang kemudian;Work hard first to achieve pleasure.
+Indonesian proverbs;Di mana bumi dipijak, di situ langit dijunjung;Adapting to a new place or environment.
+Indonesian proverbs;Sekali mendayung, dua tiga pulau terlampaui;Once you do the work, you get some results.
+Indonesian proverbs;Tak kenal maka tak sayang;If you don't know, you won't like it.
+Indonesian proverbs;Tong kosong nyaring bunyinya;People who talk a lot but don't contain anything.
+Indonesian proverbs;Ada udang di balik batu;There is a hidden intention behind an action.
+Indonesian proverbs;Tak ada rotan akar pun jadi;Using what is available if there is nothing better.
+Indonesian proverbs;Sedia payung sebelum hujan;Get ready before something unexpected happens.
+Indonesian proverbs;Habis manis sepah dibuang;Someone who is forgotten after being no longer useful.
+Indonesian proverbs;Lempar batu sembunyi tangan;Doing something bad but not wanting to admit it.
+Indonesian proverbs;Tak ada asap kalau tak ada api;Every incident must have a cause.
+Indonesian proverbs;Sekali merengkuh dayung, dua tiga pulau terlampaui;Achieve multiple goals with one action.
+Indonesian proverbs;Bagai air di daun talas;A state that is not fixed or easy to change.
+Indonesian proverbs;Seperti buah simalakama;A difficult situation where both options are equally detrimental.
+Indonesian proverbs;Bagai makan buah simalakama;Facing a difficult situation with two equally detrimental choices.
+Indonesian proverbs;Bagai pinang dibelah dua;Two things that are very similar to each other.
+Indonesian proverbs;Bagai kacang lupa akan kulitnya;Someone who forgets his origins.
+Indonesian proverbs;Air susu dibalas dengan air tuba;Good is rewarded with evil.
+Indonesian proverbs;Berat sama dipikul, ringan sama dijinjing;Together facing difficulties and joy.
+Indonesian proverbs;Gajah mati meninggalkan gading, harimau mati meninggalkan belang;People are known by what they leave behind.
+Indonesian proverbs;Rumput tetangga lebih hijau;What someone else has always seems better.
+Indonesian proverbs;Tak ada rotan, akar pun jadi;Using what is available if there is nothing better.
+Indonesian proverbs;Sudah jatuh tertimpa tangga;Suffered twice in one incident.
+Indonesian proverbs;Diberi hati minta jantung;Given little asks for more.
+Indonesian proverbs;Kecil-kecil cabai rawit;Small but brave or tough.
+Indonesian proverbs;Pucuk dicinta ulam pun tiba;Getting something you want by chance.
+Indonesian proverbs;Setali tiga uang;Two things of equal value.
+Indonesian proverbs;Berkata peliharakan lidah;You must speak carefully so as not to offend.
+Indonesian proverbs;Ada asap ada api;Every incident must have a reason.
+Indonesian proverbs;Seperti air dengan minyak;Two things that can't go together.
+Indonesian proverbs;Sekali lancung ke ujian, seumur hidup orang tak percaya;Once you make a mistake, people's trust is lost forever.
+Indonesian proverbs;Berkata tajam bagai sembilu;Speaks very sharply and painfully.
+Indonesian proverbs;Malu bertanya sesat di jalan;I don't know because I don't want to ask.
+Indonesian proverbs;Bersatu teguh, bercerai runtuh;Unity makes us strong, division makes us weak.
+Indonesian proverbs;Tertangkap basah;Get caught while doing wrong things.
+Indonesian proverbs;Lain di mulut lain di hati;Words do not match the heart.
+Indonesian proverbs;Bagai menegakkan benang basah;Doing something very difficult.
+Indonesian proverbs;Membabi buta;Acting aimlessly and uncontrollably.
+Indonesian proverbs;Menggunting dalam lipatan;Do evil in secret.
+Indonesian proverbs;Bagai api dalam sekam;Invisible danger.
+Indonesian proverbs;Tak ada rotan, akar pun jadi;Using what is available if there is nothing better.
+Indonesian proverbs;Berakit-rakit ke hulu, berenang-renang ke tepian;Work hard first, have fun later.
+Indonesian proverbs;Bagai burung dalam sangkar;Feeling trapped and not free.
+Indonesian proverbs;Bagai makan buah simalakama;Facing a difficult situation with two equally detrimental choices.
+Indonesian proverbs;Menang jadi arang, kalah jadi abu;In a dispute, both parties suffer equally.
+Indonesian proverbs;Air tenang menghanyutkan;Quiet people are usually dangerous.
+Indonesian proverbs;Anjing menggonggong kafilah berlalu;Keep moving forward even though there are many obstacles.
+Indonesian proverbs;Bagai ayam kehilangan induk;Losing a leader.
+Indonesian proverbs;Bagai musang berbulu domba;Bad people pretending to be good.
+Indonesian proverbs;Diam-diam ubi berisi;Quiet but full person.
+Indonesian proverbs;Gali lubang tutup lubang;Debt to pay a debt.
+Indonesian proverbs;Hujan emas di negeri orang, hujan batu di negeri sendiri;It's better in your own country even though it's simple.
+Indonesian proverbs;Karena nila setitik, rusak susu sebelanga;Small mistakes that ruin the whole thing.
+Indonesian proverbs;Lempar batu sembunyi tangan;Did something bad but didn't admit it.
+Indonesian proverbs;Seperti pungguk merindukan bulan;Expecting something that is impossible to achieve.
+Indonesian proverbs;Seperti katak dalam tempurung;People with narrow insight.
+Indonesian proverbs;Seperti api dengan asap;Two things that always go together.
+Indonesian proverbs;Bagai aur dengan tebing;Very close relationship.
+Indonesian proverbs;Sudah jatuh tertimpa tangga;Suffered twice in one incident.
+Indonesian proverbs;Bagai makan buah simalakama;A difficult situation with two equally detrimental choices.
+Indonesian proverbs;Seperti air di daun talas;A state that is not fixed or easy to change.
+Indonesian proverbs;Bagai musang berbulu domba;Bad people pretending to be good.
+Indonesian proverbs;Air beriak tanda tak dalam;People who talk a lot are usually not knowledgeable.
+Indonesian proverbs;Berakit-rakit ke hulu, berenang-renang ke tepian;Work hard first, have fun later.
+Indonesian proverbs;Tak ada rotan, akar pun jadi;Using what is available if there is nothing better.
+Indonesian proverbs;Sambil menyelam minum air;Doing two jobs at once.
+Indonesian proverbs;Bagai api dalam sekam;Invisible danger.
+Indonesian proverbs;Jauh panggang dari api;Something expected but far from reality.
+Indonesian proverbs;Mendapat durian runtuh;Sudden luck.
+Indonesian proverbs;Seperti telur di ujung tanduk;A very dangerous or critical situation.
+Indonesian proverbs;Sekali merengkuh dayung, dua tiga pulau terlampaui;Achieve multiple goals with one action.
+Indonesian proverbs;Tong kosong nyaring bunyinya;People who talk a lot but don't contain anything.
+Indonesian proverbs;Bagai anjing dan kucing;Always fighting.
+Indonesian proverbs;Ada gula ada semut;Where there is good fortune, there many people come.
+Indonesian proverbs;Berat sama dipikul, ringan sama dijinjing;Work together in the face of difficulties.
 Indonesian proverbs;Bagai itik mendapat air;Very happy.
 Indonesian proverbs;Bagai kacang lupa akan kulitnya;People who forget their origins.
 Indonesian proverbs;Bagai tikus jatuh ke beras;Big lucky person.
@@ -56,7 +364,38 @@ Indonesian proverbs;Berburu ke padang datar, mendapat rusa belang kaki;Get more 
 Indonesian proverbs;Diberi betis, minta paha;Given little asks for more.
 Indonesian proverbs;Jalan tengah;Looking for a fair solution.
 Indonesian proverbs;Kura-kura dalam perahu;Pretending not to know.
+Indonesian proverbs;Seperti lebah, mulut membawa madu, ekor membawa sengat;Looks good on the outside but harbors danger on the inside.
 Indonesian proverbs;Tiada gading yang tak retak;Nothing is perfect in this world.
+English proverb;Break a leg;Encouragement to do good at the show.
+English proverb;A piece of cake;Something very easy to do.
+English proverb;Once in a blue moon;A very rare event.
+English proverb;Let the cat out of the bag;Reveal secrets that should be hidden.
+English proverb;Hit the nail on the head;Said something very accurate.
+English proverb;When pigs fly;Something that couldn't possibly happen.
+English proverb;Under the weather;Feeling unwell or sick.
+English proverb;Spill the beans;Reveal secrets.
+English proverb;Burn the midnight oil;Working or studying late into the night.
+English proverb;Bite the bullet;Face difficult situations with courage.
+English proverb;A blessing in disguise;Something that seems bad but is actually good.
+English proverb;Call it a day;Ends work for the day.
+English proverb;Cut corners;Taking shortcuts that are usually bad.
+English proverb;Hang in there;Stay patient and persevere.
+English proverb;Miss the boat;Missing a chance or opportunity.
+English proverb;Costs an arm and a leg;Very expensive.
+English proverb;Hit the sack;Go to sleep.
+English proverb;Break the ice;Starting a conversation in an awkward situation.
+English proverb;The ball is in your court;It's up to you to take next action.
+English proverb;The best of both worlds;An ideal situation where you can enjoy two different things at once.
+English proverb;Bite off more than you can chew;Taking on more work than you can handle.
+English proverb;By the skin of your teeth;Nearly failed or with only a small margin.
+English proverb;Every cloud has a silver lining;There is a positive side to every bad situation.
+English proverb;Hit the ground running;Start something enthusiastically and quickly.
+English proverb;In the heat of the moment;Doing things impulsively when emotions are high.
+English proverb;Jump on the bandwagon;Following trends or things that are currently popular.
+English proverb;Leave no stone unturned;Search or try all possibilities.
+English proverb;Let sleeping dogs lie;Don't disturb something that is already calm.
+English proverb;Pull someone's leg;Joking or making fun of someone.
+English proverb;Throw in the towel;Give up or stop trying.
 English proverb;Burn the candle at both ends;Working too hard to the point of exhaustion.
 English proverb;Bury the hatchet;Resolving conflicts and making peace.
 English proverb;Clam up;Being very quiet or unwilling to talk.
@@ -65,7 +404,66 @@ English proverb;Get a taste of your own medicine;Feeling the consequences of bad
 English proverb;Give someone the cold shoulder;Ignoring or walking away from someone.
 English proverb;Go the extra mile;Doing more than is expected or necessary.
 English proverb;Kick the bucket;Die.
+English proverb;Let the chips fall where they may;Let things happen as they are.
+English proverb;Off the hook;Free from difficulties or responsibilities.
+English proverb;Rain on someone's parade;Disturb or spoil someone's enjoyment.
+English proverb;Take it with a grain of salt;Not really trusting anything completely.
+English proverb;The early bird catches the worm;People who act quickly will benefit.
+English proverb;Throw caution to the wind;Taking risks without thinking about the consequences.
+English proverb;Turn a blind eye;Ignoring something that is wrong or not good.
+English proverb;Break the bank;Spend a lot of money.
+English proverb;The last straw;The last incident that made someone couldn't stand it anymore.
+English proverb;Wrap your head around something;Understand or understand something well.
+English proverb;Birds of a feather flock together;People who have something in common will gather together.
+English proverb;Hit the road;Start going or taking a trip.
+English proverb;Bite the dust;Experiencing defeat or failure.
+English proverb;Cut the mustard;Meeting expectations or standards.
+English proverb;Hit the jackpot;Get big profits or good luck.
+English proverb;Kick up a fuss;Complaining or making a fuss.
+English proverb;Let off steam;Releasing emotions or anger.
+English proverb;Make a mountain out of a molehill;Making a big deal out of a small problem.
+English proverb;On cloud nine;Very happy or delighted.
+English proverb;Pull the plug;Stopping something, especially something that is in progress.
+English proverb;Steal someone's thunder;Stealing attention or praise that should be for others.
+English proverb;Take the bull by the horns;Face problems directly and bravely.
+English proverb;A dime a dozen;Something that is very common or easy to find.
+English proverb;Beat around the bush;Avoiding the subject.
+English proverb;Bend over backwards;Trying really hard to help someone.
+English proverb;Couch potato;Someone who spends a lot of time watching TV.
+English proverb;Go down in flames;Failed spectacularly.
+English proverb;It's not rocket science;Something that is not too difficult or complicated.
+English proverb;Leave someone in the lurch;Leaving someone in trouble.
+English proverb;On the ball;Very alert and responsive.
+English proverb;Piece of the action;Part of a profitable activity or business.
+English proverb;Throw in the towel;Give up or stop trying.
+English proverb;Back to the drawing board;Restarting something from scratch because previous plans failed.
+English proverb;Blow off steam;Releasing emotions or anger.
+English proverb;Burn bridges;Destroying a good relationship with someone.
+English proverb;Drive someone up the wall;Make someone very angry or upset.
+English proverb;Face the music;Facing the consequences of the actions taken.
+English proverb;Get your act together;Organize yourself and work more efficiently.
+English proverb;Jump the gun;Acting too quickly without thinking carefully.
+English proverb;Keep your chin up;Stay enthusiastic and don't give up.
+English proverb;Sit on the fence;Not taking sides or being neutral in a debate.
+English proverb;Speak of the devil;When someone who is being talked about suddenly appears.
+English proverb;A leopard can't change its spots;People cannot change their basic nature.
+English proverb;Actions speak louder than words;Actions speak louder than words.
+English proverb;Add insult to injury;Making a bad situation worse.
+English proverb;Barking up the wrong tree;Directing efforts to the wrong things.
+English proverb;Don't count your chickens before they hatch;Don't assume something will happen before it happens.
+English proverb;Hit the nail on the head;Capture the essence of the problem correctly.
+English proverb;Kill two birds with one stone;Solving two problems with one action.
+English proverb;Let the cat out of the bag;Reveal secrets.
+English proverb;No pain, no gain;Have to work hard to get good results.
+English proverb;Time flies when you're having fun;Time flies when you're having fun.
 Indonesian geography;Sumbawa;The island in West Nusa Tenggara is known for the eruption of Mount Tambora.
+Indonesian geography;Sumatra;The sixth largest island in the world, western Indonesia.
+Indonesian geography;Jawa;The island with the largest population in Indonesia.
+Indonesian geography;Kalimantan;The third largest island in the world, also called Borneo.
+Indonesian geography;Sulawesi;Island shaped like the letter 'K', lots of volcanoes.
+Indonesian geography;Papua;The second largest island in the world, eastern part of Indonesia.
+Indonesian geography;Bali;The island is famous for its beach tourism, near Java.
+Indonesian geography;Lombok;Island near Bali, famous for Mount Rinjani.
 Indonesian geography;Flores;Island in East Nusa Tenggara, famous for Komodo dragons.
 Indonesian geography;Timor;Island in East Nusa Tenggara, shared with Timor Leste.
 Indonesian geography;Sumbawa;The island in West Nusa Tenggara is known as Sumbawa Besar.
@@ -285,6 +683,243 @@ Indonesian ecology;Orangutan Kalimantan;A large primate that lives on the island
 Indonesian ecology;Komodo;A giant reptile that only lives on Komodo Island and several other small islands in Indonesia. Latin name: Varanus komodoensis.
 Indonesian ecology;Badak Jawa;A large mammal with one horn that lives in tropical forests on the island of Java. Latin name: Rhinoceros sondaicus.
 Indonesian ecology;Cenderawasih;Birds with beautiful colorful feathers live in Papua. Latin name: Paradisaea.
+Indonesian ecology;Raflesia Arnoldii;Large flowers that have an unpleasant odor, live in Sumatra. Latin name: Rafflesia arnoldii.
+Indonesian ecology;Amorphophallus titanum;The flower with the largest inflorescence in the world lives in Sumatra. Latin name: Amorphophallus titanum.
+Indonesian ecology;Anggrek Bulan;This orchid is known for the beauty of its flowers and is the mascot of Indonesia. Latin name: Phalaenopsis amabilis.
+Indonesian ecology;Meranti;Large trees whose wood is often used for building materials live in Kalimantan. Latin name: Shorea spp.
+Indonesian ecology;Bunga Edelweiss;Flowers known as eternal flowers, grow in the highlands of Indonesia. Latin name: Anaphalis javanica.
+Indonesian ecology;Anoa;Small buffalo that live in Sulawesi, also known as dwarf buffalo. Latin name: Bubalus quarlesi.
+Indonesian ecology;Babirusa;Pigs with long, backward-curving tusks live in Sulawesi. Latin name: Babyrousa celebensis.
+Indonesian ecology;Bekantan;A primate with a long nose that lives in Kalimantan, also known as the Dutch monkey. Latin name: Nasalis larvatus.
+Indonesian ecology;Maleo;Birds that lay eggs in hot sand, live in Sulawesi. Latin name: Macrocephalon maleo.
+Indonesian ecology;Ikan Arwana Merah;Red ornamental fish found in West Kalimantan. Latin name: Scleropages formosus.
+Indonesian ecology;Bunga Padma Raksasa;Large flowers that have an unpleasant odor, live in Kalimantan. Latin name: Rafflesia arnoldii.
+Indonesian ecology;Daun Sang;Plants whose leaves are used as medicine live in Sumatra. Latin name: Dracaena angustifolia.
+Indonesian ecology;Kayu Manis;The tree whose bark is used as a spice lives in eastern Indonesia. Latin name: Cinnamomum verum.
+Indonesian ecology;Cendana;This tree, whose wood is highly valued and is used in perfume, lives in East Nusa Tenggara. Latin name: Santalum album.
+Indonesian ecology;Ulin;A large tree with very strong wood, lives in Kalimantan. Latin name: Eusideroxylon zwageri.
+Indonesian ecology;Jalak Bali;A bird that only lives in Bali and is known for its white feathers. Latin name: Leucopsar rothschildi.
+Indonesian ecology;Kuskus Beruang;A small marsupial that lives in Papua and Maluku, also known as the hairy opossum. Latin name: Ailurops ursinus.
+Indonesian ecology;Lutung Jawa;A primate with jet black fur that lives in West Java. Latin name: Trachypithecus auratus.
+Indonesian ecology;Macan Dahan Borneo;A big cat with cloud-patterned fur that lives in Borneo. Latin name: Neofelis diardi.
+Indonesian ecology;Elang Flores;A large bird of prey found on Flores, also known as the Flores eagle. Latin name: Nisaetus floris.
+Indonesian ecology;Tarsius Tarsier;A small primate with large eyes that lives in Sulawesi, also known as a tarsier. Latin name: Tarsius tarsier.
+Indonesian ecology;Kakaktua Maluku;Birds with white feathers and yellow crests, live in Maluku. Latin name: Cacatua moluccensis.
+Indonesian ecology;Cemara Gunung;Evergreen trees that grow in the mountains of Indonesia. Latin name: Casuarina junghuhniana.
+Indonesian ecology;Sagu;The tree that produces sago flour lives in Papua and Maluku. Latin name: Metroxylon sago.
+Indonesian ecology;Bunga Bangkai;Flowers that emit a foul smell, live in Sumatra. Latin name: Amorphophallus titanum.
+Indonesian ecology;Anoa Pegunungan;A small buffalo that lives in the mountains of Sulawesi. Latin name: Bubalus quarlesi.
+Indonesian ecology;Merak Hijau;A large bird with metallic green feathers that lives in Java and Bali. Latin name: Pavo muticus.
+Indonesian ecology;Kanguru Pohon;Marsupials that live in trees, live in Papua. Latin name: Dendrolagus sp.
+Indonesian ecology;Kuskus Kecil;Small marsupial that lives in Papua and Maluku. Latin name: Phalanger orientalis.
+Indonesian ecology;Serindit Papua;A small bird with green feathers that lives in Papua. Latin name: Loriculus amabilis.
+Indonesian ecology;Rafflesia Patma;Flowers that have an unpleasant odor live in West Java. Latin name: Rafflesia patma.
+Indonesian ecology;Durian Bawor;A famous durian variety in Banyumas, Central Java. Latin name: Durio zibethinus.
+Indonesian ecology;Bambu Betung;Large bamboo used for building construction, lives in Java. Latin name: Dendrocalamus asper.
+Indonesian ecology;Jati;Trees with very strong and durable wood live in Java and Nusa Tenggara. Latin name: Tectona grandis.
+Indonesian ecology;Merbau;Large trees whose wood is used for building materials live in Papua. Latin name: Intsia bijuga.
+Indonesian ecology;Enggang Gading;A large bird with a yellow and red beak that lives in Kalimantan. Latin name: Buceros vigil.
+Indonesian ecology;Isap Madu;Small birds that suck flower nectar, live in Papua. Latin name: Myzomela sp.
+Indonesian ecology;Ikan Sidat;Fish that can live in fresh water and sea water live in western Indonesia. Latin name: Anguilla sp.
+Indonesian ecology;Kadal Air Hijau;A small green reptile that lives in Sulawesi. Latin name: Takydromus sexlineatus.
+Indonesian ecology;Pelanduk Kancil;Small mammal with long legs and large ears, living in Sumatra and Kalimantan. Latin name: Tragulus kanchil.
+Indonesian ecology;Kapur;Trees that produce high-value resin live in Kalimantan. Latin name: Dryobalanops aromatica.
+Indonesian ecology;Kenari;The tree that produces walnuts lives in Maluku. Latin name: Canarium indicum.
+Indonesian ecology;Matoa;A tree whose fruit is edible and grows widely in Papua. Latin name: Pometia pinnata.
+Indonesian ecology;Pasak Bumi;This tree, whose roots and trunk are used as a tonic, lives in Kalimantan. Latin name: Eurycoma longifolia.
+Indonesian ecology;Uru;Large trees whose wood is used for building materials live in Maluku. Latin name: Elmerrillia tsiampaca.
+Indonesian ecology;Raja Udang;Birds with blue feathers and long beaks live throughout Indonesia. Latin name: Alcedo atthis.
+Indonesian ecology;Nuri Bayan;Birds with red and green feathers, live in Maluku and Papua. Latin name: Eclectus roratus.
+Indonesian ecology;Kakatua Raja;Birds with black feathers and large crests, live in Papua. Latin name: Probosciger aterrimus.
+Indonesian ecology;Ikan Badut;Small orange fish with white lines, living in Indonesian waters. Latin name: Amphiprion ocellaris.
+Indonesian ecology;Katak Sulawesi;A small amphibian that lives in trees, living in Sulawesi. Latin name: Rhacophorus celebensis.
+Indonesian ecology;Kapok;The tree that produces kapok fiber lives in Sumatra and Java. Latin name: Ceiba pentandra.
+Indonesian ecology;Jelutung;The tree that produces the sap used for rubber, lives in Sumatra. Latin name: Dyera costulata.
+Indonesian ecology;Pulai;A tree that is often used in traditional medicine, lives in Java. Latin name: Alstonia scholaris.
+Indonesian ecology;Cendana Merah;The tree whose wood is used in making perfume lives in East Nusa Tenggara. Latin name: Santalum album.
+Indonesian ecology;Damar;The tree that produces the resin used for varnish materials lives in Sulawesi. Latin name: Agathis dammara.
+Indonesian ecology;Jalak Putih;A small bird with pure white feathers, living in Java. Latin name: Sturnus melanopterus.
+Indonesian ecology;Murai Batu;Birds with melodious songs, live in Sumatra and Kalimantan. Latin name: Copsychus malabaricus.
+Indonesian ecology;Elang Jawa;A large bird of prey with a unique crest, living in Java. Latin name: Nisaetus bartelsi.
+Indonesian ecology;Katak Merah Papua;A small, bright red amphibian that lives in Papua. Latin name: Oreophryne sp.
+Indonesian ecology;Ikan Hiu Karang Papua;Large predatory fish that lives in the coral reefs of Papua. Latin name: Carcharhinus melanopterus.
+Indonesian ecology;Ulin Sulawesi;A large tree whose wood is used for building materials, lives in Sulawesi. Latin name: Eusideroxylon zwageri.
+Indonesian ecology;Gandaria;The fruit tree used in traditional cooking lives in Maluku. Latin name: Bouea macrophylla.
+Indonesian ecology;Kapas;The tree that produces cotton fiber lives in Java and Sumatra. Latin name: Gossypium sp.
+Indonesian ecology;Kemenyan;The tree that produces incense resin lives in Sumatra. Latin name: Styrax benzoin.
+Indonesian ecology;Kesambi;Trees whose wood is used for building materials and medicine live in Java and Bali. Latin name: Schleichera oleosa.
+Indonesian ecology;Jalak Bali;A bird that only lives in Bali and is known for its white feathers. Latin name: Leucopsar rothschildi.
+Indonesian ecology;Kuskus Beruang;A small marsupial that lives in Papua and Maluku, also known as the hairy opossum. Latin name: Ailurops ursinus.
+Indonesian ecology;Lutung Jawa;A primate with jet black fur that lives in West Java. Latin name: Trachypithecus auratus.
+Indonesian ecology;Macan Dahan Borneo;A big cat with cloud-patterned fur that lives in Borneo. Latin name: Neofelis diardi.
+Indonesian ecology;Elang Flores;A large bird of prey found on Flores, also known as the Flores eagle. Latin name: Nisaetus floris.
+Indonesian ecology;Tarsius Tarsier;A small primate with large eyes that lives in Sulawesi, also known as a tarsier. Latin name: Tarsius tarsier.
+Indonesian ecology;Burung Kakaktua Maluku;Birds with white feathers and yellow crests, live in Maluku. Latin name: Cacatua moluccensis.
+Indonesian ecology;Cemara Gunung;Evergreen trees that grow in the mountains of Indonesia. Latin name: Casuarina junghuhniana.
+Indonesian ecology;Pohon Sagu;The tree that produces sago flour lives in Papua and Maluku. Latin name: Metroxylon sago.
+Indonesian ecology;Bunga Bangkai;Flowers that emit a foul smell, live in Sumatra. Latin name: Amorphophallus titanum.
+Indonesian ecology;Burung Maleo;Birds that lay eggs in hot sand, live in Sulawesi. Latin name: Macrocephalon maleo.
+Indonesian ecology;Burung Cenderawasih;Birds with beautiful colorful feathers live in Papua. Latin name: Paradisaea.
+Indonesian ecology;Burung Kasuari;A large, flightless bird with strong legs, living in Papua. Latin name: Casuarius.
+Indonesian ecology;Kanguru Tanah;Marsupials that live on the ground, live in Papua. Latin name: Thylogale brunii.
+Indonesian ecology;Katak Bertanduk;A frog with horn-like protrusions on its head, living in Sumatra. Latin name: Megophrys nasuta.
+Indonesian ecology;Kapok Randu;The tree that produces kapok fiber lives in Java and Sumatra. Latin name: Ceiba pentandra.
+Indonesian ecology;Keruing;Trees that produce high quality wood live in Kalimantan. Latin name: Dipterocarpus sp.
+Indonesian ecology;Matoa;A tree whose fruit is edible and grows widely in Papua. Latin name: Pometia pinnata.
+Indonesian ecology;Nagasari;A tree that is often used in traditional medicine, lives in Java. Latin name: Mesua ferrea.
+Indonesian ecology;Ketapang;A tree often found on beaches, used for wind protection. Latin name: Terminalia catappa.
+Indonesian ecology;Burung Beo Nias;Smart birds that can imitate human voices live on Nias. Latin name: Gracula robusta.
+Indonesian ecology;Kakatua Kecil Jambul Kuning;Birds with distinctive yellow crests live in Papua. Latin name: Cacatua sulphurea.
+Indonesian ecology;Trulek Jawa;A rare bird with a long curved beak, living in Java. Latin name: Vanellus macropterus.
+Indonesian ecology;Kura-kura Leher Ular Rote;Turtles with long, snake-like necks live in Rote. Latin name: Chelodina mccordi.
+Indonesian ecology;Katak Ekor Cacing;Frogs that have long, worm-like tails live in Papua. Latin name: Litoria sp.
+Indonesian ecology;Kemiri;The tree that produces candlenuts lives in Maluku. Latin name: Aleurites moluccana.
+Indonesian ecology;Cendana Putih;A tree with fragrant wood which is often used in making perfume, lives in East Nusa Tenggara. Latin name: Santalum album.
+Indonesian ecology;Trembesi;A large tree that is often used as a shade plant, lives in Java. Latin name: Samanea saman.
+Indonesian ecology;Bintaro;This tree, whose fruit is poisonous and is often found on beaches, lives throughout Indonesia. Latin name: Cerbera manghas.
+Indonesian ecology;Buni;Tree with small edible fruit, lives in Java. Latin name: Antidesma bunius.
+Indonesian dance;Saman;Fast dance of the Gayo tribe in Aceh
+Indonesian dance;Piring;Dance using Minangkabau plates in West Sumatra
+Indonesian dance;Kecak;A Balinese dance involving many male dancers sitting in a circle
+Indonesian dance;Topeng;Dance using Cirebon masks in West Java
+Indonesian dance;Reog Ponorogo;Dance with masks and lumping horses in Ponorogo in East Java
+Indonesian dance;Serimpi;The subtle dance of the Yogyakarta palace
+Indonesian dance;Jaipong;Energetic Sundanese dance in West Java
+Indonesian dance;Legong;Classic Balinese dance which is often performed in palaces
+Indonesian dance;Tor Tor;Ritual dance of the Batak tribe in North Sumatra
+Indonesian dance;Giring Giring;Dance using sticks from the Dayak tribe in Central Kalimantan
+Indonesian dance;Balumpa;Traditional dance of the Buton tribe in Southeast Sulawesi
+Indonesian dance;Yospan;Papuan tribal friendship dance
+Indonesian dance;Caci;War dance of the Manggarai tribe in Flores, NTT
+Indonesian dance;Maengket;Harvest celebration dance of the Minahasa tribe in North Sulawesi
+Indonesian dance;Lenso;Dance using handkerchiefs from the Ambon tribe in Maluku
+Indonesian dance;Jangger;Energetic dance of the Sasak tribe in Lombok, NTB
+Indonesian dance;Belian;Healing dance of the Kutai Tribe in East Kalimantan
+Indonesian dance;Hudoq;Dayak mask dance in East Kalimantan
+Indonesian dance;Tanggai;Dance welcoming guests from the Palembang Tribe in South Sumatra
+Indonesian dance;Gaba Gaba;Dance with long bamboo from the Maluku Tribe in North Maluku
+Indonesian dance;Pakarena;Traditional dance of the Bugis tribe in South Sulawesi
+Indonesian dance;Tifa;Dance with the Papuan Tifa musical instrument
+Indonesian dance;Sajojo;Papuan tribal social dance
+Indonesian dance;Mambri;Traditional ceremonial dance of the Asmat tribe in Papua
+Indonesian dance;Sahu;Traditional dance of the Sahu tribe in West Halmahera, North Maluku
+Indonesian dance;Malulo;Social dance of the Tolaki tribe in Southeast Sulawesi
+Indonesian dance;Lego Lego;Social dance of the Alor Tribe in East Nusa Tenggara
+Indonesian dance;Dero;Mass dance of the Pamona Tribe in Central Sulawesi
+Indonesian dance;Alu;Traditional dance using bamboo from the Manggarai Tribe in Flores, NTT
+Indonesian dance;Tandak;Malay social dances in Riau
+Indonesian dance;Kataga;War dance of the Sumba tribe in East Nusa Tenggara
+Indonesian dance;Selampit Delapan;Dance with shawls from the Jambi tribe in Sumatra
+Indonesian dance;Menjau;Dance welcoming guests from the Dayak Kenyah Tribe in East Kalimantan
+Indonesian dance;Barong Landung;Dance with giant Balinese dolls
+Indonesian dance;Andun;Dance welcoming guests from the Rejang Tribe in Bengkulu
+Indonesian dance;Moyo;Dance welcoming guests from the Ngada Tribe in Flores, East Nusa Tenggara
+Indonesian dance;Wutukala;Traditional ceremonial dance of the Ternate tribe in North Maluku
+Indonesian dance;Dongkrek;Traditional dance of the Madiun tribe in East Java
+Indonesian dance;Wor;Dance welcoming guests from the Biak Tribe in Papua
+Indonesian dance;Gareng Lameng;War dance of the Manggarai Tribe in Flores, East Nusa Tenggara
+Indonesian dance;Balisa;Dance welcoming guests from the Sasak Tribe in Lombok, NTB
+Indonesian dance;Sanghyang Dedari;A sacred Balinese dance involving dancers in a trance
+Indonesian dance;Musyoh;Dance to exorcise evil spirits from the Biak tribe in Papua
+Indonesian dance;Suanggi;Dance to exorcise evil spirits from the West Papuan tribe
+Indonesian dance;Lariangi;Dance welcoming guests from the Buton Tribe in Southeast Sulawesi
+Indonesian dance;Salai Jin;The magical dance of the Tidore Tribe in North Maluku
+Indonesian dance;Ngalu;Social dance of the Mentawai tribe in West Sumatra
+Indonesian dance;Bambu Gila;Magical dance with Maluku bamboo
+Indonesian dance;Dadas;Dance welcoming guests from the Dayak Tribe in Central Kalimantan
+Indonesian dance;Tandak Sambas;Traditional dance of the Malay Sambas tribe in West Kalimantan
+Indonesian dance;Orlapei;Social dance of the Nias tribe in North Sumatra
+Indonesian dance;Katrili;Social dance of the Minahasa tribe in North Sulawesi
+Indonesian dance;Hedung;War dance of the Sikka tribe in Flores, NTT
+Indonesian dance;Soya Soya;War dance of the Ternate tribe in North Maluku
+Indonesian dance;Sayau;Social dance of the Tunjung Dayak tribe in East Kalimantan
+Indonesian dance;Palo Palo;Traditional dance of the Buton tribe in Southeast Sulawesi
+Indonesian dance;Polo Bese;Traditional dance of the Bima tribe in West Nusa Tenggara
+Indonesian dance;Embu;War dance of the Lembata tribe in East Nusa Tenggara
+Indonesian dance;Gantar;Traditional dance of the Dayak tribe in East Kalimantan using sticks
+Indonesian dance;Malangke;Traditional dance of the Mandar tribe in West Sulawesi
+Indonesian dance;Balumpa;Dance welcoming guests from the Buton Tribe in Southeast Sulawesi
+Indonesian dance;Polopalo;Dance welcoming guests from the Gorontalo Tribe in Sulawesi
+Indonesian dance;Balumpa;Social dance of the Buton tribe in Southeast Sulawesi
+Indonesian dance;Gong;Dance using gongs from the Flores Tribe in East Nusa Tenggara
+Indonesian dance;Memanis;Dance welcoming guests from the Sabu Tribe in East Nusa Tenggara
+Indonesian dance;Penti;Harvest dance of the Manggarai Tribe in East Nusa Tenggara
+Indonesian dance;Cakalele;War dance of the Maluku tribe in North Maluku
+Indonesian dance;Hegong;Dance welcoming guests from the Sikka Tribe in East Nusa Tenggara
+Indonesian dance;Foti;Dance welcoming guests from the Alor Tribe in East Nusa Tenggara
+Indonesian dance;Pa gellu;Celebratory dance of the Toraja tribe in South Sulawesi
+Indonesian dance;Tandak Telu;Social dance of the Lembak tribe in South Sumatra
+Indonesian dance;Bidu;Dance welcoming guests from the Rote Tribe in East Nusa Tenggara
+Indonesian dance;Dama;War dance of the Buru tribe in Maluku
+Indonesian dance;Mbata;Dance welcoming guests from the Ngada Tribe in Flores, East Nusa Tenggara
+Indonesian dance;Ronggeng Blantek;Betawi social dance in Jakarta
+Indonesian dance;Santi;Dance welcoming guests from the Ternate Tribe in North Maluku
+Indonesian dance;Topeng Betawi;Betawi tribal comedy dance in Jakarta
+Indonesian dance;Beskalan;Traditional dance in East Java
+Indonesian dance;Woleka;Dance welcoming guests from the Sikka Tribe in Flores, East Nusa Tenggara
+Indonesian dance;Lenggang Nyai;Traditional Betawi dance in Jakarta with agile movements
+Indonesian dance;Batunganga;Traditional dance of the Minahasa tribe in North Sulawesi
+Indonesian dance;Cokek;Traditional Betawi dance in Jakarta accompanied by Gambang Kromong music
+Indonesian dance;Dana Dana;Social dance of the Gorontalo tribe in Sulawesi
+Indonesian dance;Ketuk Tilu;Sundanese social dances in West Java
+Indonesian dance;Mendu;Malay folk theater dance in West Kalimantan
+Indonesian dance;Pakarena Bone;Traditional dance of the Bugis tribe in South Sulawesi
+Indonesian dance;Payung;Social dance using the umbrella of the Minangkabau tribe in West Sumatra
+Indonesian dance;Rantak Kudo;Braided horse dance of the Minangkabau tribe in West Sumatra
+Indonesian dance;Rudat;Traditional dance of the Sasak tribe in Lombok, NTB
+Indonesian dance;Jepen;Traditional dance of the Kutai Tribe in East Kalimantan
+Indonesian dance;Tifa;Dance using the tifa musical instrument of the Asmat tribe in Papua
+Indonesian dance;Sai;Traditional dance of the Kerinci tribe in Jambi
+Indonesian dance;Mbata;Dance welcoming guests from the Sikka Tribe in Flores, East Nusa Tenggara
+Indonesian dance;Tanggomo;Traditional dance of the Gorontalo tribe in Sulawesi
+Indonesian dance;Tuak;Traditional dance of the Dayak tribe in Central Kalimantan
+Indonesian dance;Serampang Dua Belas;Malay social dances in North Sumatra
+Indonesian dance;Selendang Mayang;Traditional Betawi dance in Jakarta
+Indonesian dance;Tumbu Tanah;Harvest dance of the Nias tribe in North Sumatra
+Indonesian dance;Wura Bongi Monca;Dance welcoming guests from the Muna Tribe in Southeast Sulawesi
+Indonesian dance;Tobelo;War dance of the Tobelo tribe in North Maluku
+Indonesian dance;Ela Ela;Traditional dance of the Buton tribe in Southeast Sulawesi
+Indonesian dance;Guel;Traditional dance of the Gayo tribe in Aceh
+Indonesian dance;Balean Dadas;Healing dance of the Dayak tribe in Central Kalimantan
+Indonesian dance;Piring Manggis;Harvest dance of the Minangkabau tribe in West Sumatra
+Indonesian dance;Hudoq;Dance with scary masks from the Dayak tribe in East Kalimantan
+Indonesian dance;Kakula;Traditional dance of the Kaili tribe in Central Sulawesi
+Indonesian dance;Cakalele;War dance of the Maluku tribe in North Maluku
+Indonesian dance;Woleka;Dance welcoming guests from the Sikka Tribe in Flores, East Nusa Tenggara
+Indonesian dance;Pakarena;Traditional dance of the Bugis tribe in South Sulawesi
+Indonesian dance;Lego Lego;Social dance of the Alor Tribe in East Nusa Tenggara
+Indonesian dance;Balisa;Dance welcoming guests from the Sasak Tribe in Lombok, NTB
+Indonesian dance;Loang Baloq;Traditional dance of the Sasak tribe in Lombok, NTB
+Indonesian dance;Bines;Dance welcoming guests from the Gayo Tribe in Aceh
+Indonesian dance;Nandak Ganjen;Traditional Betawi dance in Jakarta
+Indonesian dance;Saureka Reka;Traditional dance of the Maluku tribe in North Maluku
+Indonesian dance;Bidu;Dance welcoming guests from the Rote Tribe in East Nusa Tenggara
+Indonesian dance;Sere;Traditional dance of the Sikka tribe in Flores, East Nusa Tenggara
+Indonesian dance;Ketuk Tilu;Sundanese social dances in West Java
+Indonesian dance;Tempurung;Traditional dance of the Batak tribe in North Sumatra
+Indonesian dance;Enggang;Traditional dance of the Dayak tribe in East Kalimantan, imitating the movements of hornbills
+Indonesian dance;Kondo;War dance of the Dani tribe in Papua
+Indonesian dance;Cakalele;War dance of the Ternate tribe in North Maluku
+Indonesian dance;Gaba Gaba;Dance using bamboo from the Ambon tribe in Maluku
+Indonesian dance;Pukul Sapu;Traditional dance of the Buton tribe in Southeast Sulawesi
+Indonesian dance;Timur Tengah Utara;Traditional dance of the Timorese tribe in East Nusa Tenggara
+Indonesian dance;Alu Alu;Traditional dance of the Mentawai tribe in West Sumatra
+Indonesian dance;Bangsawan;Traditional Malay dance in Riau
+Indonesian dance;Cewang;Traditional dance of the Gayo tribe in Aceh
+Indonesian dance;Datun Julud;Traditional dance of the Dayak Kenyah tribe in East Kalimantan
+city ​​in Indonesia;Jakarta;Famous for as Big Durians.
+city ​​in Indonesia;Surabaya;The city of heroes is famous for the Suramadu bridge.
+city ​​in Indonesia;Bandung;The flower city is famous for its Factory Outlets and culinary delights.
+city ​​in Indonesia;Yogyakarta;Student city with Prambanan and Malioboro Temples.
+city ​​in Indonesia;Medan;The largest city in Sumatra with various ethnicities and cultures.
+city ​​in Indonesia;Denpasar;A city on the island of Bali which is famous for beach tourism.
+city ​​in Indonesia;Semarang;Spring roll city with Lawang Sewu as a tourist attraction.
+city ​​in Indonesia;Makassar;A city in Sulawesi with Losari Beach and seafood culinary delights.
+city ​​in Indonesia;Palembang;Pempek city with the iconic Ampera Bridge.
+city ​​in Indonesia;Balikpapan;Oil city in East Kalimantan with Melawai Beach.
+city ​​in Indonesia;Malang;Apple city is famous for its natural beauty.
+city ​​in Indonesia;Bogor;Rainy city with famous Botanical Gardens.
+city ​​in Indonesia;Padang;City in West Sumatra with a Clock Tower.
 city ​​in Indonesia;Pontianak;A city on the equator with the Kapuas River.
 city ​​in Indonesia;Banda Aceh;The capital of Aceh province is nicknamed the Veranda of Mecca.
 city ​​in Indonesia;Pekanbaru;A city in Riau which is famous for its oil industry.
@@ -293,6 +928,21 @@ city ​​in Indonesia;Batam;An industrial city in the Riau Islands close to Si
 city ​​in Indonesia;Solo;A cultural city in Central Java with the Kasunanan Palace.
 city ​​in Indonesia;Kupang;The capital of NTT with beautiful beaches and Timorese culture.
 city ​​in Indonesia;Ambon;A city in Maluku which is famous for its music and beaches.
+city ​​in Indonesia;Jayapura;The capital of Papua with views of Lake Sentani.
+city ​​in Indonesia;Tangerang;The city in Banten is famous for industry and housing.
+city ​​in Indonesia;Cirebon;A city in West Java which is famous for its palace and batik.
+city ​​in Indonesia;Banjarmasin;City in South Kalimantan with a floating market.
+city ​​in Indonesia;Mataram;The capital of NTB is close to Mount Rinjani.
+city ​​in Indonesia;Samarinda;City in East Kalimantan with the Mahakam River.
+city ​​in Indonesia;Kediri;The city in East Java is famous for the Selomangleng Cave.
+city ​​in Indonesia;Bengkulu;The city in Sumatra is famous for its Rafflesia flowers.
+city ​​in Indonesia;Gorontalo;The city in Sulawesi is famous for Lake Limboto.
+city ​​in Indonesia;Ternate;A city in North Maluku which is famous for its Sultanate history.
+city ​​in Indonesia;Sorong;The city in West Papua is known as the gateway to Raja Ampat.
+city ​​in Indonesia;Palu;The capital of Central Sulawesi is famous for Talise Beach.
+city ​​in Indonesia;Kendari;The capital of Southeast Sulawesi with a beautiful bay.
+city ​​in Indonesia;Jambi;The capital of Jambi province is famous for Batanghari.
+city ​​in Indonesia;Tarakan;A city in North Kalimantan which is known for its oil mines.
 city ​​in Indonesia;Pangkal Pinang;The capital city of Bangka Belitung is famous for tin.
 city ​​in Indonesia;Sibolga;A city in North Sumatra which is famous for its port and fisheries.
 city ​​in Indonesia;Bitung;A city in North Sulawesi which is famous for its container port.
@@ -316,6 +966,22 @@ city ​​in Indonesia;Batu;A city in East Java which is famous for natural tou
 city ​​in Indonesia;Sabang;The city on Pulau Weh is famous for marine tourism.
 city ​​in Indonesia;Baubau;The city in Southeast Sulawesi is famous for its Palace Fort.
 city ​​in Indonesia;Lubuklinggau;A city in South Sumatra which is famous for its typical Tempoyak food.
+city ​​in Indonesia;Palopo;A city in South Sulawesi which is famous for its natural views and Toraja traditions.
+city ​​in Indonesia;Probolinggo;A city in East Java which is famous for Bromo and its port.
+city ​​in Indonesia;Cimahi;A city in West Java known for industry and education.
+city ​​in Indonesia;Pekalongan;A city in Central Java which is famous for its coastal batik.
+city ​​in Indonesia;Bontang;A city in East Kalimantan which is known for its gas industry.
+city ​​in Indonesia;Sampit;A city in Central Kalimantan which is famous for its timber trade.
+city ​​in Indonesia;Palangkaraya;The capital of Central Kalimantan with the Kahayan River.
+city ​​in Indonesia;Parepare;A city in South Sulawesi which is famous for its port and fisheries.
+city ​​in Indonesia;Tarutung;A city in North Sumatra which is famous for spiritual tourism.
+city ​​in Indonesia;Banda Naira;A city in Maluku with colonial history and forts.
+city ​​in Indonesia;Blitar;A city in East Java which is famous for Bung Karno's grave.
+city ​​in Indonesia;Kudus;The city in Central Java is famous for the Kudus Tower.
+city ​​in Indonesia;Magelang;The city in Central Java is famous for the Borobudur Temple.
+city ​​in Indonesia;Tegal;A city in Central Java which is famous for its beaches and moorlands.
+city ​​in Indonesia;Sukabumi;A city in West Java which is famous for its natural tourism.
+city ​​in Indonesia;Sumbawa;The city in NTB is famous for Sumbawa horses.
 city ​​in Indonesia;Kaimana;The city in West Papua is famous for Triton Bay.
 city ​​in Indonesia;Batu Sangkar;A city in West Sumatra which is famous for the Pagaruyung palace.
 city ​​in Indonesia;Gunungsitoli;A city in Nias which is famous for rock jumping.
@@ -323,4 +989,30 @@ city ​​in Indonesia;Lubuk Basung;A city in West Sumatra which is famous for 
 city ​​in Indonesia;Labuan Bajo;The city in NTT is famous as the gateway to Komodo Island.
 city ​​in Indonesia;Solok;A city in West Sumatra which is famous for its natural scenery.
 city ​​in Indonesia;Pamekasan;The city in Madura is famous for batik crafts.
-
+city ​​in Indonesia;Bangkalan;The city in Madura is famous for the Suramadu Bridge.
+city ​​in Indonesia;Salatiga;A city in Central Java which is famous for its cool air.
+city ​​in Indonesia;Pasuruan;A city in East Java which is famous for industry and natural tourism.
+city ​​in Indonesia;Gianyar;A city in Bali which is famous for art and culture.
+city ​​in Indonesia;Klungkung;A city in Bali which is famous for its crafts and historical tourism.
+city ​​in Indonesia;Bau-Bau;The city in Southeast Sulawesi is famous for the Buton Palace Fortress.
+city ​​in Indonesia;Sragen;A city in Central Java which is famous for its temples and ancient sites.
+city ​​in Indonesia;Lamongan;A city in East Java which is famous for soto Lamongan.
+city ​​in Indonesia;Pemalang;The city in Central Java is famous for Widuri Beach.
+city ​​in Indonesia;Purworejo;A city in Central Java which is famous for the Palagan monument.
+city ​​in Indonesia;Wonogiri;A city in Central Java which is famous for the Gajah Mungkur Reservoir.
+city ​​in Indonesia;Pacitan;A city in East Java which is famous for its beaches and caves.
+city ​​in Indonesia;Ngawi;The city in East Java is famous for Pendem Fort.
+city ​​in Indonesia;Situbondo;A city in East Java which is famous for marine tourism.
+city ​​in Indonesia;Banyuwangi;A city in East Java which is famous for its natural and culinary tourism.
+city ​​in Indonesia;Bojonegoro;A city in East Java which is famous for petroleum.
+city ​​in Indonesia;Tulungagung;A city in East Java which is famous for its marble industry.
+city ​​in Indonesia;Jember;The city in East Java is famous for the Jember Fashion Carnival.
+city ​​in Indonesia;Cilacap;The city in Central Java is famous for Nusakambangan.
+city ​​in Indonesia;Kebumen;The city in Central Java is famous for Logending Beach.
+city ​​in Indonesia;Wonosobo;A city in Central Java which is famous for the Dieng Plateau.
+city ​​in Indonesia;Purbalingga;A city in Central Java which is famous for its exhaust production.
+city ​​in Indonesia;Magetan;The city in East Java is famous for Telaga Sarangan.
+city ​​in Indonesia;Blora;A city in Central Java which is famous for its teak forests.
+city ​​in Indonesia;Jepara;A city in Central Java which is famous for its wood carvings.
+city ​​in Indonesia;Klaten;The city in Central Java is famous for the Prambanan Temple.
+city ​​in Indonesia;Kudus;A city in Central Java that is famous for kretek cigarettes.

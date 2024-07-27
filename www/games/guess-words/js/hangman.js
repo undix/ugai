@@ -117,29 +117,17 @@ async function getTopScoresList() {
       }
 
       let rank = 0;
-      let tableHTML = `<table class="table">
-                          <thead>
-                              <tr>
-                                  <th width="10">Peringkat</th>
-                                  <th>Nama</th>
-                                  <th width="20">Nilai</th>
-                                  <th>Tanggal</th>
-                              </tr>
-                          </thead>
-                          <tbody>`;
+      let tableHTML = `<div class="table-responsive-md"><table class="table table-striped">
+                      <caption>Daftar jawara diambil berdasarkan akumulasi skor</caption>
+                      <thead><tr><th width=\"10\">Peringkat</th><th width=\"470\">Nama</th><th width=\"20\">Skor</th><th width=\"100\">Tanggal</th></tr></thead><tbody>`;
 
       data.forEach((item) => {
         // Mengganti data dengan item untuk mencegah shadowing
         rank++;
-        tableHTML += `<tr>
-                          <td>${rank}</td>
-                          <td>${item.name}</td>
-                          <td>${item.score}</td>
-                          <td>${item.date}</td>
-                      </tr>`;
+        tableHTML += `<tr><td>${rank}</td><td>${item.name}</td><td>${item.score}</td><td>${item.date}</td></tr>`;
       });
 
-      tableHTML += "</tbody></table>";
+      tableHTML += "</tbody></table></div>";
       tableElement.innerHTML = tableHTML;
     });
   } catch (error) {
@@ -329,32 +317,11 @@ async function reportResultHa(game) {
   }
 }
 
-/*
-async function reportResultHa(game) {
-  let postType = "salah";
-  let postGame = "tebakKataGagal";
-  if (game === "tebakKataSukses") {
-    postType = "benar";
-    postGame = "tebakKataSukses";
-  }
-  try {
-    const updatedApiKey = await updateToken();
-    const postDateTime = getCurrentDateTime();
+// Fungsi untuk menghapus item spesifik dari localStorage
+function resetLocalData() {
+  localStorage.removeItem("playerName");
 
-    const postUrlreportResultHangman = `${api_server_url}&name=Anonim&skor=${calculateScore()}&opt=${game}Quest&quest=${topik}&game=${postGame}&unit=${postType}&key=${updatedApiKey}&f=i&val=${tebakKataDurasi}&t=${postDateTime}`;
-
-    console.log(`postUrlreportResultHangman: ${postUrlreportResultHangman}`);
-
-    apiCall(postUrlreportResultHangman, responApi);
-
-    function responApi(data) {
-      //console.log(`Status: ${data.status}, Message: ${data.message}, Detailed: ${data.detailed}, DateTime: ${data.datetime}`);
-    }
-  } catch (error) {
-    console.error("Error updating the API key:", error);
-  }
 }
-*/
 
 //funsi untuk mengirim skor sukses/gagal bersama waktu dalam detik untuk gagal/berhasil untuk topik tertentu
 //lengkap dengan nama pemain
@@ -405,46 +372,6 @@ async function userReportResultHa(playerName, game) {
   }
 }
 
-/*
-
-async function userReportResultHa(playerName, game) {
-  const userScore = calculateScore();
-
-  let postUrlUserReportResultHangman;
-  let postType = "salah";
-  let postGame = "tebakKataGagal";
-  if (game === "tebakKataSukses") {
-    postType = "benar";
-    postGame = "tebakKataSukses";
-  }
-
-  if (playerName.length <= 2) {
-    playerName = "Anonim";
-  }
-
-  try {
-    const updatedApiKey = await updateToken();
-    const postDateTime = getCurrentDateTime();
-
-    // save user's score
-    postUrlUserReportResultHangman = `${api_server_url}&opt=${game}Skor&name=${playerName}&game=${postGame}&unit=skor&val=${calculateScore()}&key=${updatedApiKey}&f=i&t=${postDateTime}`;
-    console.log(
-      `postUrlUserReportResultHangman: ${postUrlUserReportResultHangman}`
-    );
-    
-
-    apiCall(postUrlUserReportResultHangman, responApi);
-
-    function responApi(data) {
-      console.log(
-        `Status: ${data.status}, Message: ${data.message}, Detailed: ${data.detailed}, DateTime: ${data.datetime}`
-      );
-    }
-  } catch (error) {
-    console.error("Error updating the API key:", error);
-  }
-}
-*/
 
 function updateTimer() {
   var timerInterval = setInterval(function () {
