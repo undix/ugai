@@ -2,6 +2,9 @@ db=komugai, Home
 # Features
 ## tags=ebooks&db=komugai, E-books
 ## tags=laboratorium&db=komugai, Virtual Lab
+## tags=tebak kata&db=komugai, Guess Words Game
+## tags=123&db=komugai, 1-2-3 Game
+## tags=kuis&db=komugai, Quizz Game
 # References
 ## titles=Wikipedia Bahasa Indonesia&db=komugai, Wikipedia Indonesia
 ## titles=Kamus Besar Bahasa Indonesia&db=komugai, KBBI
