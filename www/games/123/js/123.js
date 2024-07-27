@@ -301,29 +301,17 @@ async function displayScatterPlot() {
         }
 
         let rank = 0;
-        let tableHTML = `<table class="table">
-                            <thead>
-                                <tr>
-                                    <th width="10">Peringkat</th>
-                                    <th>Nama</th>
-                                    <th width="20">Nilai</th>
-                                    <th>Tanggal</th>
-                                </tr>
-                            </thead>
-                            <tbody>`;
+       let tableHTML = `<div class="table-responsive-md"><table class="table table-striped">
+                      <caption>Daftar jawara diambil berdasarkan akumulasi skor</caption>
+                      <thead><tr><th width=\"10\">Peringkat</th><th width=\"470\">Nama</th><th width=\"20\">Skor</th><th width=\"100\">Tanggal</th></tr></thead><tbody>`;
 
         data.forEach((item) => {
           // Mengganti data dengan item untuk mencegah shadowing
           rank++;
-          tableHTML += `<tr>
-                            <td>${rank}</td>
-                            <td>${item.name}</td>
-                            <td>${item.score}</td>
-                            <td>${item.date}</td>
-                        </tr>`;
+          tableHTML += `<tr><td>${rank}</td><td>${item.name}</td><td>${item.score}</td><td>${item.date}</td></tr>`;
         });
 
-        tableHTML += "</tbody></table>";
+        tableHTML += "</tbody></table></div>";
         tableElement.innerHTML = tableHTML;
       });
     } catch (error) {
