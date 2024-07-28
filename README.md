@@ -387,6 +387,11 @@ Through simple games like word-guessing and quizzes, this project empowers commu
 
 ![Digital School](screenshot/komugai_2024.2.1_games.png)
 
+Encouraging your own community with quiz game.
+
+![Digital School](screenshot/komugai_2024.2.1_quiz.png)
+
+
 ### As references
 
 ![Dictionary](screenshot/komugai_2024.1.5_referensi.png)
