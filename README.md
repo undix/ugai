@@ -418,7 +418,7 @@ Through simple games like word-guessing and quizzes, this project empowers commu
 
 ![Digital School](screenshot/komugai_2024.2.1_games.png)
 
-Ignite a passion for learning in your community. Gather at the library and explore the enchanting world of quiz games, where you can dive into knowledge independently, free from the internet and its constraints. Let books be your guide to a world of fun and discovery!
+Revive the spirit of collaborative learning as a community! Gather at the library and explore knowledge through the magical charm of quiz games, where you can delve into learning independently, free from the internet and all its messiness. Let books, videos, Wikipedia, and dictionaries be your guides to a world full of fun and discovery!
 
 ![Digital School](screenshot/komugai_2024.2.1_quiz.png)
 
