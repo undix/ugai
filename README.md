@@ -381,16 +381,6 @@ Educators can write and share their own materials here without relaying to Inter
 
 ![Blog Style](screenshot/komugai_2024.1.5_blog-style.png)
 
-### as community-based independent digital school
-
-Through simple games like word-guessing and quizzes, this project empowers communities to independently establish digital schools. Teachers and volunteers can use digital technology to teach local customs and traditions. This approach not only utilizes videos but also interactive games to preserve and promote cultural heritage. A hyper-local community-based independent digital school combines digital flexibility with local engagement, tailoring education to local needs and enhancing accessibility. It fosters community involvement, supports local development, and preserves cultural identity, making education more relevant and inclusive.
-
-![Digital School](screenshot/komugai_2024.2.1_games.png)
-
-Encouraging your own community with quiz game.
-
-![Digital School](screenshot/komugai_2024.2.1_quiz.png)
-
 
 ### As references
 
@@ -420,6 +410,17 @@ Perpustakaan Nirkabel 2024's dictionary capabilities aren't just stuck in the la
 ![Dictionary](screenshot/komugai_2024.1.5_dict-korea-2.png)
 
 ![Dictionary](screenshot/komugai_2024.1.5_dict-russia.png)
+
+
+### as community-based independent digital school
+
+Through simple games like word-guessing and quizzes, this project empowers communities to independently establish digital schools. Teachers and volunteers can use digital technology to teach local customs and traditions. This approach not only utilizes videos but also interactive games to preserve and promote cultural heritage. A hyper-local community-based independent digital school combines digital flexibility with local engagement, tailoring education to local needs and enhancing accessibility. It fosters community involvement, supports local development, and preserves cultural identity, making education more relevant and inclusive.
+
+![Digital School](screenshot/komugai_2024.2.1_games.png)
+
+Ignite a passion for learning in your community. Gather at the library and explore the enchanting world of quiz games, where you can dive into knowledge independently, free from the internet and its constraints. Let books be your guide to a world of fun and discovery!
+
+![Digital School](screenshot/komugai_2024.2.1_quiz.png)
 
 
 References
