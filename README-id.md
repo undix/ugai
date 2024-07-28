@@ -387,7 +387,7 @@ Pendidik dapat menulis dan membagikan materi mereka sendiri di sini tanpa harus 
 
 ![Dictionary](screenshot/komugai_2024.1.5_referensi.png)
 
-Sebagai perpustakaan, Perpustakaan Nirkabel 2024 tidak hanya sekadar melemparkan buku dan video dari jauh. e-library ini dapat memancarkan kebaikan multimedia, kamus, dan bahkan Wikipedia yang perkasa ke sudut paling terpencil di Bumi. Ini seperti mengirimkan seluruh saga pencapaian manusia selama 12.000 tahun ke tempat-tempat di mana internet merupakan   mimpi di siang bolong.
+Sebagai perpustakaan, Perpustakaan Nirkabel 2024 tidak hanya sekadar melemparkan buku dan video dari jauh. e-library ini dapat menyebarkan materi multimedia, kamus, dan bahkan Wikipedia nan perkasa ke sudut paling terpencil di Bumi. Ini seperti mengirimkan seluruh saga pencapaian manusia selama 12.000 tahun ke tempat-tempat di mana internet merupakan   mimpi di siang bolong.
 
 ![Dictionary](screenshot/komugai_2024.1.5_dict-wikipedia-1.png)
 Wikipedia
@@ -420,7 +420,7 @@ Sekolah digital independen berbasis masyarakat yang sangat lokal menggabungkan f
 
 ![Digital School](screenshot/komugai_2024.2.1_games.png)
 
-Pulihkan semangat belajar-bersama. Berkumpullah di perpustakaan dan jelajahi ilmu dan pengetahuan lewat pesona magis permainan kuis, tempat Anda dapat menyelami pengetahuan secara mandiri, bebas dari internet dan segala kebrengsekannya. Biarkan buku, video, wikipedia, dan kamus menjadi panduan Anda menuju dunia yang penuh kesenangan dan penemuan!
+Pulihkan semangat belajar-bersama. Berkumpullah di perpustakaan dan jelajahi ilmu dan pengetahuan lewat pesona magis permainan kuis, tempat Anda dapat menyelami pengetahuan secara mandiri, bebas dari internet dan segala kebrengsekannya. Biarkan buku cetak, buku digital, video, Wikipedia, dan kamus menjadi panduan Anda menuju dunia yang penuh kesenangan dan penemuan!
 
 ![Digital School](screenshot/komugai_2024.2.1_quiz.png)
 
