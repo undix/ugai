@@ -223,8 +223,8 @@ Ukuran Data yang Disarankan
 Basis data Calibre itu sendiri secara virtual tidak memiliki batasan total saat menggunakan `ugai.cgi`.
 Namun, pembatasan berlaku untuk jumlah total dan logika item di menu `navigasi` dan ukuran penyimpanan media yang tersedia.
 
-Skenario Contoh
-================
+Contoh Kasus
+============
 Bayangkan Anda memiliki koleksi 17.000 buku teks pendidikan dalam format PDF, yang dikeluarkan secara resmi oleh Kementerian Pendidikan negara Anda sebagai buku teks standar. Anda berniat menyimpan ini di server MR3420 untuk penggunaan sekolah menengah. Selain itu, Anda memiliki ratusan video pendidikan yang dibuat oleh guru-guru sekolah menengah lokal.
 
 **Organisasikan Koleksi Anda:**
@@ -268,7 +268,7 @@ db=komugai, home
 Colokkan USB/HDD Anda ke router dan nyalakan.
 
 Pemeliharaan
-===========
+============
 ## Menambah/Menghapus/Mengedit Data Calibre
 Setelah melakukan perubahan pada data (seperti menambah, menghapus, mengganti nama, dll. dari Calibre), buatlah file kosong bernama `index.txt` di dalam direktori *ugai\install*, kemudian kembalikan media Anda ke router.
 
@@ -281,6 +281,7 @@ ugai
 Setiap kali file `index.txt` ditemukan, sistem akan menghasilkan file indeks untuk setiap basis data untuk meningkatkan waktu respons. Selama proses ini, sistem akan sangat sibuk dan mungkin tidak dapat menangani permintaan apa pun. Setelah file indeks dihasilkan, sistem akan melakukan reboot, dan operasi akan kembali normal.
 
 ## Pembaruan
+============
 Jika Anda perlu memperbarui file `ugai.cgi` sambil mempertahankan desain kustom Anda, cukup unduh file [ugai.cgi](https://github.com/undix/ugai/blob/main/www/ugai.cgi) dan [ugai.kom](https://github.com/undix/ugai/blob/main/www/ugai.kom) kemudian gantikan yang sudah ada.
 
 ## Pemasangan Ulang
@@ -366,7 +367,7 @@ Singkatnya: `ugai.cgi` adalah otak yang membuat segalanya berfungsi, Kom`ugai` s
 Screenshot v2024.1.5
 ====================
 
-### Sebagai e-library
+### Sebagai perpustakaan digital
 Mengelola dan membagikan materi pendidikan (audio, video, atau semua format ebook)
 
 ![Ebooks](screenshot/komugai_2024.1.5_ebooks.png)
@@ -394,7 +395,7 @@ Wikipedia
 ![Dictionary](screenshot/komugai_2024.1.5_dict-wikipedia-2.png)
 Wikipedia
 
-Kemampuan kamus Perpustakaan Nirkabel 2024 tidak hanya terpaku pada karakter Latin. Perpustakaan ini adalah bunglon-bahasa, siap menghadapi huruf Asia seperti Cina, Korea, Jepang, bahkan Rusia. 
+Kemampuan kamus Perpustakaan Nirkabel 2024 tidak hanya terpaku pada karakter Latin. Perpustakaan ini adalah bunglon-bahasa, siap menghadapi huruf Asia seperti Mandarin, Korea, Jepang, bahkan Rusia. 
 
 ![Dictionary](screenshot/komugai_2024.1.5_dict-english.png)
 
@@ -410,6 +411,18 @@ Kemampuan kamus Perpustakaan Nirkabel 2024 tidak hanya terpaku pada karakter Lat
 
 ![Dictionary](screenshot/komugai_2024.1.5_dict-russia.png)
 
+
+### Sebagai sekolah digital independen berbasis komunitas
+
+Melalui permainan seperti tebak kata dan kuis, proyek ini memberdayakan masyarakat untuk mendirikan sekolah digital secara mandiri. Guru dan relawan dapat menggunakan teknologi digital untuk mengajarkan adat istiadat dan tradisi setempat. Pendekatan ini tidak hanya memanfaatkan video tetapi juga permainan interaktif untuk melestarikan dan mempromosikan warisan budaya. 
+
+Sekolah digital independen berbasis masyarakat yang sangat lokal menggabungkan fleksibilitas digital dengan keterlibatan lokal, menyesuaikan pendidikan dengan kebutuhan lokal dan meningkatkan aksesibilitas. Sekolah ini mendorong keterlibatan masyarakat, mendukung pembangunan lokal, dan melestarikan identitas budaya, sehingga pendidikan menjadi lebih relevan dan inklusif.
+
+![Digital School](screenshot/komugai_2024.2.1_games.png)
+
+Pulihkan semangat belajar-bersama. Berkumpullah di perpustakaan dan jelajahi ilmu dan pengetahuan lewat pesona magis permainan kuis, tempat Anda dapat menyelami pengetahuan secara mandiri, bebas dari internet dan segala kebrengsekannya. Biarkan buku, video, wikipedia, dan kamus menjadi panduan Anda menuju dunia yang penuh kesenangan dan penemuan!
+
+![Digital School](screenshot/komugai_2024.2.1_quiz.png)
 
 Referensi
 ==========
