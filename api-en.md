@@ -1,5 +1,5 @@
 
-**ugai.cgi::REST API Documentation (English Version)**
+# ugai.cgi::REST API Cookbook
 
 This document provides usage information for `ugai.cgi` as a simple REST API service. Users can develop separate applications using modern language like PHP, Python, Flutter, etc., based on this API without having to write database access code layer from scratch.
 
