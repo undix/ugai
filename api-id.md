@@ -13,7 +13,7 @@ Dokumen ini terutama ditujukan kepada programmer pemula yang ingin fokus pada pe
 
 ## 1. Deskripsi Singkat
 
-`ugai.cgi` adalah sebuah endpoint (aplikasi yang digunakan) CGI (Common Gateway Interface) yang menyediakan data dalam format JSON.  
+`ugai.cgi` adalah endpoint (aplikasi yang digunakan) CGI (Common Gateway Interface) yang menyediakan data dalam format JSON.  
 Sebelum memanggil API, pastikan Anda memiliki akses ke `ugai.cgi` di server Anda (atau URL yang valid).  
 Semua pemanggilan API dimulai dengan parameter `api`, misalnya:  
 ```
@@ -23,7 +23,6 @@ atau
 ```
 http://192.168.1.1/ugai.cgi?api&...
 ```
-
 
 ### Parameter Umum
 
@@ -364,6 +363,8 @@ Berikut contoh singkat halaman HTML yang memanggil API `ugai.cgi` menggunakan `f
 Contoh ini ditujukan agar mudah dipelajari oleh siswa SD/SMP di Indonesia yang ingin belajar membuat web.  
 Anda bisa menyimpan contoh berikut sebagai file **`index.html`** lalu memastikan `ugai.cgi` dapat diakses di direktori yang sama (atau menyesuaikan URL `fetch()` jika API ada di tempat lain).
 
+Diasumsikan Anda sudah berhasil menjalankan proyek `ugai.cgi` ke router OpenWRT 12.09. Router ini dipasang di rumah/sekolah dan terhubung ke laptop/komputer dengan alamat `192.168.1.1` (standar). Kode berikut ini ditulis di laptop/komputer dan dijalankan di peramban (Firefox, Chrome, dll).
+
 <details>
 <summary>Klik untuk melihat kode HTML &amp; JavaScript</summary>
 
@@ -390,7 +391,7 @@ Anda bisa menyimpan contoh berikut sebagai file **`index.html`** lalu memastikan
 
 <script>
 document.getElementById('btnRandomHome').addEventListener('click', function() {
-  fetch('ugai.cgi?api&db=komugai&home=0')  // Ganti "komugai" dengan nama database Anda
+  fetch('http://192.168.1.1/ugai.cgi?api&db=komugai&home=0') 
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('randomHomeResult');
@@ -414,7 +415,7 @@ document.getElementById('btnRandomHome').addEventListener('click', function() {
 
 <script>
 document.getElementById('btnAllTitles').addEventListener('click', function() {
-  fetch('ugai.cgi?api&titles=0&db=komugai')
+  fetch('http://192.168.1.1/ugai.cgi?api&titles=0&db=komugai')
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('allTitlesResult');
@@ -440,8 +441,8 @@ document.getElementById('btnAllTitles').addEventListener('click', function() {
 <script>
 document.getElementById('btnDetailItem').addEventListener('click', function() {
   const inputId = document.getElementById('detailItemId').value;
-  // contoh pemanggilan: ugai.cgi?api&id=1002&db=komugai
-  const url = `ugai.cgi?api&id=${inputId}&db=komugai`;
+  // contoh pemanggilan: http://192.168.1.1/ugai.cgi?api&id=1002&db=komugai
+  const url = `http://192.168.1.1/ugai.cgi?api&id=${inputId}&db=komugai`;
   fetch(url)
     .then(response => response.json())
     .then(data => {
@@ -481,3 +482,4 @@ Selamat mencoba! Semoga dokumentasi ini membantu memahami dan memanfaatkan **RES
 
 **Lisensi**  
 Dokumentasi ini disediakan apa adanya.  Silakan menyesuaikan dengan kebutuhan proyek Anda.  
+```
