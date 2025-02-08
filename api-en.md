@@ -393,7 +393,7 @@ You can save the example below as **`index.html`**, then make sure `ugai.cgi` is
 
 <script>
 document.getElementById('btnRandomHome').addEventListener('click', function() {
-  fetch('http://192.168.1.1:/ugai.cgi?api&db=komugai&home=0') 
+  fetch('http://192.168.1.1/ugai.cgi?api&db=komugai&home=0') 
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('randomHomeResult');
@@ -417,7 +417,7 @@ document.getElementById('btnRandomHome').addEventListener('click', function() {
 
 <script>
 document.getElementById('btnAllTitles').addEventListener('click', function() {
-  fetch('http://192.168.1.1:/ugai.cgi?api&titles=0&db=komugai')
+  fetch('http://192.168.1.1/ugai.cgi?api&titles=0&db=komugai')
     .then(response => response.json())
     .then(data => {
       const container = document.getElementById('allTitlesResult');
@@ -443,8 +443,8 @@ document.getElementById('btnAllTitles').addEventListener('click', function() {
 <script>
 document.getElementById('btnDetailItem').addEventListener('click', function() {
   const inputId = document.getElementById('detailItemId').value;
-  // example call: ugai.cgi?api&id=1002&db=komugai
-  const url = `ugai.cgi?api&id=${inputId}&db=komugai`;
+  // example call: http://192.168.1.1/ugai.cgi?api&id=1002&db=komugai
+  const url = `http://192.168.1.1/ugai.cgi?api&id=${inputId}&db=komugai`;
   fetch(url)
     .then(response => response.json())
     .then(data => {
